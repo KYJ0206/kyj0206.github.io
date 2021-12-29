@@ -1,6 +1,6 @@
 ---
 title: "Kim.YJ_Blog"
-permalink: /About/
+permalink: /about/
 layout: single
 ---
 
