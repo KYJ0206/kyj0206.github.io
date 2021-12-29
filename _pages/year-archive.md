@@ -1,5 +1,5 @@
 ---
-title: "git 명령어를 알아봅시다."
+title: "Posts by Posts"
 permalink: /year-archive/
 layout: posts
 author_profile: true
