@@ -1,6 +1,6 @@
 ---
 # []는 카테고리 명 title을 적지 않으면 파일명이 올라간다.
-title: "git 명령어 모음"
+title: "asdasd"
 #excerpt는 description "발췌부분 설정하면 이 글이 들어가고, 설정하지 않는다면 글의 첫 문단이 들어가게됨"
 
 excerpt: "git 명령어를 알아봅시다."
