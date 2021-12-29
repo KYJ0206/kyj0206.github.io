@@ -17,14 +17,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale: 'en-US'
-title: 'sooonding_blog'
+title: 'Kim.YJ_blog'
 title_separator: '-'
 subtitle: # site tagline that appears below site title in masthead
-name: 'jeon seong jin'
+name: 'Kim Yeong Jea'
 description: 'An amazing website.'
-url: 'https://sooonding.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: 'https://github.com/KYJ0206/KYJ0206.github.io.git' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: '/'
-repository: 'sooonding/sooonding.github.com' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: 'github.com/KYJ0206/KYJ0206.github.io.git' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: '/assets/images/panda.jpeg' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: '기록을 합니다.' # overrides the website title displayed in the masthead, use " " for no title
@@ -96,15 +96,15 @@ analytics:
 
 # Site Author 프로필 관련
 author:
-  name: 'sooonding'
+  name: 'KIM YEONG JEA'
   avatar: '/assets/images/profile1.jpeg'
-  bio: 'going on make gradual improvements in realizing interactive performance🦾'
-  location: 'Amsa'
+  bio: ''
+  location: 'Dunchon 2-dong, Gangdong-gu, Seoul, Korea'
   email:
   links:
     - label: 'Email'
       icon: 'fas fa-fw fa-envelope-square'
-      url: 'sooonding@gemail.com'
+      url: 'gansoo2@naver.com'
     #- label: "Website"
     # icon: "fas fa-fw fa-link"
     # url: "https://your-website.com"
@@ -116,7 +116,7 @@ author:
     # url: "https://facebook.com/"
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/sooonding'
+      url: 'https://github.com/KYJ0206'
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     # url: "https://instagram.com/"
@@ -132,7 +132,7 @@ footer:
       # url:
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/sooonding'
+      url: 'https://github.com/KYJ0206'
     - label: 'GitLab'
       icon: 'fab fa-fw fa-gitlab'
       # url:
