@@ -1,19 +1,13 @@
 # main links links
 main:
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: https://KYJ0206.github.io/KYJ0206/about/
   - title: "Posts"
     url: /year-archive/
   - title: "Collections"
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
-  - title: "Extra Menu Item 1"
-    url: /
-  - title: "Extra Menu Item 2"
-    url: /
-  - title: "Extra Menu Item Long Title"
-    url: /
 
 # sidebar navigation list sample
 sidebar-sample:
