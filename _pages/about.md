@@ -11,8 +11,8 @@ Hello. This is Kim Youngjae's blog.
 ---
 
 # 김영재 / Yeoung Jea Kim
-##### 1988.02.06 / Seoul
-##### Tel. 010-8344-0040 
+1988.02.06 / Seoul
+Tel. 010-8344-0040 
 
 ### 
 
