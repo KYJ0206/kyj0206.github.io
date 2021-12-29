@@ -27,7 +27,7 @@ baseurl: '/'
 repository: 'github.com/KYJ0206/KYJ0206.github.io.git' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: '/assets/images/my_profile.png' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: '기록을 합니다.' # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: 'Kim.YJ_Blog' # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
@@ -96,7 +96,7 @@ analytics:
 
 # Site Author 프로필 관련
 author:
-  name: 'KIM YEONG JEA3'
+  name: 'KIM YEONG JEA'
   avatar: '/assets/images/my_profile.png'
   bio: ''
   location: 'Gangdong-gu, Seoul, Korea'
