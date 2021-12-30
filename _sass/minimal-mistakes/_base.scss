@@ -128,6 +128,7 @@ blockquote>p{
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -232,6 +233,7 @@ figure {
 
   > a {
     display: block;
+    text-decoration: none;
   }
 
   &.half {
@@ -272,6 +274,7 @@ figcaption {
   a {
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    text-decoration: none;
 
     &:hover {
       color: $link-color-hover;
@@ -356,8 +359,6 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none!important;
-}
