@@ -73,5 +73,5 @@ last_modified_at: 2021-12-30
 <span style='font-size:1rem'> Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. </span>
 <p align="center"> <img src="/assets/images/jekyll_2.png" width="600px" height="auto" alt="Jekyll2"> </p>
 
-<span style='font-size:1rem'> 이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다. </span>
-<span style='font-size:1rem'> 이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다. </span>
+<span style='font-size:1rem'> **이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다.** </span><br>
+<span style='font-size:1rem'> **이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.** </span>
