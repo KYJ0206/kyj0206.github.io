@@ -17,7 +17,7 @@ last_modified_at: 2021-12-30
 
 <span style='font-size:18px'>**GitBlog 제작에 앞서 장/단점에 대해 먼저 설명 하도록 하겠습니다.**</span> 
 
-### GitBlog 의 장 단점
+### [GitBlog 의 장 단점]
 * <span style='font-size:18px'>장점</span>
   - <span style='font-size:18px'> GitHub 의 연동. </span>
   - <span style='font-size:18px'> Global. </span>
@@ -31,4 +31,4 @@ last_modified_at: 2021-12-30
 ---
 <span style='font-size:18px'>**다음으로 GitBlog 제작을 진행해 보겠습니다.**</span> 
 
-### GitBlog 만들기.
+### [GitBlog 만들기]
