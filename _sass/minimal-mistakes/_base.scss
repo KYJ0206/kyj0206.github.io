@@ -109,7 +109,7 @@ abbr[data-original-title] {
 blockquote {
   margin: 2em 1em 2em 0;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 1em 1rem 1rem 2rem;
   font-style: italic;
   background-color: #e2e4e5!important;
   border-left: 0.25em solid #6f777d!important;
@@ -122,6 +122,10 @@ blockquote {
       padding-right: 5px;
     }
   }
+}
+
+blockquote>p{
+  margin: 0;
 }
 
 /* links */
