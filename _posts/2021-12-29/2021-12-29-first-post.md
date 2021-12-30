@@ -13,4 +13,16 @@ date: 2021-12-30
 last_modified_at: 2021-12-30
 ---
 
-# GitBlog 의 장 단점
+### 안녕하세요. Kim.YJ 입니다. 
+### GitBlog 제작에 앞서 장/딘점에 대해 먼저 설명 하도록 하겠습니다.
+
+##### GitBlog 의 장 단점
+* 장점
+  - GitHub 의 연동.
+  - Global
+  - Jekyll, Gatsby 등 많은 테마로 커스텀할 수 있다.
+
+* 단점
+  - 장벽이 높다.
+  - Git & GitHub 에 대한 기본 이해 필요.
+  - 제작 난이도가 높다.
