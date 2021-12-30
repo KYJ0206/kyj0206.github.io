@@ -39,4 +39,4 @@ last_modified_at: 2021-12-30
     <span style='font-size:18px'>깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.</span>
 
 
-<p align="center"> <img src="/assets/images/num1.png" width="600px" height="auto" alt="img_1"> </p>
+<p align="center"> <img src="/assets/images/num.png" width="600px" height="auto" alt="img_1"> </p>
