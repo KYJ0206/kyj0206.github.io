@@ -49,3 +49,11 @@ last_modified_at: 2021-12-30
  - <span style='font-size:18px'>Code 에서 Blog URL주소를 알수 있습니다.</span><br>
  - <span style='font-size:18px'>URL주소를 복사합니다.</span><br>
 <p align="center"> <img src="/assets/images/num_3.png" width="600px" height="auto" alt="img_3"> </p>
+
+---
+
+<span style='font-size:18px'>**다음으로 Jekyll 테마적용을 해보겠습니다.**</span> 
+
+### [GitBlog Jekyll 테마 입히기]
+
+- <span style='font-size:18px'> Jekyll테마 선택하기 </span><br>
