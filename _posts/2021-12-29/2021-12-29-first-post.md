@@ -67,5 +67,8 @@ last_modified_at: 2021-12-30
 > 3. <a href='https://jekyllthemes.io/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> https://jekyllthemes.io/ </a><br>
 
 <span style='font-size:1rem'> 전 2번 링크를 통해 이 테마로 진행하겠습니다. </span>
-<span style='font-size:1rem'> 테마를 선택하면, 이와같은 화면에서 Homepage 를 선책하여 주세요. </span>
+<span style='font-size:1rem'> 테마를 선택하면, 이와같은 화면에서 Homepage 를 선택하여 주세요. </span>
+<p align="center"> <img src="/assets/images/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
+
+<span style='font-size:1rem'> Homepage 를 선택하여 이동된 화면우측 상단에서 Fork 를 선택하여 주세요. </span>
 <p align="center"> <img src="/assets/images/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
