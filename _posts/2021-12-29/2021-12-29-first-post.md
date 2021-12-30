@@ -45,3 +45,7 @@ last_modified_at: 2021-12-30
 
    - <span style='font-size:18px'>문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.</span><br>
 <p align="center"> <img src="/assets/images/num_2.png" width="600px" height="auto" alt="img_2"> </p>
+
+ - <span style='font-size:18px'>Code 에서 Blog URL주소를 알수 있습니다.</span><br>
+ - <span style='font-size:18px'>URL주소를 복사합니다.</span><br>
+<p align="center"> <img src="/assets/images/num_3.png" width="600px" height="auto" alt="img_3"> </p>
