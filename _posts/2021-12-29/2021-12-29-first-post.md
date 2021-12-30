@@ -1,6 +1,6 @@
 ---
-title:  "[Jekyll] 블로그 포스팅하는 방법"
-excerpt: "md 파일에 마크다운 문법으로 작성하여 Github 원격 저장소에 업로드 해보자. 에디터는 Visual Studio code 사용! 로컬 서버에서 확인도 해보자. "
+title:  "[Jekyll 테마] GitHub 블로그 만들기"
+excerpt: "Jekyll 테마를 적용하여 Git_Blog 를 만들어 보자. "
 permalink: /posts/
 categories:
   - Blog
@@ -10,6 +10,6 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2020-05-25
-last_modified_at: 2020-05-25
+date: 2021-12-30
+last_modified_at: 2021-12-30
 ---
