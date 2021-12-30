@@ -1,5 +1,5 @@
 ---
-title:  "[Jekyll 테마] GitHub 블로그 만들기"
+title:  "[Jekyll 테마] GitHub 블로그 만들기_1"
 excerpt: "Jekyll 테마를 적용하여 Git_Blog 를 만들어 보자. "
 permalink: /posts/
 categories:
