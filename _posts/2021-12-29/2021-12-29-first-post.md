@@ -32,7 +32,7 @@ last_modified_at: 2021-12-30
 ---
 <span style='font-size:18px'>**다음으로 GitBlog 제작을 진행해 보겠습니다.**</span> 
 
-### [GitBlog 만들기]
+### [GitBlog Repository 생성하기]
 
   - <span style='font-size:18px'> 깃허브 레파지토리 생성하기 </span><br>
    - <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
