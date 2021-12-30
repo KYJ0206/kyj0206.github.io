@@ -31,6 +31,6 @@ last_modified_at: 2021-12-30
 
 ---
 <span style='font-size:18px'>**다음으로 GitBlog 제작을 진행해 보겠습니다.**</span> 
-<img src="/assets/images/num1.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<p align="center"> <img src="/assets/images/num1.png" width="450px" height="300px" alt="img_1"> </p>
 
 ### [GitBlog 만들기]
