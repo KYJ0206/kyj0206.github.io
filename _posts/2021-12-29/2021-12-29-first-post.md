@@ -58,7 +58,7 @@ last_modified_at: 2021-12-30
 
 - <span style='font-size:18px'> Jekyll테마 선택하기 </span><br>
   + <span style='font-size:18px'> 구글 검색을 통해 한글로 지킬테마 라고만 검색해도 쉽게 검색할 수 있습니다. </span><br>
-   | <span style='font-size:18px'>  </span><br>
-   | <span style='font-size:18px'>  </span><br>
-   | <span style='font-size:18px'>  </span><br>
+   > <span style='font-size:18px'>  </span><br>
+   > <span style='font-size:18px'>  </span><br>
+   > <span style='font-size:18px'>  </span><br>
 <p align="center"> <img src="/assets/images/jekyll.png" width="600px" height="auto" alt="img_3"> </p>
