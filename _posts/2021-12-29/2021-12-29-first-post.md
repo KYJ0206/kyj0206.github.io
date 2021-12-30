@@ -59,9 +59,13 @@ last_modified_at: 2021-12-30
 - <span style='font-size:1rem'> Jekyll테마 선택하기 </span><br>
   + <span style='font-size:1rem'> 구글 검색을 통해 한글로 지킬테마 라고만 검색해도 쉽게 검색할 수 있습니다. </span><br>
 
-<p align="center"> <img src="/assets/images/jekyll.png" width="600px" height="auto" alt="img_3"> </p>
+<p align="center"> <img src="/assets/images/jekyll.png" width="600px" height="auto" alt="Jekyll"> </p>
 
 <span style='font-size:1rem'> 아래 링크중 선택하여 사용하세요. </span>
 > 1. <a href='https://jamstackthemes.dev/ssg/jekyll/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> https://jamstackthemes.dev/ssg/jekyll/ </a><br>
 > 2. <a href='http://jekyllthemes.org/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> http://jekyllthemes.org/ </a><br>
 > 3. <a href='https://jekyllthemes.io/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> https://jekyllthemes.io/ </a><br>
+
+<span style='font-size:1rem'> 전 2번 링크를 통해 이 테마로 진행하겠습니다. </span>
+<span style='font-size:1rem'> 테마를 선택하면, 이와같은 화면에서 Homepage 를 선책하여 주세요. </span>
+<p align="center"> <img src="/assets/images/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
