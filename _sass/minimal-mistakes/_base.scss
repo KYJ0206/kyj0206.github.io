@@ -95,11 +95,6 @@ fieldset {
   widows: 3;
 }
 
-blockquote {
-  background-color: #fffcf0!important;
-  border-left: 5px solid #ffeb8e!important;
-}
-
 /* abbreviations */
 
 abbr[title],
@@ -116,7 +111,8 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  background-color: #fffcf0!important;
+  border-left: 0.25em solid #ffeb8e;
 
   cite {
     font-style: italic;
