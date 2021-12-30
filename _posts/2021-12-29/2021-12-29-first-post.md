@@ -61,7 +61,7 @@ last_modified_at: 2021-12-30
 
 <p align="center"> <img src="/assets/images/jekyll.png" width="600px" height="auto" alt="img_3"> </p>
 
-  + <span style='font-size:18px'> 아래 링크중 선택하여 사용하세요. </span>
+<span style='font-size:18px'> 아래 링크중 선택하여 사용하세요. </span>
 > 1. <a href='https://jamstackthemes.dev/ssg/jekyll/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> https://jamstackthemes.dev/ssg/jekyll/ </a><br>
 > 2. <a href='http://jekyllthemes.org/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> http://jekyllthemes.org/ </a><br>
 > 3. <a href='https://jekyllthemes.io/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> https://jekyllthemes.io/ </a><br>
