@@ -57,3 +57,4 @@ last_modified_at: 2021-12-30
 ### [GitBlog Jekyll 테마 입히기]
 
 - <span style='font-size:18px'> Jekyll테마 선택하기 </span><br>
+<p align="center"> <img src="/assets/images/jekyll.png" width="600px" height="auto" alt="img_3"> </p>
