@@ -34,12 +34,12 @@ last_modified_at: 2021-12-30
 
 ### [GitBlog 만들기]
 
- 1. <span style='font-size:18px'> 깃허브 레파지토리 생성하기 </span><br>
-   <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
-   <span style='font-size:18px'>깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.</span>
+  - <span style='font-size:18px'> 깃허브 레파지토리 생성하기 </span><br>
+   - <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
+   - <span style='font-size:18px'>깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.</span>
 <p align="center"> <img src="/assets/images/num.png" width="600px" height="auto" alt="img_0"> </p>
 
-   <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
-   <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
+   - <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
+   - <span style='font-size:18px'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
 <p align="center"> <img src="/assets/images/num_1.png" width="600px" height="auto" alt="img_1"> </p>
 <p align="center"> <img src="/assets/images/num_2.png" width="600px" height="auto" alt="img_2"> </p>
