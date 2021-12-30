@@ -71,4 +71,4 @@ last_modified_at: 2021-12-30
 <p align="center"> <img src="/assets/images/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
 
 <span style='font-size:1rem'> Homepage 를 선택하여 이동된 화면우측 상단에서 Fork 를 선택하여 주세요. </span>
-<p align="center"> <img src="/assets/images/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
+<p align="center"> <img src="/assets/images/jekyll_2.png" width="600px" height="auto" alt="Jekyll2"> </p>
