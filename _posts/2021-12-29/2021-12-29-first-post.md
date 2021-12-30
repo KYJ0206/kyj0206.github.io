@@ -42,4 +42,6 @@ last_modified_at: 2021-12-30
    - <span style='font-size:18px'>Repository 생성시 본인 ID.github.io 로 입력합니다.</span><br>
    - <span style='font-size:18px'>Initialize this repository with: Add a README file 을 체크해줍니다.</span><br>
 <p align="center"> <img src="/assets/images/num_1.png" width="600px" height="auto" alt="img_1"> </p>
+
+   - <span style='font-size:18px'>문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.</span><br>
 <p align="center"> <img src="/assets/images/num_2.png" width="600px" height="auto" alt="img_2"> </p>
