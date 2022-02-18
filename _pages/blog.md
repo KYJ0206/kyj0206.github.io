@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Blog"
-# permalink: /sitemap/
+permalink: /sitemap/
 author_profile: false
 ---
 
