@@ -1,11 +1,11 @@
 ---
-layout: archive
+layout: posts
 title: "Blog"
-permalink: /sitemap/
+permalink: /year-archive/
 author_profile: false
 ---
 
-<h2>Posts</h2>
+<h2>Blog</h2>
 {% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}
