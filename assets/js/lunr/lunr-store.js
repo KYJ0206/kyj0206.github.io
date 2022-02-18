@@ -3,7 +3,7 @@ layout: none
 ---
 
 var store = [
-  {%- for c in site.collections -%}
+  {%- for c in site. -%}
     {%- if forloop.last -%}
       {%- assign l = true -%}
     {%- endif -%}
