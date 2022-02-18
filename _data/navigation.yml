@@ -4,8 +4,6 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
-  - title: "Collections"
-    url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
 
