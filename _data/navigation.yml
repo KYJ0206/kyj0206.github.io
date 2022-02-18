@@ -4,6 +4,6 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
-  - title: "blog"
+  - title: "Blog"
     url: /blog/
 
