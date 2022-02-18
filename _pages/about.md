@@ -1,5 +1,6 @@
 ---
 title: "Kim.YJ_Blog"
+permalink: /about/
 layout: single
 ---
 
