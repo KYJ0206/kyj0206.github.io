@@ -60,7 +60,7 @@ last_modified_at: 2021-12-30
 - <span style='font-size:1rem'> Jekyll테마 선택하기 </span><br>
   + <span style='font-size:1rem'> 구글 검색을 통해 한글로 지킬테마 라고만 검색해도 쉽게 검색할 수 있습니다. </span><br>
 
-<p align="center"> <img src="/assets/images/jekyll.png" width="600px" height="auto" alt="Jekyll"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png" width="600px" height="auto" alt="Jekyll"> </p>
 
 <span style='font-size:1rem'> 아래 링크중 선택하여 사용하세요. </span>
 > 1. <a href='https://jamstackthemes.dev/ssg/jekyll/' target='_blank' style='font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;'> https://jamstackthemes.dev/ssg/jekyll/ </a><br>
@@ -69,10 +69,10 @@ last_modified_at: 2021-12-30
 
 <span style='font-size:1rem'> 전 2번 링크를 통해 이 테마로 진행하겠습니다. </span>
 <span style='font-size:1rem'> 테마를 선택하면, 이와같은 화면에서 Homepage 를 선택하여 주세요. </span>
-<p align="center"> <img src="/assets/images/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png" width="600px" height="auto" alt="Jekyll1"> </p>
 
 <span style='font-size:1rem'> Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. </span>
-<p align="center"> <img src="/assets/images/jekyll_2.png" width="600px" height="auto" alt="Jekyll2"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png" width="600px" height="auto" alt="Jekyll2"> </p>
 
 <span style='font-size:1rem'> **이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다.** </span><br>
 <span style='font-size:1rem'> **이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.** </span>
