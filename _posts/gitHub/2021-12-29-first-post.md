@@ -38,18 +38,18 @@ last_modified_at: 2021-12-30
   - <span style='font-size:1rem'> 깃허브 레파지토리 생성하기 </span><br>
    - <span style='font-size:1rem'>깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br>
    - <span style='font-size:1rem'>깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.</span>
-<p align="center"> <img src="/assets/images/num.png" width="600px" height="auto" alt="img_0"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png" width="600px" height="auto" alt="img_0"> </p>
 
    - <span style='font-size:1rem'>Repository 생성시 본인 ID.github.io 로 입력합니다.</span><br>
    - <span style='font-size:1rem'>Initialize this repository with: Add a README file 을 체크해줍니다.</span><br>
-<p align="center"> <img src="/assets/images/num_1.png" width="600px" height="auto" alt="img_1"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png" width="600px" height="auto" alt="img_1"> </p>
 
    - <span style='font-size:1rem'>문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.</span><br>
-<p align="center"> <img src="/assets/images/num_2.png" width="600px" height="auto" alt="img_2"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png" width="600px" height="auto" alt="img_2"> </p>
 
  - <span style='font-size:1rem'>Code 에서 Blog URL주소를 알수 있습니다.</span><br>
  - <span style='font-size:1rem'>URL주소를 복사합니다.</span><br>
-<p align="center"> <img src="/assets/images/num_3.png" width="600px" height="auto" alt="img_3"> </p>
+<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png" width="600px" height="auto" alt="img_3"> </p>
 
 ---
 
