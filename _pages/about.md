@@ -22,7 +22,7 @@ Hello. This is Kim-Youngjae's blog.
 - 2021.12 WEB_AWARDS KOREA 모바일웹 서비스부문 통합대상
 
 #### PROJECT
-- 2021.10 SK_HYNIX NEWSROOM PROJECT (Publishing)
-- 2021.12 SCK Git_Go PROJECT (Publishing)
+- 2021.10 SK_HYNIX NEWSROOM [Publishing(HTML/SCSS) / HubSpot_CMS]
+- 2021.12 SCK Git_Go [Publishing(HTML/SCSS)]
 
 ---

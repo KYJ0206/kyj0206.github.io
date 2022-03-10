@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-remote_theme : mmistakes/minimal-mistakes
+remote_theme : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -57,7 +57,7 @@ atom_feed:
 # 검색기능 추가 true할 경우 실행 기본은 false로 닫혀있다.
 search: true 
 search_full_content: true
-search_provider: # lunr (default), algolia, google
+search_provider: lunr  #(default) ,algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
