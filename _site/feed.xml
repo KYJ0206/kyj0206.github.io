@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-11T18:37:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kim.YJ_blog</title><subtitle>An amazing website.</subtitle><author><name>KIM YEONG JEA</name></author><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_3</title><link href="http://localhost:4000/blog/Git_3nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_3" /><published>2022-03-10T00:00:00+09:00</published><updated>2022-03-10T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_3nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_3nd/"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-14T12:26:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kim.YJ_blog</title><subtitle>An amazing website.</subtitle><author><name>KIM YEONG JEA</name></author><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_3</title><link href="http://localhost:4000/blog/Git_3nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_3" /><published>2022-03-10T00:00:00+09:00</published><updated>2022-03-10T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_3nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_3nd/"><![CDATA[<hr />
 <p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
 
 <p><span style="font-size:1rem"><strong>본격적인 포스팅 과정에 앞서 저번 포스팅에 설명드린 Git 의 명령어중,</strong></span></p>
@@ -217,7 +217,7 @@
 <hr />
 
 <p><span style="font-size:1rem"> <strong>[Jekyll 테마] GitHub 블로그 만들기 포스팅을 모두 마치겠습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>다음 포스팅은 GitHub 연동에 앞서 locahost 에서 확인하는 방법에 대해 포스팅 하겠습니다.</strong> </span><br />
+<span style="font-size:1rem"> <strong>다음 포스팅은 GitHub 연동에 앞서 locahost환경 에서 확인하는 방법에 대해 포스팅 하겠습니다.</strong> </span><br />
 <span style="font-size:1rem"> <strong>감사합니다!</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="GitHub" /><category term="Git" /><summary type="html"><![CDATA[Git_Blog Posting.]]></summary></entry><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_2</title><link href="http://localhost:4000/blog/Git_2nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_2" /><published>2022-02-18T00:00:00+09:00</published><updated>2022-02-18T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_2nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_2nd/"><![CDATA[<hr />
 <p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
 
@@ -408,5 +408,47 @@
 <p><span style="font-size:1rem"> Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. </span></p>
 <p align="center"> <img src="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png" width="600px" height="auto" alt="Jekyll2" /> </p>
 
+<h4 id="1-ruby-설치하기">1. Ruby 설치하기.<br /></h4>
+<p><span>컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.</span><br />
+<img src="https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png" alt="https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png" /></p>
+
+<aside>
+<span>Ruby가 설치 되어있지 않다면 <a href="https://blog.naver.com/qhqh147/222633879376">Homebrew</a>를 이용하여 아래 명령어로 설치하여 줍니다.</span><br />
+<span style="background:#faedc9">❗ Homebrew 가 설치되어 있다는 가정하에 진행하겠습니다.</span>
+</aside>
+
+<p><span style="font-size:18px">( Homebrew에 대한 설치방법과 자세한 설명은 출처: <a href="https://blog.naver.com/qkrtndus3062/222657808586">연님블로그 로 확인 해주세요. )</a></span><br />
+<img src="https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png" alt="https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png" /></p>
+
+<h4 id="2-jekyll-설치하기">2. Jekyll 설치하기.<br /></h4>
+
+<p><span>테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.</span><br />
+<img src="https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png" alt="https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png" /></p>
+
+<h4 id="3-bundler-설치하기">3. bundler 설치하기.<br /></h4>
+<p><span>bundler도 설치해줍시다.</span><br />
+<img src="https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png" alt="https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png" /></p>
+
+<p><span>이러면 기본적인 세팅이 모두 완료되셨습니다!</span><br />
+<span><span style="background:#faedc9">[ ruby -v ]</span> 와 <span style="background:#faedc9">[ jekyll -v ]</span> 를 입력하여 정상적으로 설치되었는지 확인해주세요 :)</span><br /></p>
+
+<h4 id="4-로컬-서버-실행">4. 로컬 서버 실행.<br /></h4>
+
+<p><span>아래 명령어를 입력하여 줍니다.</span><br />
+<img src="https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png" alt="https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png" /></p>
+
+<p><span>정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.</span><br />
+<span>이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.</span><br /></p>
+
+<p><img src="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" alt="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" /></p>
+
+<p><span style="background:#faedc9">Server running… press ctrl-c to stop.</span><br />
+<span>위와같이 표기된다면 정상적으로 진행이 되었습니다.</span><br /></p>
+
+<p><span><a href="http://127.0.0.1:4000">http://localhost:4000</a> 으로 바로 확인해보세요.</span><br />
+<span>정상적으로 서버가 열린다면,</span><br />
+<span>모든 Repo의 변동사항을 Server 에서 바로 확인하실 수 있습니다.</span><br /></p>
+
+<hr />
 <p><span style="font-size:1rem"> <strong>이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다.</strong> </span><br />
 <span style="font-size:1rem"> <strong>이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="GitHub" /><category term="Git" /><summary type="html"><![CDATA[Jekyll 테마를 적용하여 Git_Blog 를 만들어 보자.]]></summary></entry></feed>
