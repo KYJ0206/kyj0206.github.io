@@ -22,9 +22,9 @@ title_separator: '-'
 subtitle: # site tagline that appears below site title in masthead
 name: 'Kim Yeong Jea'
 description: 'An amazing website.'
-url: 'https://github.com/KYJ0206/KYJ0206.Git_BLog' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: 'https://kyj0206.github.io/KYJ0206.Git_BLog/' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: '/'
-repository: 'github.com/KYJ0206/KYJ0206.Git_BLog' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: 'kyj0206.github.io/KYJ0206.Git_BLog/' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: '/assets/images/my_profile.png' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: 'Kim.YJ_Blog' # overrides the website title displayed in the masthead, use " " for no title
