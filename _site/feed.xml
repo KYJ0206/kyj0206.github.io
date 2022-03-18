@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-14T18:13:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kim.YJ_blog</title><subtitle>An amazing website.</subtitle><author><name>KIM YEONG JEA</name></author><entry><title type="html">[Google Analytics] Google 애널리틱스 시작하기</title><link href="http://localhost:4000/analytics/Analytics/" rel="alternate" type="text/html" title="[Google Analytics] Google 애널리틱스 시작하기" /><published>2022-03-14T00:00:00+09:00</published><updated>2022-03-14T00:00:00+09:00</updated><id>http://localhost:4000/analytics/Analytics</id><content type="html" xml:base="http://localhost:4000/analytics/Analytics/"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-18T15:16:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kim.YJ_blog</title><subtitle>An amazing website.</subtitle><author><name>KIM YEONG JEA</name></author><entry><title type="html">[Google Analytics] Google 애널리틱스 시작하기</title><link href="http://localhost:4000/analytics/Analytics/" rel="alternate" type="text/html" title="[Google Analytics] Google 애널리틱스 시작하기" /><published>2022-03-14T00:00:00+09:00</published><updated>2022-03-14T00:00:00+09:00</updated><id>http://localhost:4000/analytics/Analytics</id><content type="html" xml:base="http://localhost:4000/analytics/Analytics/"><![CDATA[<hr />
 <p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
 
 <p><span style="font-size:1rem"><strong>이번 포스팅은 구글 애널리틱스 사용법을 포스팅 해 보겠습니다.</strong></span></p>
@@ -11,7 +11,9 @@
 
 <h3 id="구글-애널리틱스google-analytics란-">[구글 애널리틱스(Google Analytics)란?] <br /></h3>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg" alt="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg">
+<img src="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg" alt="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg" />
+</a></p>
 
 <p>Google <a href="https://analytics.google.com/">Analytics(GA)</a>는, 구글에서 제공하는 무료 웹분석 툴입니다.</p>
 
@@ -60,23 +62,68 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 
 <p>아래 이미지와 같이 측정시작 버튼을 눌러 계정생성을 시작합니다.</p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png" alt="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png">
+<img src="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png" alt="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png" />
+</a></p>
 
 <p>계정이름을 설정해주고 넘어가 줍니다.</p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png" alt="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png">
+<img src="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png" alt="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png" />
+</a></p>
 
 <p>속성이름을 설정하고, 시간을 한국시간으로 설정 해 줍니다.</p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png" alt="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png">
+<img src="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png" alt="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png" />
+</a></p>
 
 <p>블로그에 맞춰 원하는 설정을 체크 해 줍니다.</p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png" alt="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png">
+<img src="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png" alt="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png" />
+</a></p>
 
 <p>대한민국으로 설정해여 주고, 약관에 동의해주면 계정설정은 끝납니다.</p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" alt="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" /></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Analytics" /><category term="Blog" /><category term="jekyll" /><category term="GitHub" /><category term="Git" /><summary type="html"><![CDATA[Google Analytics 사용법.]]></summary></entry><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_3</title><link href="http://localhost:4000/blog/Git_3nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_3" /><published>2022-03-10T00:00:00+09:00</published><updated>2022-03-10T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_3nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_3nd/"><![CDATA[<hr />
+<p><a href="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png">
+<img src="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" alt="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" />
+</a></p>
+
+<h4 id="2구글-애널리틱스-계정-블로그와-연결">2.구글 애널리틱스 계정 블로그와 연결</h4>
+
+<p>먼저 데이터스트림을 만들어주면 되는데 블로그 데이터는 웹입니다. 그러므로,</p>
+
+<p>IOS app / Android app / Wep 중에 웹으로 설정하여 줍니다.</p>
+
+<p>웹 스트림 설정에서는 웹사이트 URL에 자신의 블로그 형식을 입력하고, 스트림 이름은 블로그 이름을 동일하게 넣어줍니다.</p>
+
+<p>이후 스트림 만들기 를 진행해주면 됩니다.</p>
+
+<p>스트림 세부정보에서 측정 ID를 복사해 줍니다.</p>
+
+<p><a href="https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png">
+<img src="https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png" alt="https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png" />
+</a></p>
+
+<p>이후 자신의 블로그 _config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.</p>
+
+<p><a href="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png">
+<img src="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png" alt="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png" />
+</a></p>
+
+<p>업데이트 내역을 Commit 하여 Push 해주고, 애널리틱스에 접속하여 주면 연동이 된 결과를 확인할 수 있습니다.</p>
+
+<p><a href="https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png">
+<img src="https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png" alt="https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png" />
+</a></p>
+
+<hr />
+
+<p><span style="font-size:1rem"> <strong>지금까지 Google Analytics에 대해 포스팅을 통해 배워 보았습니다.</strong> </span><br />
+<span style="font-size:1rem"> <strong>애널리틱스를 이용하여, 블로그를 유용하게 관리해 나가시길 바라겠습니다.</strong> </span><br />
+<span style="font-size:1rem"> <strong>다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.</strong> </span><br />
+<span style="font-size:1rem"> <strong>감사합니다!</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Analytics" /><category term="Google" /><category term="Analytics" /><summary type="html"><![CDATA[Google Analytics 사용법.]]></summary></entry><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_3</title><link href="http://localhost:4000/blog/Git_3nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_3" /><published>2022-03-10T00:00:00+09:00</published><updated>2022-03-10T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_3nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_3nd/"><![CDATA[<hr />
 <p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
 
 <p><span style="font-size:1rem"><strong>본격적인 포스팅 과정에 앞서 저번 포스팅에 설명드린 Git 의 명령어중,</strong></span></p>
@@ -224,9 +271,13 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
   <li><span style="font-size:1rem">Code에서 _config.yml 파일을 찾아줍니다</span></li>
 </ul>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" alt="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png">
+<img src="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" alt="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" />
+</a></p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" alt="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png">
+<img src="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" alt="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" />
+</a></p>
 
 <p><span style="font-size:1rem">본인의 주소를 URL에 적용하여 주면 됩니다.</span></p>
 
@@ -252,9 +303,13 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
   <li>_posts 폴더를 생성하고 포스트 파일명 형식에 맞춰서 파일을 생성해 보겠습니다.</li>
 </ul>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png" alt="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png">
+<img src="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png" alt="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png" />
+</a></p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png" alt="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png">
+<img src="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png" alt="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png" />
+</a></p>
 <ul>
   <li>폴더와 파일이름의 형식을 지켜주며 만들어 줍니다.</li>
 </ul>
@@ -262,7 +317,9 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 <h4 id="3생성된-파일에-포스트글-작성-하기">3.생성된 파일에 포스트글 작성 하기.</h4>
 <p>포스트글 작성방식은 글에 제목은 무엇이며, 언제 발행 했고 어떤 카테고리에 넣을지 분류 하려면 아래와 같은 내용이 꼭 들어가야합니다.</p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png" alt="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png">
+<img src="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png" alt="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png" />
+</a></p>
 
 <ul>
   <li>포스팅 내용은 포스팅을 하기 위해서 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">마크다운</a> 작성법을 참고하시면 좋을 듯합니다.</li>
@@ -307,7 +364,11 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 
 <h3 id="웹개발-기초-git-이란">[웹개발 기초] Git 이란?</h3>
 
-<p align="left"> <img src="https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" /> </p>
+<p align="left"> 
+<a href="https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg">
+<img src="https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" /> 
+</a>
+</p>
 <blockquote>
   <ul>
     <li>
@@ -331,7 +392,11 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 
 <h3 id="웹개발-기초-github-이란">[웹개발 기초] GitHub 이란?</h3>
 
-<p align="left"> <img src="https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" /></p>
+<p align="left"> 
+<a href="https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg">
+<img src="https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" />
+</a>
+</p>
 
 <ul>
   <li><span style="font-size:1rem"> 깃허브(GitHub) - The world’s leading software development platform </span></li>
@@ -353,7 +418,11 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
   </li>
 </ul>
 
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png" height="auto" alt="img_0" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png">
+<img src="https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png" height="auto" alt="img_0" /> 
+</a>
+</p>
 <blockquote>
   <p style="margin:10px 0">(출처 :<a href="https://codevang.tistory.com/217" target="_blank"> https://codevang.tistory.com/217</a>)</p>
 </blockquote>
@@ -383,11 +452,12 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 <ul>
   <li><span style="font-size:1rem">Homebrew를 이용하면 쉽게 Git을 설치할 수 있습니다.</span>
     <ul>
-      <li><span style="font-size:1rem">설치하게 되면, Git명령어를 실핼할 수 있습니다.</span>
-<img style="padding-top:1.3em" src="https://blog.kakaocdn.net/dn/ce5QOS/btqG9A0bFSS/hGbg74HvxkeIQY3hgmUQ5k/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce5QOS%2FbtqG9A0bFSS%2FhGbg74HvxkeIQY3hgmUQ5k%2Fimg.png" data-filename="스크린샷" data-origin-width="380" data-origin-height="58" data-ke-mobilestyle="widthContent" /></li>
+      <li><span style="font-size:1rem">설치하게 되면, Git명령어를 실핼할 수 있습니다.</span></li>
     </ul>
   </li>
 </ul>
+
+<p><img style="padding-top:1.3em" src="https://blog.kakaocdn.net/dn/ce5QOS/btqG9A0bFSS/hGbg74HvxkeIQY3hgmUQ5k/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce5QOS%2FbtqG9A0bFSS%2FhGbg74HvxkeIQY3hgmUQ5k%2Fimg.png" data-filename="스크린샷" data-origin-width="380" data-origin-height="58" data-ke-mobilestyle="widthContent" /></p>
 
 <h5 id="3git-config-설정-git-계정-설정">3.Git config 설정 (Git 계정 설정)</h5>
 <ul>
@@ -395,12 +465,20 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
   <li><span style="font-size:1rem">git config –list 명령어를 통해 초기 설정값을 확인할 수 있습니다.</span></li>
 </ul>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png" style="max-width:100%; height:auto" width="100%" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png">
+<img src="https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png" style="max-width:100%; height:auto" width="100%" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" />
+</a></p>
 
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" /></p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png">
+<img src="https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" />
+</a>
+</p>
 
 <h5 id="4terminal-접속하여-연동">4.Terminal 접속하여 연동</h5>
-<p><img src="https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png" style="max-width:100%; height:auto" width="100%" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_1" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png">
+<img src="https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png" style="max-width:100%; height:auto" width="100%" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_1" />
+</a></p>
 
 <hr />
 
@@ -438,24 +516,40 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
   <li><span style="font-size:1rem">깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br /></li>
   <li><span style="font-size:1rem">깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.</span></li>
 </ul>
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png" width="600px" height="auto" alt="img_0" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png">
+<img src="https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png" width="600px" height="auto" alt="img_0" /> 
+</a>
+</p>
 
 <ul>
   <li><span style="font-size:1rem">Repository 생성시 본인 ID.github.io 로 입력합니다.</span><br /></li>
   <li><span style="font-size:1rem">Initialize this repository with: Add a README file 을 체크해줍니다.</span><br /></li>
 </ul>
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png" width="600px" height="auto" alt="img_1" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png">
+<img src="https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png" width="600px" height="auto" alt="img_1" /> 
+</a>
+</p>
 
 <ul>
   <li><span style="font-size:1rem">문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.</span><br /></li>
 </ul>
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png" width="600px" height="auto" alt="img_2" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png">
+<img src="https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png" width="600px" height="auto" alt="img_2" /> 
+</a>
+</p>
 
 <ul>
   <li><span style="font-size:1rem">Code 에서 Blog URL주소를 알수 있습니다.</span><br /></li>
   <li><span style="font-size:1rem">URL주소를 복사합니다.</span><br /></li>
 </ul>
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png" width="600px" height="auto" alt="img_3" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png">
+<img src="https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png" width="600px" height="auto" alt="img_3" /> 
+</a>
+</p>
 
 <hr />
 
@@ -471,7 +565,11 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
   </li>
 </ul>
 
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png" width="600px" height="auto" alt="Jekyll" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png">
+<img src="https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png" width="600px" height="auto" alt="Jekyll" /> 
+</a>
+</p>
 
 <p><span style="font-size:1rem"> 아래 링크중 선택하여 사용하세요. </span></p>
 <blockquote>
@@ -484,10 +582,18 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 
 <p><span style="font-size:1rem"> 전 2번 링크를 통해 이 테마로 진행하겠습니다. </span>
 <span style="font-size:1rem"> 테마를 선택하면, 이와같은 화면에서 Homepage 를 선택하여 주세요. </span></p>
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png" width="600px" height="auto" alt="Jekyll1" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png">
+<img src="https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png" width="600px" height="auto" alt="Jekyll1" /> 
+</a>
+</p>
 
 <p><span style="font-size:1rem"> Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. </span></p>
-<p align="center"> <img src="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png" width="600px" height="auto" alt="Jekyll2" /> </p>
+<p align="center"> 
+<a href="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png">
+<img src="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png" width="600px" height="auto" alt="Jekyll2" /> 
+</a>
+</p>
 
 <h4 id="1-ruby-설치하기">1. Ruby 설치하기.<br /></h4>
 <p><span>컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.</span><br />
@@ -521,7 +627,9 @@ link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#
 <p><span>정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.</span><br />
 <span>이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.</span><br /></p>
 
-<p><img src="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" alt="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" /></p>
+<p><a href="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png">
+<img src="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" alt="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" />
+</a></p>
 
 <p><span style="background:#faedc9">Server running… press ctrl-c to stop.</span><br />
 <span>위와같이 표기된다면 정상적으로 진행이 되었습니다.</span><br /></p>
