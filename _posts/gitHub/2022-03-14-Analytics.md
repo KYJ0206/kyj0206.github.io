@@ -50,7 +50,7 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 >   - (출처: <a href='https://blog.naver.com/PostView.nhn?blogId=sanalytica&logNo=222195954338'>Funnel Analysis</a>, <a href='https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4'>Segment Analysis</a> 등)
 
 
-### [구글 애널리틱스 연동하기]
+### [구글 애널리틱스 시작하기]
 
 #### 1.구글 애널리틱스 접속
 
@@ -92,7 +92,7 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 ![https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png](https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png)
 </a>
 
-#### 2.구글 애널리틱스 계정 블로그와 연결
+#### 3.구글 애널리틱스 계정 블로그와 연결
 
 먼저 데이터스트림을 만들어주면 되는데 블로그 데이터는 웹입니다. 그러므로, 
 
