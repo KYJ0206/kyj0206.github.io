@@ -47,7 +47,7 @@ last_modified_at: 2022-03-18
 
 - 1 ) Google Search Console 에 접속합니다.
 - 2 ) 속성 추가를 누릅니다.
-- 3 ) Github io 주소를 입력하고 계속을 누릅니다
+- 3 ) Github io 주소를 입력하고 계속을 누릅니다.
 
 <a href="https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png">
 ![https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png](https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png)
@@ -70,9 +70,43 @@ last_modified_at: 2022-03-18
 <a href="https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png">
 ![https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png](https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png)
 </a>
-#### 2.구글 서치콘솔 계정 생성
 
-#### 2.구글 서치콘솔 계정 블로그와 연결
+#### 2.sitemap.xml 생성
+
+- 1 ) _config.yml 파일에 url 속성에 자기의 블로그 이름이 들어가 있는지 확인합니다.
+- 2 ) sitemap.xml 파일을 자기 github.io root 경로에 생성합니다.
+- 3 ) 아래 내용을 sitemap.xml에 추가합니다.
+
+<a href="https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png">
+![https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png](https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png)
+</a>
+
+#### 3.robots.txt 생성
+
+- 1 ) github.io root 경로에 robots.txt 파일을 생성합니다.
+- 2 ) 아래 내용을 robots.txt 파일에 작성합니다.
+- 3 ) sitemap 에 자신의 블로그 주소를 넣어줍니다.
+
+<a href="https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png">
+![https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png](https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png)
+</a>
+
+#### 4.Google Search Console 에 sitemap 제출
+
+- 1 ) Google Search Console에 접속합니다.
+- 2 ) 본인의 github.io 속성을 선택하고, 왼쪽 메뉴에 색인 > Sitemaps 에 들어갑니다.
+- 3 ) 새 사이트멥 추가에 sitemap.xml을 입력하고 제출합니다.
+
+<a href="https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png">
+![https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png](https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png)
+</a>
+
+- 4 ) 제출하고 2~3일 간 이후, sitemap 이 정상적으로 제출 되었는지 확인 해 줍니다.
+  - 이후 제출 상태 성공이 적용되지 않는다면, URL 검사로 확인을 해 주세요.
+
+<a href="https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png">
+![https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png](https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png)
+</a>
 
 --- 
 
