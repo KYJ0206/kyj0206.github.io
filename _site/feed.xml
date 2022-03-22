@@ -1,778 +1,1155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-21T14:43:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kim.YJ_blog</title><subtitle>An amazing website.</subtitle><author><name>KIM YEONG JEA</name></author><entry><title type="html">[Google SearchConsole] Google 서치콘솔 시작하기</title><link href="http://localhost:4000/searchconsole/SearchConsole/" rel="alternate" type="text/html" title="[Google SearchConsole] Google 서치콘솔 시작하기" /><published>2022-03-18T00:00:00+09:00</published><updated>2022-03-18T00:00:00+09:00</updated><id>http://localhost:4000/searchconsole/SearchConsole</id><content type="html" xml:base="http://localhost:4000/searchconsole/SearchConsole/"><![CDATA[<hr />
-<p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
-
-<p><span style="font-size:1rem"><strong>이번 포스팅은 구글 서치콘솔 사용법을 포스팅 해 보겠습니다.</strong></span></p>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  
+  <channel>
+    <title> Kim.YJ_blog  </title>
+    <description>An amazing website.</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 22 Mar 2022 15:46:16 +0900</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2022 15:46:16 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>[iTerm2] 설치와 VSCode 터미널 연동</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
-<p><span style="font-size:1rem"><strong>애널리틱스와 함께 사용하면 좋은 구글 서치콘솔을 함께 천천히 시작해 봅시다.</strong></span></p>
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 Mac OS의 공식 터미널 어플리케이션을 대체할 수 있는&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;가상 터미널 어플리케이션 iTerm2 를 사용법을 알아보면서 커스텀으로 꾸며보고&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
-<hr />
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;VSCode 에디터 연동까지 알아보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
-<h3 id="구글-서치-콘솔search-console이란-">[구글 서치 콘솔(Search Console)이란?] <br /></h3>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png">
-<img src="https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png" alt="https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png" />
-</a></p>
-
-<p>구글 서치콘솔 이란 구글의 전 구글 웹마스터들이 개발한 웹 서비스로서, 웹마스터들이 자신들의 웹사이트의 보이는 부분을 최적화하고 인덱싱 상태를 검사할 수 있게 해줍니다.</p>
+&lt;hr /&gt;
 
-<p>구글(Google)로부터 제공되는 정보를 통해서 보다 나은 SEO 대책이 가능해지는 셈이죠. 일전에는 구글 웹 마스터 도구라는 명칭이었지만 현재는 서치 콘솔이라는 타이틀로 변경되어 사용되고 있습니다.</p>
-
-<h3 id="구글-서치콘솔의-장점">[구글 서치콘솔의 장점]</h3>
-
-<blockquote>
-  <ol>
-    <li>구글 애널리틱스를 통해 컨텐츠를 최적화 할 수 있다.
-      <ul>
-        <li>내 사이트에 유입되는 사용자가 어떤 키워드, 검색어를 통해 사이트에 방문하는지 알 수 있다.</li>
-      </ul>
-    </li>
-    <li>구글에 나의 컨텐츠를 표시할 수 있다.
-      <ul>
-        <li>크롤링할 사이트맵, URL을 제출해서, 구글이 내 사이트의 최신 버전을 크롤링하도록 색인 생성 범위를 검토해 검색에 더 잘 노출될게 할 수 있다.</li>
-      </ul>
-    </li>
-    <li>구글검색이 내 페이지를 어떻게 인식하는지 파악할 수 있다.
-      <ul>
-        <li>URL 검사도구를 사용하여 페이지에 관한 세부적인 크롤링, 색인 생성, 게재 정보를 Google 색인에서 쉽게 확인할 수 있다.</li>
-      </ul>
-    </li>
-  </ol>
-</blockquote>
+&lt;h3 id=&quot;iterm2-란-&quot;&gt;[iTerm2 란?] &lt;br /&gt;&lt;/h3&gt;
 
-<h3 id="구글-서치콘솔-시작하기">[구글 서치콘솔 시작하기]</h3>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/dc4da94c-22ac-4ceb-9b93-89c4726fb126/social-preview.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/dc4da94c-22ac-4ceb-9b93-89c4726fb126/social-preview.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/dc4da94c-22ac-4ceb-9b93-89c4726fb126/social-preview.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<h4 id="1google-search-console에-사이트-등록">1.Google Search Console에 사이트 등록</h4>
+&lt;p&gt;Mac OS의 공식 터미널 어플리케이션을 대체할 수 있는 가상 터미널 어플리케이션로 기본 터미널보다 다양한 추가 기능을 제공하고 있습니다.&lt;/p&gt;
 
-<ul>
-  <li>1 ) Google Search Console 에 접속합니다.</li>
-  <li>2 ) 속성 추가를 누릅니다.</li>
-  <li>3 ) Github io 주소를 입력하고 계속을 누릅니다.</li>
-</ul>
+&lt;p&gt;화면 분할, 단축키, 검색, 복사 모드, 붙여넣기 히스토리, Growl 알림, 자동완성 등의 기능을 제공하고 있습니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png">
-<img src="https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png" alt="https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png" />
-</a></p>
+&lt;p&gt;하지만 무엇보다도 커스텀해서 예쁘게 꾸며 쓸 수 있고,&lt;br /&gt;
+커스텀한 터미널을 VSCode 의 터미널창으로 연동해서 사용할 수 있기 때문에&lt;br /&gt;
+많은 개발자분들이 사용하고 있습니다.&lt;/p&gt;
 
-<ul>
-  <li>4 ) 해당 페이지의 소유권을 확인하는 절차를 진행합니다. 여러 확인 방법중 저는 HTML태그를 이용하여 진행 해 보겠습니다.</li>
-</ul>
+&lt;p&gt;저희도 한번 설치부터 커스텀과 더불어 VSCode 연동까지 진행 해 보겠습니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png">
-<img src="https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png" alt="https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png" />
-</a></p>
+&lt;h3 id=&quot;iterm2-커스텀-하기&quot;&gt;[iTerm2 커스텀 하기]&lt;/h3&gt;
 
-<ul>
-  <li>5 ) _config.yml 에서 위 이미지의 content 내용을 복사하여 아래 항목에 입력해 줍니다.</li>
-</ul>
+&lt;h4 id=&quot;1-iterm2-설치하기&quot;&gt;1. iTerm2 설치하기&lt;/h4&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png">
-<img src="https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png" alt="https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png" />
-</a></p>
+&lt;p&gt;iTerm 설치 를 위해 아래 림크로 이동하여 설치를 진행해 줍니다. &lt;br /&gt;
+[ Link : &lt;a href=&quot;https://iterm2.com/downloads.html&quot;&gt;iTerm2 Downloads ]&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
-<ul>
-  <li>6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.</li>
-</ul>
+&lt;p&gt;Stable Releases 버전을 다운받아 줍니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png">
-<img src="https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png" alt="https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png" />
-</a></p>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/8e65b1fa-7b5e-4725-aa01-8152137020d9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.31.17.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/8e65b1fa-7b5e-4725-aa01-8152137020d9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.31.17.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/8e65b1fa-7b5e-4725-aa01-8152137020d9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.31.17.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<h4 id="2sitemapxml-생성">2.sitemap.xml 생성</h4>
+&lt;p&gt;다운 받은 iTerm2를 응용프로그램 으로 이동시켜 줍니다.&lt;/p&gt;
 
-<ul>
-  <li>1 ) _config.yml 파일에 url 속성에 자기의 블로그 이름이 들어가 있는지 확인합니다.</li>
-  <li>2 ) sitemap.xml 파일을 자기 github.io root 경로에 생성합니다.</li>
-  <li>3 ) 아래 내용을 sitemap.xml에 추가합니다.</li>
-</ul>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/f082b6eb-fd41-468b-b3e2-9bbae3358eca/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.39.15.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/f082b6eb-fd41-468b-b3e2-9bbae3358eca/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.39.15.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/f082b6eb-fd41-468b-b3e2-9bbae3358eca/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.39.15.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png">
-<img src="https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png" alt="https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png" />
-</a></p>
+&lt;p&gt;iTerm2 초기 화면은 기본 터미널과 크게 다르지 않습니다만, 커스텀을 통해 아래와 같이 바꾸어 보겠습니다.&lt;/p&gt;
 
-<h4 id="3robotstxt-생성">3.robots.txt 생성</h4>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/f21ffe01-5794-4316-837a-21645c19b47c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.37.15.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/f21ffe01-5794-4316-837a-21645c19b47c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.37.15.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/f21ffe01-5794-4316-837a-21645c19b47c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.37.15.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<ul>
-  <li>1 ) github.io root 경로에 robots.txt 파일을 생성합니다.</li>
-  <li>2 ) 아래 내용을 robots.txt 파일에 작성합니다.</li>
-  <li>3 ) sitemap 에 자신의 블로그 주소를 넣어줍니다.</li>
-</ul>
+&lt;h4 id=&quot;2-oh-my-zsh-설치하기&quot;&gt;2. oh-my-zsh 설치하기&lt;/h4&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png">
-<img src="https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png" alt="https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png" />
-</a></p>
+&lt;p&gt;Mac의 기본 터미널이 원래 bash 유닉스 셸 이었는데 zsh 유닉스 셸로 바뀌었습니다.&lt;br /&gt;
+그래서 저희는 zsh를 간편하게 사용할 수 있게 도움을 주는 oh-my-zsh 을 설치 해 보겠습니다.&lt;/p&gt;
 
-<h4 id="4google-search-console-에-sitemap-제출">4.Google Search Console 에 sitemap 제출</h4>
+&lt;p&gt;brew 명령어를 이용해 쉽게 설치 할 수 있습니다.&lt;br /&gt;
+이전 포스팅 에서 Homebrew 와 Git의 설치를 진행 하였기에, 설치가 되어 있다는 조건에서 진행 해 보겠습니다. (설치 필수!!)&lt;/p&gt;
 
-<ul>
-  <li>1 ) Google Search Console에 접속합니다.</li>
-  <li>2 ) 본인의 github.io 속성을 선택하고, 왼쪽 메뉴에 색인 &gt; Sitemaps 에 들어갑니다.</li>
-  <li>3 ) 새 사이트멥 추가에 sitemap.xml을 입력하고 제출합니다.</li>
-</ul>
+&lt;p&gt;모든 준비가 되었다면, 터미널에 아래 명령어만 복사해서 붙여넣기하면 설치가 됩니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png">
-<img src="https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png" alt="https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png" />
-</a></p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;$ sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<ul>
-  <li>4 ) 제출하고 2~3일 간 이후, sitemap 이 정상적으로 제출 되었는지 확인 해 줍니다.
-    <ul>
-      <li>이후 제출 상태 성공이 적용되지 않는다면, URL 검사로 확인을 해 주세요.</li>
-    </ul>
-  </li>
-</ul>
+&lt;p&gt;아래와 같이 설치가 진행 된다면, 정상적으로 설치가 진행되는것 이므로 잠시 기다려 줍니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png">
-<img src="https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png" alt="https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png" />
-</a></p>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/cbfefbbc-c300-4954-af33-b77c46dead2b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.02.33.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/cbfefbbc-c300-4954-af33-b77c46dead2b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.02.33.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/cbfefbbc-c300-4954-af33-b77c46dead2b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.02.33.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<hr />
+&lt;p&gt;잠시후 설치가 완료되고 터미널이 알록달록하게 변한 것을 확인 할 수 있습니다.&lt;/p&gt;
 
-<p><span style="font-size:1rem"> <strong>지금까지 Google SearchConsole에 대해 포스팅을 통해 배워 보았습니다.</strong> </span><br /></p>
+&lt;h4 id=&quot;3-theme-커스텀-하기&quot;&gt;3. Theme 커스텀 하기&lt;/h4&gt;
 
-<p><span style="font-size:1rem"> <strong>애널리틱스와 더불어 서치콘솔을 이용하여,</strong> </span><br />
-<span style="font-size:1rem"> <strong>앞으로 블로그를 더욱 편히 관리 해 보세요.</strong> </span><br /></p>
+&lt;p&gt;아래 파일을 수정하여 테마를 변경한다. vi, vim, nano등 편한 에디터로 열어서 수정하면 됩니다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;해당 vi 에서 수정을 하기 위해서는 i를 한번 눌러주면 수정을 할 수 있는 INSERT 모드로 변경이 되는데,
+INSERT 모드 에서만 수정을 하실수 있으니, 꼭 확인해 주세요.&lt;/p&gt;
 
-<p><span style="font-size:1rem"> <strong>다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>감사합니다!</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="SearchConsole" /><category term="Google" /><category term="SearchConsole" /><summary type="html"><![CDATA[Google SearchConsole 사용법.]]></summary></entry><entry><title type="html">[Google Analytics] Google 애널리틱스 시작하기</title><link href="http://localhost:4000/analytics/Analytics/" rel="alternate" type="text/html" title="[Google Analytics] Google 애널리틱스 시작하기" /><published>2022-03-14T00:00:00+09:00</published><updated>2022-03-14T00:00:00+09:00</updated><id>http://localhost:4000/analytics/Analytics</id><content type="html" xml:base="http://localhost:4000/analytics/Analytics/"><![CDATA[<hr />
-<p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
+  &lt;p&gt;수정이 끝났으면 ESC를 누른다음 :wq 를 입력하면 수정화면은 벗어날 수 있습니다.&lt;br /&gt;
+iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-<p><span style="font-size:1rem"><strong>이번 포스팅은 구글 애널리틱스 사용법을 포스팅 해 보겠습니다.</strong></span></p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p><span style="font-size:1rem"><strong>지금까지 깃허브 블로그를 만들었고 VScode(에디터)로 작업환경을 만들었습니다.</strong></span></p>
+&lt;p&gt;위의 파일을 열어보면 중간에 아래와 같은 줄이 있다. 원하는 테마를 입력하여 변경합니다.&lt;/p&gt;
 
-<p><span style="font-size:1rem"><strong>이제는 블로그 접속자 수를 알 수 있는 구글 애널리틱스를 연동해겠습니다.</strong></span></p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;ZSH_THEME=&quot;agnoster&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<hr />
+&lt;p&gt;테마는 아래 링크로 들어가면 여러가지 테마가 있는데&lt;br /&gt;
+&lt;a href=&quot;https://iterm2colorschemes.com&quot;&gt;https://iterm2colorschemes.com&lt;/a&gt;로 가서 원하는 테마 이름 위에서 마우스 오른쪽 버튼을 클릭하여 링크된 파일 다운로드 버튼을 클릭하여 다운로드 해 줍니다.&lt;br /&gt;&lt;/p&gt;
 
-<h3 id="구글-애널리틱스google-analytics란-">[구글 애널리틱스(Google Analytics)란?] <br /></h3>
+&lt;p&gt;다운 받은 위치를 가서 확장자명 .txt를 지워 줍니다.&lt;br /&gt;
+(ex. 0322 agnoster.txt → 0322 agnoster)&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg">
-<img src="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg" alt="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg" />
-</a></p>
+&lt;p&gt;저는 가장 많이 사용하는 agnoster 테마를 이용해서 진행 해 보겠습니다.&lt;/p&gt;
 
-<p>Google <a href="https://analytics.google.com/">Analytics(GA)</a>는, 구글에서 제공하는 무료 웹분석 툴입니다.</p>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/e3163f50-0201-4018-9bcb-8b7eb9c9da0d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.00.17.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/e3163f50-0201-4018-9bcb-8b7eb9c9da0d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.00.17.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/e3163f50-0201-4018-9bcb-8b7eb9c9da0d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.00.17.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p>구글의 고유한 통계 및 머신러닝 기술로 사이트 및 모바일 애플리케이션 방문자들의 행동 데이터를 분석하고,</p>
+&lt;p&gt;Term2 앱에서 [ cmd + , ] 를 눌러 환경설정을 열고, Profiles &amp;gt; Colors 탭을 선택 해 줍니다.&lt;/p&gt;
 
-<p>마케팅의 실적이나 웹사이트의 경험을 개선할 수 있도록 도와주는 도구입니다.</p>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/4a9d44e9-d5d0-4dbe-9212-7139544026bb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.23.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/4a9d44e9-d5d0-4dbe-9212-7139544026bb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.23.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/4a9d44e9-d5d0-4dbe-9212-7139544026bb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.23.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p>GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리고 ‘온라인 판매 시점 시스템’ 등 인터넷에 연결된 시스템의 데이터를 보고할 수 있습니다.</p>
+&lt;p&gt;오른쪽 하단에 Color Preset을 눌러 Import 를 클릭하여 위에서 다운받은 itemcolor file을 선택 합니다.&lt;/p&gt;
 
-<p>쉽게말해 어떤 사용자가 우리 웹사이트를 방문하는지, 어떤 경로를 통해 방문 했는지, 웹사이트에서 어떤 행동을 보이는지에 대한 흔적을 분석한 데이터를 손쉡게 보여주는 도구입니다.</p>
+&lt;p&gt;&lt;a class=&quot;toto&quot; href=&quot;https://images.velog.io/images/kyj0206/post/76a8e0fa-dfd7-4d8b-b89f-a17aee4fe87c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.50.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/76a8e0fa-dfd7-4d8b-b89f-a17aee4fe87c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.50.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/76a8e0fa-dfd7-4d8b-b89f-a17aee4fe87c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.50.png&quot; width=&quot;300px;important&quot; height=&quot;auto&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<h3 id="구글-애널리틱스의-장점">[구글 애널리틱스의 장점]</h3>
+&lt;h4 id=&quot;4-폰트-설치하기&quot;&gt;4. 폰트 설치하기&lt;/h4&gt;
 
-<blockquote>
-  <ol>
-    <li>무료 서비스 제공
-      <ul>
-        <li>구글 계정만 있다면, 누구나 사용가능하다</li>
-      </ul>
-    </li>
-    <li>구글의 광고 서비스와의 연동
-      <ul>
-        <li>구글 애널리틱스에서 사용자의 특정조건을 이용하여, 광고계정에서 리마케팅 캠페인을 만들 수 있다!</li>
-      </ul>
-    </li>
-    <li>다양한 분석 기능을 제공
-      <ul>
-        <li>(출처: <a href="https://blog.naver.com/PostView.nhn?blogId=sanalytica&amp;logNo=222195954338">Funnel Analysis</a>, <a href="https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4">Segment Analysis</a> 등)</li>
-      </ul>
-    </li>
-  </ol>
-</blockquote>
+&lt;p&gt;계속 진행하면 테마는 적용되는데 글씨가 깨진다. 아래 링크를 눌러서 폰트를 다운받고 설치합니다.&lt;/p&gt;
 
-<h3 id="구글-애널리틱스-시작하기">[구글 애널리틱스 시작하기]</h3>
+&lt;p&gt;&lt;a href=&quot;https://github.com/powerline/fonts/tree/master/UbuntuMono&quot;&gt;폰트 UbuntuMono DownLoade&lt;/a&gt;&lt;br /&gt;
+(다른서체로 진행해도 됩니다.)&lt;/p&gt;
 
-<h4 id="1구글-애널리틱스-접속">1.구글 애널리틱스 접속</h4>
+&lt;p&gt;다운로드한 파일을 실행합니다.&lt;/p&gt;
 
-<p>구글 애널리틱스 사이트에 접속 해 줍니다.</p>
+&lt;p&gt;Term2 앱에서 [ cmd + , ] 를 눌러 환경설정을 열고, Profiles &amp;gt; Text &amp;gt; Font &amp;gt; 다운로드한 폰트 선택&lt;br /&gt;&lt;/p&gt;
 
-<blockquote>
-  <p><a href="https://analytics.google.com/analytics/web/provision/?authuser=1#/provision"><img src="https://images.velog.io/images/kyj0206/post/2a5e61cd-48c1-4f58-b61e-c72da736c44e/mainmain.png" alt="GitHub Logo" /></a>
-link: <a href="https://analytics.google.com/analytics/web/provision/?authuser=1#/provision">analytics.google.com</a></p>
-</blockquote>
+&lt;p&gt;위와 같이 설정하면, 깨짐이 없이 정상적으로 보여집니다.&lt;/p&gt;
 
-<h4 id="2구글-애널리틱스-계정-생성">2.구글 애널리틱스 계정 생성</h4>
+&lt;p&gt;&lt;a class=&quot;toto&quot; href=&quot;https://images.velog.io/images/kyj0206/post/898874cd-05f8-4e62-ac7d-aefefd3d158c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.58.52.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/898874cd-05f8-4e62-ac7d-aefefd3d158c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.58.52.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/898874cd-05f8-4e62-ac7d-aefefd3d158c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.58.52.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p>아래 이미지와 같이 측정시작 버튼을 눌러 계정생성을 시작합니다.</p>
+&lt;h4 id=&quot;5-new-line-적용하기&quot;&gt;5. New Line 적용하기&lt;/h4&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png">
-<img src="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png" alt="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png" />
-</a></p>
+&lt;p&gt;터미널의 명령어가 길어지다 보면 화면을 벗어나는 경우가 있습니다.&lt;br /&gt;
+이러한 경우 터미널 입력어를 new line으로 입력함으로 불편을 해소할 수 있습니다.&lt;/p&gt;
 
-<p>계정이름을 설정해주고 넘어가 줍니다.</p>
+&lt;p&gt;&lt;a class=&quot;toto&quot; href=&quot;https://images.velog.io/images/kyj0206/post/beacd51d-ad11-4a30-9516-24fc3edcb1e6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.35.36.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/beacd51d-ad11-4a30-9516-24fc3edcb1e6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.35.36.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/beacd51d-ad11-4a30-9516-24fc3edcb1e6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.35.36.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png">
-<img src="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png" alt="https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png" />
-</a></p>
+&lt;p&gt;agnoster 테마를 설치한 기준으로 쉘에 아래의 명령어를 입력해줍니다.&lt;/p&gt;
 
-<p>속성이름을 설정하고, 시간을 한국시간으로 설정 해 줍니다.</p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.oh-my-zsh/themes/agnoster.zsh-theme&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png">
-<img src="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png" alt="https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png" />
-</a></p>
+&lt;p&gt;아래쪽으로 보면, build_prompt()를 볼 수 있습니다. &lt;br /&gt;
+그리고 prompt_newline을 prompt_hg와 promt_end사이에 넣어줍니다.&lt;/p&gt;
 
-<p>블로그에 맞춰 원하는 설정을 체크 해 줍니다.</p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;build_prompt() {&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;RETVAL=$?&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_status&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_virtualenv&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_context&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_dir&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_git&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_bzr&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_hg&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_newline //이부분을 추가 꼭 순서 지켜서&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_end }&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png">
-<img src="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png" alt="https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png" />
-</a></p>
+&lt;p&gt;코드 제일 하단에 아래 코드를 넣어줍니다.&lt;/p&gt;
 
-<p>대한민국으로 설정해여 주고, 약관에 동의해주면 계정설정은 끝납니다.</p>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/cf5df860-fe71-4705-9a9f-5d65fe79ecd5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.13.36.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/cf5df860-fe71-4705-9a9f-5d65fe79ecd5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.13.36.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/cf5df860-fe71-4705-9a9f-5d65fe79ecd5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.13.36.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png">
-<img src="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" alt="https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" />
-</a></p>
+&lt;p&gt;정상 수정하고 iTerm2를 재시작해주면 정상 적용되어 집니다.&lt;/p&gt;
 
-<h4 id="3구글-애널리틱스-계정-블로그와-연결">3.구글 애널리틱스 계정 블로그와 연결</h4>
+&lt;h4 id=&quot;6-syntax-highlight-적용하기&quot;&gt;6. Syntax Highlight 적용하기&lt;/h4&gt;
 
-<p>먼저 데이터스트림을 만들어주면 되는데 블로그 데이터는 웹입니다. 그러므로,</p>
+&lt;p&gt;syntax highlight는 사용 가능한 명령어들에 highlight를 넣어주는 기능입니다.&lt;/p&gt;
 
-<p>IOS app / Android app / Wep 중에 웹으로 설정하여 줍니다.</p>
+&lt;p&gt;iTerm2에 다음과 같은 명령어를 입력합니다.&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p>웹 스트림 설정에서는 웹사이트 URL에 자신의 블로그 형식을 입력하고, 스트림 이름은 블로그 이름을 동일하게 넣어줍니다.</p>
+&lt;p&gt;아래 코드를 제일아래 부분에 추가로 넣어줍니다.&lt;/p&gt;
 
-<p>이후 스트림 만들기 를 진행해주면 됩니다.</p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p>스트림 세부정보에서 측정 ID를 복사해 줍니다.</p>
+&lt;p&gt;정상 수정하고 iTerm2를 재시작해주면 정상 적용되어 집니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png">
-<img src="https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png" alt="https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png" />
-</a></p>
+&lt;p&gt;&lt;a class=&quot;toto&quot; href=&quot;![https://images.velog.io/images/kyj0206/post/5c7322f5-1b23-4f7f-a7dd-4dc78663126b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.59.22.png](https://images.velog.io/images/kyj0206/post/5c7322f5-1b23-4f7f-a7dd-4dc78663126b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.59.22.png)&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5c7322f5-1b23-4f7f-a7dd-4dc78663126b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.59.22.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/5c7322f5-1b23-4f7f-a7dd-4dc78663126b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.59.22.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p>이후 자신의 블로그 _config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.</p>
+&lt;h4 id=&quot;7-쉘에-이모티콘-적용하기&quot;&gt;7. 쉘에 이모티콘 적용하기&lt;/h4&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png">
-<img src="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png" alt="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png" />
-</a></p>
+&lt;p&gt;iTerm2에 다음과 같은 명령어를 입력합니다.&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p>업데이트 내역을 Commit 하여 Push 해주고, 애널리틱스에 접속하여 주면 연동이 된 결과를 확인할 수 있습니다.</p>
+&lt;p&gt;아래 코드를 제일아래 부분에 추가로 넣어줍니다.&lt;/p&gt;
 
-<p><a href="https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png">
-<img src="https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png" alt="https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png" />
-</a></p>
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;prompt_context() {&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;# Custom (Random emoji)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;emojis=(&quot;🦄&quot; &quot;🌈&quot; &quot;🍭&quot;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;prompt_segment black default &quot;Superman ${emojis[$RAND_EMOJI_N]} &quot;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<hr />
+&lt;p&gt;이렇게 하면 터미널을 킬때마다 랜덤으로 위의 작성된 이모티콘이 적용됩니다. &lt;br /&gt;
+${emojis[$RAND_EMOJI_N]} 부분을 자신이 원하는 이모지로 바꾸어 사용해 보세요.&lt;/p&gt;
 
-<p><span style="font-size:1rem"> <strong>지금까지 Google Analytics에 대해 포스팅을 통해 배워 보았습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>애널리틱스를 이용하여, 블로그를 유용하게 관리해 나가시길 바라겠습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>감사합니다!</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Analytics" /><category term="Google" /><category term="Analytics" /><summary type="html"><![CDATA[Google Analytics 사용법.]]></summary></entry><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_3</title><link href="http://localhost:4000/blog/Git_3nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_3" /><published>2022-03-10T00:00:00+09:00</published><updated>2022-03-10T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_3nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_3nd/"><![CDATA[<hr />
-<p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
+&lt;h3 id=&quot;iterm2-와-vscode-연동&quot;&gt;[iTerm2 와 VSCode 연동]&lt;br /&gt;&lt;/h3&gt;
 
-<p><span style="font-size:1rem"><strong>본격적인 포스팅 과정에 앞서 저번 포스팅에 설명드린 Git 의 명령어중,</strong></span></p>
+&lt;p&gt;이제 커스텀한 iTerm2을 VSCode에도 적용시켜볼 차례입니다!&lt;/p&gt;
 
-<p><span style="font-size:1rem"><strong>자주 쓰이는 명령어를 되짚어 보고 진행 하겠습니다.</strong></span></p>
+&lt;p&gt;VSCode 애디터를 켜고 단축키 Cmd + , 를 누르시거나 왼쪽 하단의 톱니바퀴를 클릭해 Settings 창으로 가서 Terminal 설정을 변경해줍니다.&lt;/p&gt;
 
-<hr />
+&lt;p&gt;OsxExeec 에 iTerm.app 을 입력해주시고 새 터미널 창을 켜보시면 바로 적용이 되어있는걸 확인하실 수 있습니다.&lt;/p&gt;
 
-<h3 id="자주-쓰이는-git-명령어">[자주 쓰이는 Git 명령어]</h3>
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/1a3cfd3b-37be-4084-95e7-4790d6f86d36/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.27.20.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/1a3cfd3b-37be-4084-95e7-4790d6f86d36/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.27.20.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<p style="margin:10px 0">출처 :<a href="https://velog.io/@eeeun/%EC%9E%90%EC%A3%BC-%EC%93%B0%EB%8A%94-Git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC" target="_blank"> https://velog.io//@eeeun</a> </p>
+&lt;p&gt;다만 VSCode 에서도 마찬가지로 폰트가 깨지는 이유로 폰트 또한 설정해줘야합니다.&lt;/p&gt;
 
-<h4 id="git-init-초기화">git init [초기화]</h4>
+&lt;p&gt;폰트 설정은 설정 창에서 Text Editor » Font » Font Family 에 맨 앞에 아까 전 다운 받은 폰트를 적용해 주세요.&lt;/p&gt;
 
-<blockquote>
-  <ul>
-    <li>git으로 관리할 수 있는 상태로 만든다.</li>
-    <li>git을 초기화 상태로 만들어준다.</li>
-    <li>git이라는 디렉토리를 생성한다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="config-설정">config [설정]</h4>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5427658b-dcf2-42c6-a8c9-a5830ecff819/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.43.22.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5427658b-dcf2-42c6-a8c9-a5830ecff819/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.43.22.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/5427658b-dcf2-42c6-a8c9-a5830ecff819/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.43.22.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<blockquote>
-  <p><img src="https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png" alt="https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png" /></p>
-  <ul>
-    <li>git config user.name “이름”
-      <ul>
-        <li>깃 사용자의 이름을 설정한다.</li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p><img src="https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png" alt="https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png" /></p>
-  <ul>
-    <li>git config user.email “이메일주소”
-      <ul>
-        <li>깃 사용자의 이메일을 설정한다.</li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
-
-<h4 id="git-add-files">git add {files}</h4>
-<blockquote>
-  <ul>
-    <li>특정 파일을 staging area에 올린다.
-      <ul>
-        <li>staging area란? 어떤 변경사항이 저장소에 커밋되기 전에, 반드시 거쳐야만 하는 중간단계이다.</li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
-
-<h4 id="git-add-">git add .</h4>
-<blockquote>
-  <ul>
-    <li>모든 파일을 staging area에 올린다.</li>
-  </ul>
-</blockquote>
+&lt;p&gt;최종적으로 적용을 하였다면, VSCode를 다시 꺼주고 켜주시면 아래와 같이&lt;br /&gt;
+정상 적용되어 있는 것을 확인하실수 있습니다.&lt;/p&gt;
 
-<h4 id="git-log">git log</h4>
-<blockquote>
-  <ul>
-    <li>커밋의 기록을 시간 순서대로 볼 수 있다.</li>
-  </ul>
-</blockquote>
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/96930fb3-f9ca-44a5-b147-b63919ad2568/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.40.51.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/96930fb3-f9ca-44a5-b147-b63919ad2568/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.40.51.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/96930fb3-f9ca-44a5-b147-b63919ad2568/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%203.40.51.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-<h4 id="git-diff-commit_id-commit_id">git diff {commit_id} {commit_id}</h4>
-<blockquote>
-  <ul>
-    <li>커밋하고 커밋 메시지를 남긴다.</li>
-    <li>초록색으로 쓰인 부분이 바뀐 부분이다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-status">git status</h4>
-<blockquote>
-  <ul>
-    <li>현재 깃의 상태를 구체적으로 볼 수 있다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-remote-add-origin-클론url">git remote add origin {클론url}</h4>
-<blockquote>
-  <ul>
-    <li>리모트 저장소 추가하기.***</li>
-    <li>git remote는 내 컴퓨터에서 외부 저장소에 관한 작업을 할 때 사용하는 명령어이다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-remote--v">git remote -v</h4>
-<blockquote>
-  <ul>
-    <li>등록된 원격 저장소들을 확인할 수 있다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-push--u-origin-master">git push -u origin master</h4>
-<blockquote>
-  <ul>
-    <li>현재 내 프로젝트의 내용(커밋)을 origin이 가리키는 원격 저장소의 프로젝트로 업로드한다.</li>
-    <li>커밋을 저장소에 올리는 개념이기 때문에 반드시 커밋을 만든 후에 푸시해야 한다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-push">git push</h4>
-<blockquote>
-  <ul>
-    <li>git push -u origin master 를 통해 이미 내 컴퓨터는 origin을 알고 있는 경우 git push만 입력해주어도 커밋이 푸시된다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-clone-클론url">git clone {클론url}</h4>
-<blockquote>
-  <ul>
-    <li>깃허브(혹은 깃랩 등) 서비스에 있는 프로젝트를 맨 처음에 내 컴퓨터로 가져올 때 쓰는 명령어다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-pull">git pull</h4>
-<blockquote>
-  <ul>
-    <li>깃랩 서비스에 있는 최신 커밋을 당겨온다.</li>
-    <li>작업하기 전에 반드시 해주어야 하는 명령어다.</li>
-  </ul>
-</blockquote>
-
-<h4 id="git-branch-branch_name">git branch {branch_name}</h4>
-<blockquote>
-  <ul>
-    <li>새로운 브런치를 생성한다.</li>
-  </ul>
-</blockquote>
-
-<hr />
-
-<h3 id="git_blog-repository-연동">[Git_Blog] repository 연동</h3>
-
-<p><span style="font-size:1rem">이제 본격적인 포스팅 과정에 앞서 이전 포스팅에서 만들어 두었던 repository를 clone해온 jekyll 테마에 적용해 보겠습니다.</span> <br /></p>
-<ul>
-  <li><span style="font-size:1rem">Code에서 _config.yml 파일을 찾아줍니다</span></li>
-</ul>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png">
-<img src="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" alt="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" />
-</a></p>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png">
-<img src="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" alt="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" />
-</a></p>
-
-<p><span style="font-size:1rem">본인의 주소를 URL에 적용하여 주면 됩니다.</span></p>
-
-<hr />
-
-<h3 id="git_blog-posting">[Git_Blog] Posting</h3>
-
-<p><span style="font-size:1rem">블로그에 theme 설정을 완료함으로, 모든 준비를 마쳤습니다. 이제 GitBlog 의 포스팅(Posting) 방법을 알아보겠습니다.</span></p>
-
-<h4 id="1posting-이란">1.Posting 이란?</h4>
-<ul>
-  <li>포스팅이란 인터넷, 블로그에 글을 올리는 행위를 뜻합니다.</li>
-  <li>블로그 외에도 인터넷(페이스북, 트위터, 인스타그램)에 어떠한 글을 올리는 행위 모두 포스팅이라고 할 수 있습니다.</li>
-  <li>출처: <a href="https://basecamp-sense.tistory.com/14">[베이스캠프와 함께하는 상식]</a></li>
-</ul>
-
-<h4 id="2_posts-폴더와-파일-생성하기">2._posts 폴더와 파일 생성하기</h4>
-<ul>
-  <li>jekyll은 간편한 블로깅을 위해 만들어졌습니다.</li>
-  <li>그렇기 때문에 정해진 포맷에 맞춰 글을 등록해야 합니다.</li>
-  <li>Clone되어진 theme코드를 살펴보면 YEAR-MONTH-DAY-title.md 형식이 적용되어있는 파일을 볼 수 있습니다.</li>
-  <li>jekyll이 포스트 글로 인식하기 위한 파일은 _posts 폴더 밑의 YEAR-MONTH-DAY-title.md 형식을 지켜야 합니다.</li>
-  <li>_posts 폴더를 생성하고 포스트 파일명 형식에 맞춰서 파일을 생성해 보겠습니다.</li>
-</ul>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png">
-<img src="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png" alt="https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png" />
-</a></p>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png">
-<img src="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png" alt="https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png" />
-</a></p>
-<ul>
-  <li>폴더와 파일이름의 형식을 지켜주며 만들어 줍니다.</li>
-</ul>
-
-<h4 id="3생성된-파일에-포스트글-작성-하기">3.생성된 파일에 포스트글 작성 하기.</h4>
-<p>포스트글 작성방식은 글에 제목은 무엇이며, 언제 발행 했고 어떤 카테고리에 넣을지 분류 하려면 아래와 같은 내용이 꼭 들어가야합니다.</p>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png">
-<img src="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png" alt="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png" />
-</a></p>
-
-<ul>
-  <li>포스팅 내용은 포스팅을 하기 위해서 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">마크다운</a> 작성법을 참고하시면 좋을 듯합니다.</li>
-  <li>[출처:<a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">https://gist.github.com/ihoneymon/</a>]</li>
-</ul>
-
-<h4 id="4포스팅-확인하기">4.포스팅 확인하기.</h4>
-<p>마크다운 작성법을 이용하여 포스트를 작성하여 GitHub에 Push 하여 username.github.io에 반영되는지 확인해보겠습니다.</p>
-<ul>
-  <li>저희는 이전 포스팅을 통해 git repository 에 연동을 해두었습니다. 이전 포스팅을 참고해 주세요.</li>
-  <li>연동 부분을 하였다고 보고 git 명령어를 통해 Push 해서 반영을 확인해 보겠습니다.</li>
-  <li>기억이 안나시는 분들을 위해 명령어를 한번더 표기하겠습니다.
-    <ul>
-      <li>$ cd username.github.io</li>
-      <li>$ git add .</li>
-      <li>$ git commit -m “message”</li>
-      <li>$ git push -u origin master</li>
-    </ul>
-  </li>
-</ul>
-
-<p><span style="font-size:1rem">정상적으로 push 되었다면, 본인의 블로그 URL주소로 반영이 됩니다.</span> 
-<span style="font-size:1rem">확인해 보겠습니다.</span></p>
-<blockquote>
-  <p><img src="https://images.velog.io/images/kyj0206/post/90a53fee-902f-47e5-a5e6-2ea74db51446/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.19.48.png" alt="https://images.velog.io/images/kyj0206/post/90a53fee-902f-47e5-a5e6-2ea74db51446/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.19.48.png" /></p>
-</blockquote>
-
-<p>이상없이 반영된 것을 확인할 수 있습니다.</p>
-
-<hr />
-
-<p><span style="font-size:1rem"> <strong>[Jekyll 테마] GitHub 블로그 만들기 포스팅을 모두 마치겠습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>감사합니다!</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="GitHub" /><category term="Git" /><summary type="html"><![CDATA[Git_Blog Posting.]]></summary></entry><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_2</title><link href="http://localhost:4000/blog/Git_2nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_2" /><published>2022-02-18T00:00:00+09:00</published><updated>2022-02-18T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_2nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_2nd/"><![CDATA[<hr />
-<p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
-
-<p><span style="font-size:1rem"><strong>이번 포스팅을 통해 Git 과 GitHub 의 연동을 진행해 보겠습니다.</strong></span></p>
-
-<p><span style="font-size:1rem"><strong>본격적인 포스팅에 앞서 Git과 GitHub 의 정의를 잡고 가겠습니다.</strong></span></p>
-
-<hr />
-
-<h3 id="웹개발-기초-git-이란">[웹개발 기초] Git 이란?</h3>
-
-<p align="left"> 
-<a href="https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg">
-<img src="https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" /> 
-</a>
-</p>
-<blockquote>
-  <ul>
-    <li>
-      <p style="margin:10px 0">참고 :<a href="https://git-scm.com/book/ko/v2" target="_blank"> https://git-scm.com/book/ko/v2</a> </p>
-      <p>(공식 Site 한글 매뉴얼)</p>
-    </li>
-  </ul>
-</blockquote>
-
-<ul>
-  <li><span style="font-size:1rem">깃(Git)은 리누스 토르발스에 의해 개발된 ‘분산 버전관리 시스템(Distributed Version Control Systems - DVCS) 으로, 파일의 변경사항을 추적하고 여러 사용자들 간의 파일에 대한 작업을 조율하는데 사용된다.</span>
-    <ul>
-      <li><span style="font-size:1rem"> 여러명의 개발자가 하나의 소프트웨어 개발을 진행하고, 소스코드를 관리 할때 사용된다.</span></li>
-    </ul>
-  </li>
-  <li><span style="font-size:1rem">로컬에서 관리되는 버전 관리 시스템 (VCS : Version Control System) </span></li>
-  <li><span style="font-size:1rem;">소스코드 수정에 따른 버전을 관리해주는 시스템 </span></li>
-</ul>
-
-<hr />
-
-<h3 id="웹개발-기초-github-이란">[웹개발 기초] GitHub 이란?</h3>
-
-<p align="left"> 
-<a href="https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg">
-<img src="https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" />
-</a>
-</p>
-
-<ul>
-  <li><span style="font-size:1rem"> 깃허브(GitHub) - The world’s leading software development platform </span></li>
-  <li><span style="font-size:1rem">깃허브GitHub는 분산 버전 컨트롤 소프트웨어 깃Git을 기반으로 소스 코드를 호스팅 하고, 협업 지원 기능들을 지원하는 마이크로소프트Microsoft의 웹서비스입니다.</span></li>
-  <li><span style="font-size:1rem">클라우드 방식으로 관리되는 버전 관리 시스템(VCS) </span></li>
-  <li><span style="font-size:1rem">자체 구축이 아닌 빌려쓰는 클라우드 개념 </span></li>
-</ul>
-
-<hr />
-
-<h3 id="git-과-github-차이점">[Git 과 GitHub 차이점]</h3>
-<ul>
-  <li><span style="font-size:1rem">Git은 로컬에서 버전 관리 시스템을 운영하는 방식입니다.</span></li>
-  <li><span style="font-size:1rem">Github는 저장소를 깃허브에서 제공해주는 클라우드 서버를 이용하는 방식입니다.</span>
-    <ul>
-      <li><span style="font-size:1rem">따라서 다른 사람들과 협업할 경우, 오픈소스를 공유하고 다른 사람들의 의견을 듣고 싶은 경우 등은 Github를 써서 편리하게 기능을 사용할 수 있습니다.</span></li>
-      <li><span style="font-size:1rem">만약 혼자 작업하거나 폐쇄적인 범위 내에서의 협업이라면 Git만 사용해도 무방합니다.</span></li>
-    </ul>
-  </li>
-</ul>
-
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png">
-<img src="https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png" height="auto" alt="img_0" /> 
-</a>
-</p>
-<blockquote>
-  <p style="margin:10px 0">(출처 :<a href="https://codevang.tistory.com/217" target="_blank"> https://codevang.tistory.com/217</a>)</p>
-</blockquote>
-
-<hr />
-
-<h3 id="git-과-github-연동하기">[Git 과 GitHub 연동하기]</h3>
-<p><span>이전 <a href="https://blog.naver.com/qhqh147/222633879376">포스팅</a>을 통해 Homebrew 설치방법과 자세한 설명을 포스팅 하였습니다.</span><br />
-<span>혹시 못보신 분들을 위해 한번더 설치방법과 설명을 되짚어보고 진행하겠습니다.</span><br /></p>
-
-<h5 id="1homebrew-설치">1.Homebrew 설치</h5>
-<ul>
-  <li><span style="font-size:1rem">homebrew는 Mac 환경에서 제공하지 않은 유용한 패기지를 설치할 수 있도록 도와주는 패기지관리자 입니다.</span></li>
-  <li><span style="font-size:1rem">설치 방법은 아래 홈페이지를 참고하시면 됩니다.</span>
-    <ul>
-      <li><span style="font-size:1rem"><a href="https://brew.sh/index_ko" target="_blank">https://brew.sh/index_ko</a></span></li>
-    </ul>
-
-    <p>터미널 입력 창에 Homebrew 설치용 스크립트를 가져와서 설치할 수 있습니다.</p>
-    <blockquote>
-      <p style="margin:10px 0">  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</p>
-    </blockquote>
-  </li>
-</ul>
-
-<h5 id="2homebrew를-통해-git-설치">2.Homebrew를 통해 Git 설치</h5>
-<ul>
-  <li><span style="font-size:1rem">Homebrew를 이용하면 쉽게 Git을 설치할 수 있습니다.</span>
-    <ul>
-      <li><span style="font-size:1rem">설치하게 되면, Git명령어를 실핼할 수 있습니다.</span></li>
-    </ul>
-  </li>
-</ul>
-
-<p><img style="padding-top:1.3em" src="https://blog.kakaocdn.net/dn/ce5QOS/btqG9A0bFSS/hGbg74HvxkeIQY3hgmUQ5k/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce5QOS%2FbtqG9A0bFSS%2FhGbg74HvxkeIQY3hgmUQ5k%2Fimg.png" data-filename="스크린샷" data-origin-width="380" data-origin-height="58" data-ke-mobilestyle="widthContent" /></p>
-
-<h5 id="3git-config-설정-git-계정-설정">3.Git config 설정 (Git 계정 설정)</h5>
-<ul>
-  <li><span style="font-size:1rem">다음으로 Git config 설정을 하겠습니다. 이설정을 하게 되면, git push 이후 매번 요구 되는 로그인 정보를 생략할 수 있습니다.</span></li>
-  <li><span style="font-size:1rem">git config –list 명령어를 통해 초기 설정값을 확인할 수 있습니다.</span></li>
-</ul>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png">
-<img src="https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png" style="max-width:100%; height:auto" width="100%" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" />
-</a></p>
-
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png">
-<img src="https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png" style="max-width:100%; height:auto" width="400px" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_0" />
-</a>
-</p>
-
-<h5 id="4terminal-접속하여-연동">4.Terminal 접속하여 연동</h5>
-<p><a href="https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png">
-<img src="https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png" style="max-width:100%; height:auto" width="100%" height="auto" filename="깃.jpg" filemime="image/jpeg" alt="img_1" />
-</a></p>
-
-<hr />
-
-<p><span style="font-size:1rem"> <strong>이제 GitBlog 포스팅 과정만 남았습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="GitHub" /><category term="Git" /><summary type="html"><![CDATA[Git 과 GitHub 연동하기.]]></summary></entry><entry><title type="html">[Jekyll 테마] GitHub 블로그 만들기_1</title><link href="http://localhost:4000/blog/Git_1nd/" rel="alternate" type="text/html" title="[Jekyll 테마] GitHub 블로그 만들기_1" /><published>2021-12-30T00:00:00+09:00</published><updated>2021-12-30T00:00:00+09:00</updated><id>http://localhost:4000/blog/Git_1nd</id><content type="html" xml:base="http://localhost:4000/blog/Git_1nd/"><![CDATA[<hr />
-<p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
-
-<p><span style="font-size:1rem"><strong>GitBlog 제작에 앞서 장/단점에 대해 먼저 설명 하도록 하겠습니다.</strong></span></p>
-
-<h3 id="gitblog-의-장-단점">[GitBlog 의 장 단점]</h3>
-<ul>
-  <li><span style="font-size:1rem">장점</span>
-    <ul>
-      <li><span style="font-size:1rem"> GitHub 의 연동. </span></li>
-      <li><span style="font-size:1rem"> Global. </span></li>
-      <li><span style="font-size:1rem"> Jekyll, Gatsby 등 많은 테마로 커스텀할 수 있다. </span></li>
-    </ul>
-  </li>
-  <li><span style="font-size:1rem">단점</span>
-    <ul>
-      <li><span style="font-size:1rem"> 장벽이 높다. </span></li>
-      <li><span style="font-size:1rem"> Git &amp; GitHub 에 대한 기본 이해 필요. </span></li>
-      <li><span style="font-size:1rem"> 제작 난이도가 높다. </span></li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-<p><span style="font-size:1rem"><strong>다음으로 GitBlog 제작을 진행해 보겠습니다.</strong></span></p>
-
-<h3 id="gitblog-repository-생성하기">[GitBlog Repository 생성하기]</h3>
-
-<ul>
-  <li><span style="font-size:1rem"> 깃허브 레파지토리 생성하기 </span><br /></li>
-  <li><span style="font-size:1rem">깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.</span><br /></li>
-  <li><span style="font-size:1rem">깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.</span></li>
-</ul>
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png">
-<img src="https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png" width="600px" height="auto" alt="img_0" /> 
-</a>
-</p>
-
-<ul>
-  <li><span style="font-size:1rem">Repository 생성시 본인 ID.github.io 로 입력합니다.</span><br /></li>
-  <li><span style="font-size:1rem">Initialize this repository with: Add a README file 을 체크해줍니다.</span><br /></li>
-</ul>
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png">
-<img src="https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png" width="600px" height="auto" alt="img_1" /> 
-</a>
-</p>
-
-<ul>
-  <li><span style="font-size:1rem">문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.</span><br /></li>
-</ul>
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png">
-<img src="https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png" width="600px" height="auto" alt="img_2" /> 
-</a>
-</p>
-
-<ul>
-  <li><span style="font-size:1rem">Code 에서 Blog URL주소를 알수 있습니다.</span><br /></li>
-  <li><span style="font-size:1rem">URL주소를 복사합니다.</span><br /></li>
-</ul>
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png">
-<img src="https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png" width="600px" height="auto" alt="img_3" /> 
-</a>
-</p>
-
-<hr />
-
-<p><span style="font-size:1rem"><strong>다음으로 Jekyll 테마적용을 해보겠습니다.</strong></span></p>
-
-<h3 id="gitblog-jekyll-themes-입히기">[GitBlog Jekyll Themes 입히기]</h3>
-
-<ul>
-  <li><span style="font-size:1rem"> Jekyll테마 선택하기 </span><br />
-    <ul>
-      <li><span style="font-size:1rem"> 구글 검색을 통해 한글로 지킬테마 라고만 검색해도 쉽게 검색할 수 있습니다. </span><br /></li>
-    </ul>
-  </li>
-</ul>
-
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png">
-<img src="https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png" width="600px" height="auto" alt="Jekyll" /> 
-</a>
-</p>
-
-<p><span style="font-size:1rem"> 아래 링크중 선택하여 사용하세요. </span></p>
-<blockquote>
-  <ol>
-    <li><a href="https://jamstackthemes.dev/ssg/jekyll/" target="_blank" style="font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;"> https://jamstackthemes.dev/ssg/jekyll/ </a><br /></li>
-    <li><a href="http://jekyllthemes.org/" target="_blank" style="font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;"> http://jekyllthemes.org/ </a><br /></li>
-    <li><a href="https://jekyllthemes.io/" target="_blank" style="font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;"> https://jekyllthemes.io/ </a><br /></li>
-  </ol>
-</blockquote>
-
-<p><span style="font-size:1rem"> 전 2번 링크를 통해 이 테마로 진행하겠습니다. </span>
-<span style="font-size:1rem"> 테마를 선택하면, 이와같은 화면에서 Homepage 를 선택하여 주세요. </span></p>
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png">
-<img src="https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png" width="600px" height="auto" alt="Jekyll1" /> 
-</a>
-</p>
-
-<p><span style="font-size:1rem"> Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. </span></p>
-<p align="center"> 
-<a href="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png">
-<img src="https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png" width="600px" height="auto" alt="Jekyll2" /> 
-</a>
-</p>
-
-<h4 id="1-ruby-설치하기">1. Ruby 설치하기.<br /></h4>
-<p><span>컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png" alt="https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png" /></p>
-
-<aside>
-<span>Ruby가 설치 되어있지 않다면 <a href="https://blog.naver.com/qhqh147/222633879376">Homebrew</a>를 이용하여 아래 명령어로 설치하여 줍니다.</span><br />
-<span style="background:#faedc9">❗ Homebrew 가 설치되어 있다는 가정하에 진행하겠습니다.</span>
-</aside>
-
-<p><span style="font-size:18px">( Homebrew에 대한 설치방법과 자세한 설명은 출처: <a href="https://blog.naver.com/qkrtndus3062/222657808586">연님블로그 로 확인 해주세요. )</a></span><br />
-<img src="https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png" alt="https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png" /></p>
-
-<h4 id="2-jekyll-설치하기">2. Jekyll 설치하기.<br /></h4>
-
-<p><span>테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png" alt="https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png" /></p>
-
-<h4 id="3-bundler-설치하기">3. bundler 설치하기.<br /></h4>
-<p><span>bundler도 설치해줍시다.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png" alt="https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png" /></p>
-
-<p><span>이러면 기본적인 세팅이 모두 완료되셨습니다!</span><br />
-<span><span style="background:#faedc9">[ ruby -v ]</span> 와 <span style="background:#faedc9">[ jekyll -v ]</span> 를 입력하여 정상적으로 설치되었는지 확인해주세요 :)</span><br /></p>
-
-<h4 id="4-로컬-서버-실행">4. 로컬 서버 실행.<br /></h4>
-
-<p><span>아래 명령어를 입력하여 줍니다.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png" alt="https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png" /></p>
-
-<p><span>정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.</span><br />
-<span>이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.</span><br /></p>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png">
-<img src="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" alt="https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png" />
-</a></p>
-
-<p><span style="background:#faedc9">Server running… press ctrl-c to stop.</span><br />
-<span>위와같이 표기된다면 정상적으로 진행이 되었습니다.</span><br /></p>
-
-<p><span><a href="http://127.0.0.1:4000">http://localhost:4000</a> 으로 바로 확인해보세요.</span><br />
-<span>정상적으로 서버가 열린다면,</span><br />
-<span>모든 Repo의 변동사항을 Server 에서 바로 확인하실 수 있습니다.</span><br /></p>
-
-<hr />
-<p><span style="font-size:1rem"> <strong>이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다.</strong> </span><br />
-<span style="font-size:1rem"> <strong>이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.</strong> </span></p>]]></content><author><name>KIM YEONG JEA</name></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="GitHub" /><category term="Git" /><summary type="html"><![CDATA[Jekyll 테마를 적용하여 Git_Blog 를 만들어 보자.]]></summary></entry></feed>
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 iTerm2 설치와 커스텀, VSCode 터미널 연동 까지 진행해 보았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;기본 터미널 보다 다양한 편의성이 있는,&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;iTerm2 를 이용하여 앞으로도 멋진 개발자 되시길 응원합니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//iterm2/iTerm2/</link>
+        <guid isPermaLink="true">http://localhost:4000//iterm2/iTerm2/</guid>
+        
+        <category>Git</category>
+        
+        <category>GitHub</category>
+        
+        <category>iTerm2</category>
+        
+        <category>VSCode</category>
+        
+        
+        <category>iTerm2</category>
+        
+      </item>
+    
+      <item>
+        <title>[Google SearchConsole] Google 서치콘솔 시작하기</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 구글 서치콘솔 사용법을 포스팅 해 보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;애널리틱스와 함께 사용하면 좋은 구글 서치콘솔을 함께 천천히 시작해 봅시다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;구글-서치-콘솔search-console이란-&quot;&gt;[구글 서치 콘솔(Search Console)이란?] &lt;br /&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;구글 서치콘솔 이란 구글의 전 구글 웹마스터들이 개발한 웹 서비스로서, 웹마스터들이 자신들의 웹사이트의 보이는 부분을 최적화하고 인덱싱 상태를 검사할 수 있게 해줍니다.&lt;/p&gt;
+
+&lt;p&gt;구글(Google)로부터 제공되는 정보를 통해서 보다 나은 SEO 대책이 가능해지는 셈이죠. 일전에는 구글 웹 마스터 도구라는 명칭이었지만 현재는 서치 콘솔이라는 타이틀로 변경되어 사용되고 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;구글-서치콘솔의-장점&quot;&gt;[구글 서치콘솔의 장점]&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;구글 애널리틱스를 통해 컨텐츠를 최적화 할 수 있다.
+      &lt;ul&gt;
+        &lt;li&gt;내 사이트에 유입되는 사용자가 어떤 키워드, 검색어를 통해 사이트에 방문하는지 알 수 있다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;구글에 나의 컨텐츠를 표시할 수 있다.
+      &lt;ul&gt;
+        &lt;li&gt;크롤링할 사이트맵, URL을 제출해서, 구글이 내 사이트의 최신 버전을 크롤링하도록 색인 생성 범위를 검토해 검색에 더 잘 노출될게 할 수 있다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;구글검색이 내 페이지를 어떻게 인식하는지 파악할 수 있다.
+      &lt;ul&gt;
+        &lt;li&gt;URL 검사도구를 사용하여 페이지에 관한 세부적인 크롤링, 색인 생성, 게재 정보를 Google 색인에서 쉽게 확인할 수 있다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;구글-서치콘솔-시작하기&quot;&gt;[구글 서치콘솔 시작하기]&lt;/h3&gt;
+
+&lt;h4 id=&quot;1google-search-console에-사이트-등록&quot;&gt;1.Google Search Console에 사이트 등록&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 ) Google Search Console 에 접속합니다.&lt;/li&gt;
+  &lt;li&gt;2 ) 속성 추가를 누릅니다.&lt;/li&gt;
+  &lt;li&gt;3 ) Github io 주소를 입력하고 계속을 누릅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/99718824-cb68-4900-806f-5c4bd8e8f596/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.25.41.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4 ) 해당 페이지의 소유권을 확인하는 절차를 진행합니다. 여러 확인 방법중 저는 HTML태그를 이용하여 진행 해 보겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;5 ) _config.yml 에서 위 이미지의 content 내용을 복사하여 아래 항목에 입력해 줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2sitemapxml-생성&quot;&gt;2.sitemap.xml 생성&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 ) _config.yml 파일에 url 속성에 자기의 블로그 이름이 들어가 있는지 확인합니다.&lt;/li&gt;
+  &lt;li&gt;2 ) sitemap.xml 파일을 자기 github.io root 경로에 생성합니다.&lt;/li&gt;
+  &lt;li&gt;3 ) 아래 내용을 sitemap.xml에 추가합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3robotstxt-생성&quot;&gt;3.robots.txt 생성&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 ) github.io root 경로에 robots.txt 파일을 생성합니다.&lt;/li&gt;
+  &lt;li&gt;2 ) 아래 내용을 robots.txt 파일에 작성합니다.&lt;/li&gt;
+  &lt;li&gt;3 ) sitemap 에 자신의 블로그 주소를 넣어줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4google-search-console-에-sitemap-제출&quot;&gt;4.Google Search Console 에 sitemap 제출&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 ) Google Search Console에 접속합니다.&lt;/li&gt;
+  &lt;li&gt;2 ) 본인의 github.io 속성을 선택하고, 왼쪽 메뉴에 색인 &amp;gt; Sitemaps 에 들어갑니다.&lt;/li&gt;
+  &lt;li&gt;3 ) 새 사이트멥 추가에 sitemap.xml을 입력하고 제출합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4 ) 제출하고 2~3일 간 이후, sitemap 이 정상적으로 제출 되었는지 확인 해 줍니다.
+    &lt;ul&gt;
+      &lt;li&gt;이후 제출 상태 성공이 적용되지 않는다면, URL 검사로 확인을 해 주세요.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 Google SearchConsole에 대해 포스팅을 통해 배워 보았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;애널리틱스와 더불어 서치콘솔을 이용하여,&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;앞으로 블로그를 더욱 편히 관리 해 보세요.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Mar 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//searchconsole/SearchConsole/</link>
+        <guid isPermaLink="true">http://localhost:4000//searchconsole/SearchConsole/</guid>
+        
+        <category>Google</category>
+        
+        <category>SearchConsole</category>
+        
+        
+        <category>SearchConsole</category>
+        
+      </item>
+    
+      <item>
+        <title>[Google Analytics] Google 애널리틱스 시작하기</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 구글 애널리틱스 사용법을 포스팅 해 보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;지금까지 깃허브 블로그를 만들었고 VScode(에디터)로 작업환경을 만들었습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이제는 블로그 접속자 수를 알 수 있는 구글 애널리틱스를 연동해겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;구글-애널리틱스google-analytics란-&quot;&gt;[구글 애널리틱스(Google Analytics)란?] &lt;br /&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google &lt;a href=&quot;https://analytics.google.com/&quot;&gt;Analytics(GA)&lt;/a&gt;는, 구글에서 제공하는 무료 웹분석 툴입니다.&lt;/p&gt;
+
+&lt;p&gt;구글의 고유한 통계 및 머신러닝 기술로 사이트 및 모바일 애플리케이션 방문자들의 행동 데이터를 분석하고,&lt;/p&gt;
+
+&lt;p&gt;마케팅의 실적이나 웹사이트의 경험을 개선할 수 있도록 도와주는 도구입니다.&lt;/p&gt;
+
+&lt;p&gt;GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리고 ‘온라인 판매 시점 시스템’ 등 인터넷에 연결된 시스템의 데이터를 보고할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;쉽게말해 어떤 사용자가 우리 웹사이트를 방문하는지, 어떤 경로를 통해 방문 했는지, 웹사이트에서 어떤 행동을 보이는지에 대한 흔적을 분석한 데이터를 손쉡게 보여주는 도구입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;구글-애널리틱스의-장점&quot;&gt;[구글 애널리틱스의 장점]&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;무료 서비스 제공
+      &lt;ul&gt;
+        &lt;li&gt;구글 계정만 있다면, 누구나 사용가능하다&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;구글의 광고 서비스와의 연동
+      &lt;ul&gt;
+        &lt;li&gt;구글 애널리틱스에서 사용자의 특정조건을 이용하여, 광고계정에서 리마케팅 캠페인을 만들 수 있다!&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;다양한 분석 기능을 제공
+      &lt;ul&gt;
+        &lt;li&gt;(출처: &lt;a href=&quot;https://blog.naver.com/PostView.nhn?blogId=sanalytica&amp;amp;logNo=222195954338&quot;&gt;Funnel Analysis&lt;/a&gt;, &lt;a href=&quot;https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4&quot;&gt;Segment Analysis&lt;/a&gt; 등)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;구글-애널리틱스-시작하기&quot;&gt;[구글 애널리틱스 시작하기]&lt;/h3&gt;
+
+&lt;h4 id=&quot;1구글-애널리틱스-접속&quot;&gt;1.구글 애널리틱스 접속&lt;/h4&gt;
+
+&lt;p&gt;구글 애널리틱스 사이트에 접속 해 줍니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?authuser=1#/provision&quot;&gt;&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/2a5e61cd-48c1-4f58-b61e-c72da736c44e/mainmain.png&quot; alt=&quot;GitHub Logo&quot; /&gt;&lt;/a&gt;
+link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?authuser=1#/provision&quot;&gt;analytics.google.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;2구글-애널리틱스-계정-생성&quot;&gt;2.구글 애널리틱스 계정 생성&lt;/h4&gt;
+
+&lt;p&gt;아래 이미지와 같이 측정시작 버튼을 눌러 계정생성을 시작합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;계정이름을 설정해주고 넘어가 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/9a98be8c-dd27-4804-8aec-ef9bedf67623/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.02.06.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;속성이름을 설정하고, 시간을 한국시간으로 설정 해 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/1088150c-c958-4ffa-bfde-17d801ce92e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.21.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;블로그에 맞춰 원하는 설정을 체크 해 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/bdd0472a-76ba-4b60-94c1-99b4c27c28f4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.03.59.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;대한민국으로 설정해여 주고, 약관에 동의해주면 계정설정은 끝납니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/b4cfab82-0ee9-4380-81ee-019d65cfcf42/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3구글-애널리틱스-계정-블로그와-연결&quot;&gt;3.구글 애널리틱스 계정 블로그와 연결&lt;/h4&gt;
+
+&lt;p&gt;먼저 데이터스트림을 만들어주면 되는데 블로그 데이터는 웹입니다. 그러므로,&lt;/p&gt;
+
+&lt;p&gt;IOS app / Android app / Wep 중에 웹으로 설정하여 줍니다.&lt;/p&gt;
+
+&lt;p&gt;웹 스트림 설정에서는 웹사이트 URL에 자신의 블로그 형식을 입력하고, 스트림 이름은 블로그 이름을 동일하게 넣어줍니다.&lt;/p&gt;
+
+&lt;p&gt;이후 스트림 만들기 를 진행해주면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;스트림 세부정보에서 측정 ID를 복사해 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이후 자신의 블로그 _config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;업데이트 내역을 Commit 하여 Push 해주고, 애널리틱스에 접속하여 주면 연동이 된 결과를 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 Google Analytics에 대해 포스팅을 통해 배워 보았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;애널리틱스를 이용하여, 블로그를 유용하게 관리해 나가시길 바라겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 Mar 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//analytics/Analytics/</link>
+        <guid isPermaLink="true">http://localhost:4000//analytics/Analytics/</guid>
+        
+        <category>Google</category>
+        
+        <category>Analytics</category>
+        
+        
+        <category>Analytics</category>
+        
+      </item>
+    
+      <item>
+        <title>[Jekyll 테마] GitHub 블로그 만들기_3</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;본격적인 포스팅 과정에 앞서 저번 포스팅에 설명드린 Git 의 명령어중,&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;자주 쓰이는 명령어를 되짚어 보고 진행 하겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;자주-쓰이는-git-명령어&quot;&gt;[자주 쓰이는 Git 명령어]&lt;/h3&gt;
+
+&lt;p style=&quot;margin:10px 0&quot;&gt;출처 :&lt;a href=&quot;https://velog.io/@eeeun/%EC%9E%90%EC%A3%BC-%EC%93%B0%EB%8A%94-Git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC&quot; target=&quot;_blank&quot;&gt; https://velog.io//@eeeun&lt;/a&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;git-init-초기화&quot;&gt;git init [초기화]&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git으로 관리할 수 있는 상태로 만든다.&lt;/li&gt;
+    &lt;li&gt;git을 초기화 상태로 만들어준다.&lt;/li&gt;
+    &lt;li&gt;git이라는 디렉토리를 생성한다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;config-설정&quot;&gt;config [설정]&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png&quot; /&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git config user.name “이름”
+      &lt;ul&gt;
+        &lt;li&gt;깃 사용자의 이름을 설정한다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png&quot; /&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git config user.email “이메일주소”
+      &lt;ul&gt;
+        &lt;li&gt;깃 사용자의 이메일을 설정한다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-add-files&quot;&gt;git add {files}&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;특정 파일을 staging area에 올린다.
+      &lt;ul&gt;
+        &lt;li&gt;staging area란? 어떤 변경사항이 저장소에 커밋되기 전에, 반드시 거쳐야만 하는 중간단계이다.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-add-&quot;&gt;git add .&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;모든 파일을 staging area에 올린다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-log&quot;&gt;git log&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;커밋의 기록을 시간 순서대로 볼 수 있다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-diff-commit_id-commit_id&quot;&gt;git diff {commit_id} {commit_id}&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;커밋하고 커밋 메시지를 남긴다.&lt;/li&gt;
+    &lt;li&gt;초록색으로 쓰인 부분이 바뀐 부분이다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-status&quot;&gt;git status&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;현재 깃의 상태를 구체적으로 볼 수 있다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-remote-add-origin-클론url&quot;&gt;git remote add origin {클론url}&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;리모트 저장소 추가하기.***&lt;/li&gt;
+    &lt;li&gt;git remote는 내 컴퓨터에서 외부 저장소에 관한 작업을 할 때 사용하는 명령어이다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-remote--v&quot;&gt;git remote -v&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;등록된 원격 저장소들을 확인할 수 있다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-push--u-origin-master&quot;&gt;git push -u origin master&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;현재 내 프로젝트의 내용(커밋)을 origin이 가리키는 원격 저장소의 프로젝트로 업로드한다.&lt;/li&gt;
+    &lt;li&gt;커밋을 저장소에 올리는 개념이기 때문에 반드시 커밋을 만든 후에 푸시해야 한다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-push&quot;&gt;git push&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git push -u origin master 를 통해 이미 내 컴퓨터는 origin을 알고 있는 경우 git push만 입력해주어도 커밋이 푸시된다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-clone-클론url&quot;&gt;git clone {클론url}&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;깃허브(혹은 깃랩 등) 서비스에 있는 프로젝트를 맨 처음에 내 컴퓨터로 가져올 때 쓰는 명령어다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-pull&quot;&gt;git pull&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;깃랩 서비스에 있는 최신 커밋을 당겨온다.&lt;/li&gt;
+    &lt;li&gt;작업하기 전에 반드시 해주어야 하는 명령어다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-branch-branch_name&quot;&gt;git branch {branch_name}&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;새로운 브런치를 생성한다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;git_blog-repository-연동&quot;&gt;[Git_Blog] repository 연동&lt;/h3&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;이제 본격적인 포스팅 과정에 앞서 이전 포스팅에서 만들어 두었던 repository를 clone해온 jekyll 테마에 적용해 보겠습니다.&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Code에서 _config.yml 파일을 찾아줍니다&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;본인의 주소를 URL에 적용하여 주면 됩니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;git_blog-posting&quot;&gt;[Git_Blog] Posting&lt;/h3&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;블로그에 theme 설정을 완료함으로, 모든 준비를 마쳤습니다. 이제 GitBlog 의 포스팅(Posting) 방법을 알아보겠습니다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;1posting-이란&quot;&gt;1.Posting 이란?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;포스팅이란 인터넷, 블로그에 글을 올리는 행위를 뜻합니다.&lt;/li&gt;
+  &lt;li&gt;블로그 외에도 인터넷(페이스북, 트위터, 인스타그램)에 어떠한 글을 올리는 행위 모두 포스팅이라고 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;출처: &lt;a href=&quot;https://basecamp-sense.tistory.com/14&quot;&gt;[베이스캠프와 함께하는 상식]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2_posts-폴더와-파일-생성하기&quot;&gt;2._posts 폴더와 파일 생성하기&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;jekyll은 간편한 블로깅을 위해 만들어졌습니다.&lt;/li&gt;
+  &lt;li&gt;그렇기 때문에 정해진 포맷에 맞춰 글을 등록해야 합니다.&lt;/li&gt;
+  &lt;li&gt;Clone되어진 theme코드를 살펴보면 YEAR-MONTH-DAY-title.md 형식이 적용되어있는 파일을 볼 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;jekyll이 포스트 글로 인식하기 위한 파일은 _posts 폴더 밑의 YEAR-MONTH-DAY-title.md 형식을 지켜야 합니다.&lt;/li&gt;
+  &lt;li&gt;_posts 폴더를 생성하고 포스트 파일명 형식에 맞춰서 파일을 생성해 보겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/b6c938a0-2ed7-44cb-b4de-63145f2607b9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.24.16.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/f0c9124f-b67d-47a1-87aa-b4690c103a15/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.26.50.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;폴더와 파일이름의 형식을 지켜주며 만들어 줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;3생성된-파일에-포스트글-작성-하기&quot;&gt;3.생성된 파일에 포스트글 작성 하기.&lt;/h4&gt;
+&lt;p&gt;포스트글 작성방식은 글에 제목은 무엇이며, 언제 발행 했고 어떤 카테고리에 넣을지 분류 하려면 아래와 같은 내용이 꼭 들어가야합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;포스팅 내용은 포스팅을 하기 위해서 &lt;a href=&quot;https://gist.github.com/ihoneymon/652be052a0727ad59601&quot;&gt;마크다운&lt;/a&gt; 작성법을 참고하시면 좋을 듯합니다.&lt;/li&gt;
+  &lt;li&gt;[출처:&lt;a href=&quot;https://gist.github.com/ihoneymon/652be052a0727ad59601&quot;&gt;https://gist.github.com/ihoneymon/&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;4포스팅-확인하기&quot;&gt;4.포스팅 확인하기.&lt;/h4&gt;
+&lt;p&gt;마크다운 작성법을 이용하여 포스트를 작성하여 GitHub에 Push 하여 username.github.io에 반영되는지 확인해보겠습니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;저희는 이전 포스팅을 통해 git repository 에 연동을 해두었습니다. 이전 포스팅을 참고해 주세요.&lt;/li&gt;
+  &lt;li&gt;연동 부분을 하였다고 보고 git 명령어를 통해 Push 해서 반영을 확인해 보겠습니다.&lt;/li&gt;
+  &lt;li&gt;기억이 안나시는 분들을 위해 명령어를 한번더 표기하겠습니다.
+    &lt;ul&gt;
+      &lt;li&gt;$ cd username.github.io&lt;/li&gt;
+      &lt;li&gt;$ git add .&lt;/li&gt;
+      &lt;li&gt;$ git commit -m “message”&lt;/li&gt;
+      &lt;li&gt;$ git push -u origin master&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;정상적으로 push 되었다면, 본인의 블로그 URL주소로 반영이 됩니다.&lt;/span&gt; 
+&lt;span style=&quot;font-size:1rem&quot;&gt;확인해 보겠습니다.&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/90a53fee-902f-47e5-a5e6-2ea74db51446/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.19.48.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/90a53fee-902f-47e5-a5e6-2ea74db51446/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.19.48.png&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이상없이 반영된 것을 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;[Jekyll 테마] GitHub 블로그 만들기 포스팅을 모두 마치겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 10 Mar 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//blog/Git_3nd/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/Git_3nd/</guid>
+        
+        <category>Blog</category>
+        
+        <category>jekyll</category>
+        
+        <category>GitHub</category>
+        
+        <category>Git</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>[Jekyll 테마] GitHub 블로그 만들기_2</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅을 통해 Git 과 GitHub 의 연동을 진행해 보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;본격적인 포스팅에 앞서 Git과 GitHub 의 정의를 잡고 가겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;웹개발-기초-git-이란&quot;&gt;[웹개발 기초] Git 이란?&lt;/h3&gt;
+
+&lt;p align=&quot;left&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5e87e5c1-c29e-49c9-b4e0-73b31504994f/git.jpeg&quot; style=&quot;max-width:100%; height:auto&quot; width=&quot;400px&quot; height=&quot;auto&quot; filename=&quot;깃.jpg&quot; filemime=&quot;image/jpeg&quot; alt=&quot;img_0&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p style=&quot;margin:10px 0&quot;&gt;참고 :&lt;a href=&quot;https://git-scm.com/book/ko/v2&quot; target=&quot;_blank&quot;&gt; https://git-scm.com/book/ko/v2&lt;/a&gt; &lt;/p&gt;
+      &lt;p&gt;(공식 Site 한글 매뉴얼)&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;깃(Git)은 리누스 토르발스에 의해 개발된 ‘분산 버전관리 시스템(Distributed Version Control Systems - DVCS) 으로, 파일의 변경사항을 추적하고 여러 사용자들 간의 파일에 대한 작업을 조율하는데 사용된다.&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 여러명의 개발자가 하나의 소프트웨어 개발을 진행하고, 소스코드를 관리 할때 사용된다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;로컬에서 관리되는 버전 관리 시스템 (VCS : Version Control System) &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem;&quot;&gt;소스코드 수정에 따른 버전을 관리해주는 시스템 &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;웹개발-기초-github-이란&quot;&gt;[웹개발 기초] GitHub 이란?&lt;/h3&gt;
+
+&lt;p align=&quot;left&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/0f5cf6ac-967e-4baa-b5ba-31820ef8fbba/github.jpeg&quot; style=&quot;max-width:100%; height:auto&quot; width=&quot;400px&quot; height=&quot;auto&quot; filename=&quot;깃.jpg&quot; filemime=&quot;image/jpeg&quot; alt=&quot;img_0&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 깃허브(GitHub) - The world’s leading software development platform &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;깃허브GitHub는 분산 버전 컨트롤 소프트웨어 깃Git을 기반으로 소스 코드를 호스팅 하고, 협업 지원 기능들을 지원하는 마이크로소프트Microsoft의 웹서비스입니다.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;클라우드 방식으로 관리되는 버전 관리 시스템(VCS) &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;자체 구축이 아닌 빌려쓰는 클라우드 개념 &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;git-과-github-차이점&quot;&gt;[Git 과 GitHub 차이점]&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Git은 로컬에서 버전 관리 시스템을 운영하는 방식입니다.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Github는 저장소를 깃허브에서 제공해주는 클라우드 서버를 이용하는 방식입니다.&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;따라서 다른 사람들과 협업할 경우, 오픈소스를 공유하고 다른 사람들의 의견을 듣고 싶은 경우 등은 Github를 써서 편리하게 기능을 사용할 수 있습니다.&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;만약 혼자 작업하거나 폐쇄적인 범위 내에서의 협업이라면 Git만 사용해도 무방합니다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5d5f2246-43ae-4b56-b018-efd9fbd8d370/gitvsgithub.png&quot; height=&quot;auto&quot; alt=&quot;img_0&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p style=&quot;margin:10px 0&quot;&gt;(출처 :&lt;a href=&quot;https://codevang.tistory.com/217&quot; target=&quot;_blank&quot;&gt; https://codevang.tistory.com/217&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;git-과-github-연동하기&quot;&gt;[Git 과 GitHub 연동하기]&lt;/h3&gt;
+&lt;p&gt;&lt;span&gt;이전 &lt;a href=&quot;https://blog.naver.com/qhqh147/222633879376&quot;&gt;포스팅&lt;/a&gt;을 통해 Homebrew 설치방법과 자세한 설명을 포스팅 하였습니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;혹시 못보신 분들을 위해 한번더 설치방법과 설명을 되짚어보고 진행하겠습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;1homebrew-설치&quot;&gt;1.Homebrew 설치&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;homebrew는 Mac 환경에서 제공하지 않은 유용한 패기지를 설치할 수 있도록 도와주는 패기지관리자 입니다.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;설치 방법은 아래 홈페이지를 참고하시면 됩니다.&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;a href=&quot;https://brew.sh/index_ko&quot; target=&quot;_blank&quot;&gt;https://brew.sh/index_ko&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;터미널 입력 창에 Homebrew 설치용 스크립트를 가져와서 설치할 수 있습니다.&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p style=&quot;margin:10px 0&quot;&gt;  /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;2homebrew를-통해-git-설치&quot;&gt;2.Homebrew를 통해 Git 설치&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Homebrew를 이용하면 쉽게 Git을 설치할 수 있습니다.&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;설치하게 되면, Git명령어를 실핼할 수 있습니다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img style=&quot;padding-top:1.3em&quot; src=&quot;https://blog.kakaocdn.net/dn/ce5QOS/btqG9A0bFSS/hGbg74HvxkeIQY3hgmUQ5k/img.png&quot; srcset=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce5QOS%2FbtqG9A0bFSS%2FhGbg74HvxkeIQY3hgmUQ5k%2Fimg.png&quot; data-filename=&quot;스크린샷&quot; data-origin-width=&quot;380&quot; data-origin-height=&quot;58&quot; data-ke-mobilestyle=&quot;widthContent&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;3git-config-설정-git-계정-설정&quot;&gt;3.Git config 설정 (Git 계정 설정)&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;다음으로 Git config 설정을 하겠습니다. 이설정을 하게 되면, git push 이후 매번 요구 되는 로그인 정보를 생략할 수 있습니다.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;git config –list 명령어를 통해 초기 설정값을 확인할 수 있습니다.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5d720ad7-c984-4aab-a88b-1d3d9a63978b/config_2.png&quot; style=&quot;max-width:100%; height:auto&quot; width=&quot;100%&quot; height=&quot;auto&quot; filename=&quot;깃.jpg&quot; filemime=&quot;image/jpeg&quot; alt=&quot;img_0&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/60dda844-d8cf-496d-9077-ba7d7b7c02f2/config_1.png&quot; style=&quot;max-width:100%; height:auto&quot; width=&quot;400px&quot; height=&quot;auto&quot; filename=&quot;깃.jpg&quot; filemime=&quot;image/jpeg&quot; alt=&quot;img_0&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;4terminal-접속하여-연동&quot;&gt;4.Terminal 접속하여 연동&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png&quot; style=&quot;max-width:100%; height:auto&quot; width=&quot;100%&quot; height=&quot;auto&quot; filename=&quot;깃.jpg&quot; filemime=&quot;image/jpeg&quot; alt=&quot;img_1&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;이제 GitBlog 포스팅 과정만 남았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 18 Feb 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//blog/Git_2nd/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/Git_2nd/</guid>
+        
+        <category>Blog</category>
+        
+        <category>jekyll</category>
+        
+        <category>GitHub</category>
+        
+        <category>Git</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>[Jekyll 테마] GitHub 블로그 만들기_1</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;GitBlog 제작에 앞서 장/단점에 대해 먼저 설명 하도록 하겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gitblog-의-장-단점&quot;&gt;[GitBlog 의 장 단점]&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;장점&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; GitHub 의 연동. &lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Global. &lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Jekyll, Gatsby 등 많은 테마로 커스텀할 수 있다. &lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;단점&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 장벽이 높다. &lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Git &amp;amp; GitHub 에 대한 기본 이해 필요. &lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 제작 난이도가 높다. &lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;다음으로 GitBlog 제작을 진행해 보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gitblog-repository-생성하기&quot;&gt;[GitBlog Repository 생성하기]&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 깃허브 레파지토리 생성하기 &lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_0&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Repository 생성시 본인 ID.github.io 로 입력합니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Initialize this repository with: Add a README file 을 체크해줍니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_1&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_2&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Code 에서 Blog URL주소를 알수 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;URL주소를 복사합니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_3&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;다음으로 Jekyll 테마적용을 해보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gitblog-jekyll-themes-입히기&quot;&gt;[GitBlog Jekyll Themes 입히기]&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Jekyll테마 선택하기 &lt;/span&gt;&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 구글 검색을 통해 한글로 지킬테마 라고만 검색해도 쉽게 검색할 수 있습니다. &lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;Jekyll&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 아래 링크중 선택하여 사용하세요. &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;https://jamstackthemes.dev/ssg/jekyll/&quot; target=&quot;_blank&quot; style=&quot;font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;&quot;&gt; https://jamstackthemes.dev/ssg/jekyll/ &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot; target=&quot;_blank&quot; style=&quot;font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;&quot;&gt; http://jekyllthemes.org/ &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://jekyllthemes.io/&quot; target=&quot;_blank&quot; style=&quot;font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;&quot;&gt; https://jekyllthemes.io/ &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 전 2번 링크를 통해 이 테마로 진행하겠습니다. &lt;/span&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; 테마를 선택하면, 이와같은 화면에서 Homepage 를 선택하여 주세요. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;Jekyll1&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;Jekyll2&quot; /&gt; 
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;1-ruby-설치하기&quot;&gt;1. Ruby 설치하기.&lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span&gt;컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.&lt;/span&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png&quot; /&gt;&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;span&gt;Ruby가 설치 되어있지 않다면 &lt;a href=&quot;https://blog.naver.com/qhqh147/222633879376&quot;&gt;Homebrew&lt;/a&gt;를 이용하여 아래 명령어로 설치하여 줍니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;background:#faedc9&quot;&gt;❗ Homebrew 가 설치되어 있다는 가정하에 진행하겠습니다.&lt;/span&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:18px&quot;&gt;( Homebrew에 대한 설치방법과 자세한 설명은 출처: &lt;a href=&quot;https://blog.naver.com/qkrtndus3062/222657808586&quot;&gt;연님블로그 로 확인 해주세요. )&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-jekyll-설치하기&quot;&gt;2. Jekyll 설치하기.&lt;br /&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;span&gt;테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.&lt;/span&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-bundler-설치하기&quot;&gt;3. bundler 설치하기.&lt;br /&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span&gt;bundler도 설치해줍시다.&lt;/span&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;이러면 기본적인 세팅이 모두 완료되셨습니다!&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;span style=&quot;background:#faedc9&quot;&gt;[ ruby -v ]&lt;/span&gt; 와 &lt;span style=&quot;background:#faedc9&quot;&gt;[ jekyll -v ]&lt;/span&gt; 를 입력하여 정상적으로 설치되었는지 확인해주세요 :)&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-로컬-서버-실행&quot;&gt;4. 로컬 서버 실행.&lt;br /&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;span&gt;아래 명령어를 입력하여 줍니다.&lt;/span&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;background:#faedc9&quot;&gt;Server running… press ctrl-c to stop.&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;위와같이 표기된다면 정상적으로 진행이 되었습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://localhost:4000&lt;/a&gt; 으로 바로 확인해보세요.&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;정상적으로 서버가 열린다면,&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;모든 Repo의 변동사항을 Server 에서 바로 확인하실 수 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 Dec 2021 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//blog/Git_1nd/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/Git_1nd/</guid>
+        
+        <category>Blog</category>
+        
+        <category>jekyll</category>
+        
+        <category>GitHub</category>
+        
+        <category>Git</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

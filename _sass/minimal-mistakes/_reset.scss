@@ -110,6 +110,10 @@ sub {
 }
 
 /* img border in anchor's and image quality */
+.toto img{
+  width: 50%;
+}
+
 
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */

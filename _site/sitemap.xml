@@ -2,8 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/searchconsole/SearchConsole/</loc>
+      <loc>http://localhost:4000/iterm2/iTerm2/</loc>
+      
+        <lastmod>2022-03-22T00:00:00+09:00</lastmod>
+      
 
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/searchconsole/SearchConsole/</loc>
       
         <lastmod>2022-03-18T00:00:00+09:00</lastmod>
       
@@ -20,7 +35,6 @@
   
     <url>
       <loc>http://localhost:4000/analytics/Analytics/</loc>
-
       
         <lastmod>2022-03-14T00:00:00+09:00</lastmod>
       
@@ -37,7 +51,6 @@
   
     <url>
       <loc>http://localhost:4000/blog/Git_3nd/</loc>
-
       
         <lastmod>2022-03-10T00:00:00+09:00</lastmod>
       
@@ -54,7 +67,6 @@
   
     <url>
       <loc>http://localhost:4000/blog/Git_2nd/</loc>
-
       
         <lastmod>2022-02-18T00:00:00+09:00</lastmod>
       
@@ -71,7 +83,6 @@
   
     <url>
       <loc>http://localhost:4000/blog/Git_1nd/</loc>
-
       
         <lastmod>2021-12-30T00:00:00+09:00</lastmod>
       
