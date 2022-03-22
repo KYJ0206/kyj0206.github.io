@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Mar 2022 15:53:59 +0900</pubDate>
-    <lastBuildDate>Tue, 22 Mar 2022 15:53:59 +0900</lastBuildDate>
+    <pubDate>Tue, 22 Mar 2022 17:06:17 +0900</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2022 17:06:17 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -201,7 +201,27 @@ iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
 &lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5c7322f5-1b23-4f7f-a7dd-4dc78663126b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.59.22.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/5c7322f5-1b23-4f7f-a7dd-4dc78663126b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.59.22.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;7-쉘에-이모티콘-적용하기&quot;&gt;7. 쉘에 이모티콘 적용하기&lt;/h4&gt;
+&lt;h4 id=&quot;7-iterm2-명령어-자동완성-적용하기&quot;&gt;7. iTerm2 명령어 자동완성 적용하기&lt;/h4&gt;
+
+&lt;p&gt;터미널에 다음 내용을 순서대로 입력 해줍니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;~/.zshrc 열어 아래 코드를 복사하고 맨아래 공간에 붙여 넣어줍니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;저장 하고 터미널을 재시작 하면 자동완성이 적용되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/e20f26a2-a660-4604-b228-e829e4f015cb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.04.52.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/e20f26a2-a660-4604-b228-e829e4f015cb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.04.52.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/e20f26a2-a660-4604-b228-e829e4f015cb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-22%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.04.52.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;8-쉘에-이모티콘-적용하기&quot;&gt;8. 쉘에 이모티콘 적용하기&lt;/h4&gt;
 
 &lt;p&gt;iTerm2에 다음과 같은 명령어를 입력합니다.&lt;/p&gt;
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
