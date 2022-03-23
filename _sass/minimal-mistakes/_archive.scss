@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  padding-right: 10px;
 
   a {
     position: relative;
@@ -89,6 +90,7 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+  padding: 30px 0;
 
   img {
     width: 50%;
