@@ -6,13 +6,108 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Mar 2022 10:46:38 +0900</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2022 10:46:38 +0900</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2022 14:35:47 +0900</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2022 14:35:47 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>[CodePen] Jekyll 블로그에 CodePen 추가하는 방법</title>
-        <description>
+        <title>[CodePen] 블로그에 CodePen Embed하는 방법</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;해당 포스팅은 Jekyll 블로그에서 CodePen을 추가하는 방법에 대한 설명입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;앞으로의 포스팅에서 이해를 돕기 위해 CodePen을 적용 할 것입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;실시간 코드에디터인 CodePen을 알아보고 Html, Css, Js을 손쉽게 CodePen으로 이용하는 방법을 포스팅 하겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;codepen-이란-&quot;&gt;[CodePen 이란?] &lt;br /&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/259b5b89-0765-4464-9ca9-41047719ef2e/codepen.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/259b5b89-0765-4464-9ca9-41047719ef2e/codepen.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/259b5b89-0765-4464-9ca9-41047719ef2e/codepen.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CodePen은 Web_Developer를 위한 Online_Compiler입니다.&lt;/p&gt;
+
+&lt;p&gt;쉽게말해 웹 개발자를 기준으로 만들어지다 보니 웹언어에 최적화 되어있다고 볼 수 있으며, 가장 좋은 점은 소스코드를 적용해 결과를 한번에 볼 수 있다는 장점이있습니다.&lt;/p&gt;
+
+&lt;p&gt;간단하게 codepen을 직접 블로그에 Embed해 보았습니다.&lt;/p&gt;
+
+&lt;iframe height=&quot;300&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Untitled&quot; src=&quot;https://codepen.io/kyj0206/embed/yLpVaXa?default-tab=html%2Cresult&quot; frameborder=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/kyj0206/pen/yLpVaXa&quot;&gt;
+  Untitled&lt;/a&gt; by K.Y.J (&lt;a href=&quot;https://codepen.io/kyj0206&quot;&gt;@kyj0206&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+이렇게 적용할 수 있고, 적용 방법 또한, 어렵지 않으니 천천히 진행해 보겠습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;codepen-embed-방법&quot;&gt;[Codepen Embed 방법]&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-아래-링크를-통해-codepen에-접속&quot;&gt;1. 아래 링크를 통해 Codepen에 접속&lt;/h4&gt;
+
+&lt;p&gt;[ Link : &lt;a href=&quot;https://codepen.io/trending&quot;&gt;Codepen ]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-계정-생성-및-로그인-진행&quot;&gt;2. 계정 생성 및 로그인 진행&lt;/h4&gt;
+
+&lt;p&gt;우측 상단의 Sign Up 또는 Log In 버튼을 이용하여 진행해 줍니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/b6e9efe5-8bba-4559-8018-b50df6463b3a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.44.02.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/b6e9efe5-8bba-4559-8018-b50df6463b3a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.44.02.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/b6e9efe5-8bba-4559-8018-b50df6463b3a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.44.02.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub 계정 으로 쉽게 연동가능 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/3ded2397-8c5e-44cb-934f-d57ff26a8d6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.08.47.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/3ded2397-8c5e-44cb-934f-d57ff26a8d6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.08.47.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/3ded2397-8c5e-44cb-934f-d57ff26a8d6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.08.47.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-new-pen을-생성&quot;&gt;3. New Pen을 생성&lt;/h4&gt;
+
+&lt;p&gt;우측 상단 스마일 아이콘은 누르면 아래 이미지와 같은 창을 볼 수 있습니다.&lt;br /&gt;
+  New Pen 을 클릭해서 새로운 Pen을 만들어 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5e6c1e53-2f01-4e82-8d3d-fe5353f6330e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.18.46.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5e6c1e53-2f01-4e82-8d3d-fe5353f6330e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.18.46.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/5e6c1e53-2f01-4e82-8d3d-fe5353f6330e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.18.46.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-간단한-코드-작성-후-저장&quot;&gt;4. 간단한 코드 작성 후 저장&lt;/h4&gt;
+
+&lt;p&gt;상단의 [ Save ] 버튼 or [ Ctrl+S ] 으로 저장을 해줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/7a63a428-bdb7-4203-b60e-2a881b683f8b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.48.44.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/7a63a428-bdb7-4203-b60e-2a881b683f8b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.48.44.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/7a63a428-bdb7-4203-b60e-2a881b683f8b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.48.44.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;5-codepen-embed&quot;&gt;5. CodePen Embed&lt;/h4&gt;
+
+&lt;p&gt;우측 하단의 Embed 버튼 클릭후 Iframe 탭으로 이동하여 소스 코드 복사해 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/b5e1823f-d7f4-45ae-9421-6e5b38992fe1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.50.06.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/b5e1823f-d7f4-45ae-9421-6e5b38992fe1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.50.06.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/b5e1823f-d7f4-45ae-9421-6e5b38992fe1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.50.06.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;6-블로그-포스팅-페이지에-적용&quot;&gt;6. 블로그 포스팅 페이지에 적용&lt;/h4&gt;
+
+&lt;p&gt;복사한 소스코드를 블로그 포스팅 으로 옮겨줍니다.&lt;br /&gt;
+Local서버로 확인 결과,아래 이미지와 같이 정상적으로 화면에 출력되어 집니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/62695d60-96e3-4e30-a82d-12239d2dcd65/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.51.17.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/62695d60-96e3-4e30-a82d-12239d2dcd65/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.51.17.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/62695d60-96e3-4e30-a82d-12239d2dcd65/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.51.17.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;마지막으로 Commit 하여 Push 해주고 확인해 주면 끝 입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 블로그에서 CodePen을 추가하는 방법을 배워 보았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;CodePen을 접목하여,&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;앞으로 블로그를 멋지게 관리해 보세요.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate>
         <link>http://localhost:4000//codepen/CodePen-Blog/</link>
