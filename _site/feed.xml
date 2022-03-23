@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Mar 2022 09:34:38 +0900</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2022 09:34:38 +0900</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2022 10:46:38 +0900</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2022 10:46:38 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
