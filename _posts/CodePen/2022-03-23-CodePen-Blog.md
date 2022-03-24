@@ -47,7 +47,7 @@ CodePen은 Web_Developer를 위한 Online_Compiler입니다.
 
 #### 1. 아래 링크를 통해 Codepen에 접속
 
-  [ Link : <a href="https://codepen.io/trending">Codepen ]</a>
+  [ Link : <a href="https://codepen.io/trending" target="_blank">Codepen ]</a>
 
 #### 2. 계정 생성 및 로그인 진행
 

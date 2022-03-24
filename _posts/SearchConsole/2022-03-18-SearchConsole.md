@@ -45,7 +45,7 @@ last_modified_at: 2022-03-18
 
 #### 1.Google Search Console에 사이트 등록
 
-- 1 ) Google Search Console 에 접속합니다.
+- 1 ) <a href="https://search.google.com/search-console/welcome?hl=ko" target="_blank">Google Search Console</a>에 접속합니다.
 - 2 ) 속성 추가를 누릅니다.
 - 3 ) Github io 주소를 입력하고 계속을 누릅니다.
 

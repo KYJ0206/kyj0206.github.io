@@ -30,7 +30,7 @@ last_modified_at: 2022-03-14
 ![https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg](https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg)
 </a>
 
-Google <a href='https://analytics.google.com/'>Analytics(GA)</a>는, 구글에서 제공하는 무료 웹분석 툴입니다.
+Google <a href='https://analytics.google.com/' target="_blank">Analytics(GA)</a>는, 구글에서 제공하는 무료 웹분석 툴입니다.
 
 구글의 고유한 통계 및 머신러닝 기술로 사이트 및 모바일 애플리케이션 방문자들의 행동 데이터를 분석하고, 
 
@@ -47,7 +47,7 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 > 2. 구글의 광고 서비스와의 연동
 >   - 구글 애널리틱스에서 사용자의 특정조건을 이용하여, 광고계정에서 리마케팅 캠페인을 만들 수 있다!
 > 3. 다양한 분석 기능을 제공
->   - (출처: <a href='https://blog.naver.com/PostView.nhn?blogId=sanalytica&logNo=222195954338'>Funnel Analysis</a>, <a href='https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4'>Segment Analysis</a> 등)
+>   - (출처: <a href='https://blog.naver.com/PostView.nhn?blogId=sanalytica&logNo=222195954338' target="_blank">Funnel Analysis</a>, <a href='https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4' target="_blank">Segment Analysis</a> 등)
 
 
 ### [구글 애널리틱스 시작하기]
@@ -56,8 +56,8 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 
 구글 애널리틱스 사이트에 접속 해 줍니다.
 
-> <a href='https://analytics.google.com/analytics/web/provision/?authuser=1#/provision'>![GitHub Logo](https://images.velog.io/images/kyj0206/post/2a5e61cd-48c1-4f58-b61e-c72da736c44e/mainmain.png)</a>
-> link: <a href='https://analytics.google.com/analytics/web/provision/?authuser=1#/provision'>analytics.google.com</a>
+> <a href='https://analytics.google.com/analytics/web/provision/?authuser=1#/provision' target="_blank">![GitHub Logo](https://images.velog.io/images/kyj0206/post/2a5e61cd-48c1-4f58-b61e-c72da736c44e/mainmain.png)</a>
+> link: <a href='https://analytics.google.com/analytics/web/provision/?authuser=1#/provision' target="_blank">analytics.google.com</a>
 
 #### 2.구글 애널리틱스 계정 생성
 
