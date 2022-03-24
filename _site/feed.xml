@@ -6,12 +6,12 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Mar 2022 15:06:22 +0900</pubDate>
-    <lastBuildDate>Thu, 24 Mar 2022 15:06:22 +0900</lastBuildDate>
+    <pubDate>Thu, 24 Mar 2022 15:12:32 +0900</pubDate>
+    <lastBuildDate>Thu, 24 Mar 2022 15:12:32 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>[HTML] 시작하기</title>
+        <title>[HTML] 구성과 구조</title>
         <description>&lt;hr /&gt;
 &lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
@@ -201,10 +201,9 @@ name은 value(값)가 됩니다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 HTML의 개녈과 구조를 포스팅 하였습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 HTML의 구성과 구조를 포스팅 하였습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;기본적인 개념과 구조 파악에&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
-&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;도움이 되는 포스팅이었길 바랍니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;도움이 되는 포스팅이었길 바랍니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
 &lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
