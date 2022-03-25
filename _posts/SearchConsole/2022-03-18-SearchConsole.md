@@ -1,6 +1,6 @@
 ---
 title:  "[Google SearchConsole] Google 서치콘솔 시작하기"
-excerpt: "Google SearchConsole 사용법."
+excerpt: "Google SearchConsole 사용법"
 categories:
   - SearchConsole
 tags:

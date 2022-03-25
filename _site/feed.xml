@@ -6,9 +6,86 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Mar 2022 15:12:32 +0900</pubDate>
-    <lastBuildDate>Thu, 24 Mar 2022 15:12:32 +0900</lastBuildDate>
+    <pubDate>Fri, 25 Mar 2022 09:12:10 +0900</pubDate>
+    <lastBuildDate>Fri, 25 Mar 2022 09:12:10 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>[HTML] Tag 모음</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 &lt;a href=&quot;http://localhost:4000/html/HTML/&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 에 이어서,&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 
+&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;Tag 부분을 더 상세히 설명드리는 포스팅 이어가겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;많은 Tag들이 쓰이고 있지만,&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt; 
+&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;대부분 많이 쓰이고 자주 쓰이는 Tag를 설명 드리겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;천천히 하나씩 알아보겠습니다.&lt;/strong&gt;&lt;/span&gt; 
+***&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;tag-모음-&quot;&gt;[Tag 모음] &lt;br /&gt;&lt;/h3&gt;
+
+&lt;p&gt;자주쓰이는 Tag 통계에 맞춰 추가 설명을 하겠습니다.&lt;br /&gt;
+아래 통계 이미지의 내용이 정리 안된 부분은,&lt;br /&gt;
+이전 포스팅에서 확인할 수 있으니 &lt;a href=&quot;http://localhost:4000/html/HTML/&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 을 참고해 주세요&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/6cc2f226-f43b-4e02-a0b0-900aebce14a9/1111.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/6cc2f226-f43b-4e02-a0b0-900aebce14a9/1111.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/6cc2f226-f43b-4e02-a0b0-900aebce14a9/1111.png&quot; /&gt;
+&lt;/a&gt;
+[ 출처 : &lt;a href=&quot;https://www.advancedwebranking.com/seo/html-study/&quot; target=&quot;_blank&quot;&gt;Web Ranking&lt;/a&gt; ]&lt;/p&gt;
+
+&lt;h4 id=&quot;1--link-&quot;&gt;1. &amp;lt; link &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;2--style-&quot;&gt;2. &amp;lt; style &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;3--script-&quot;&gt;3. &amp;lt; script &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;4--div-&quot;&gt;4. &amp;lt; div &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;5--span-&quot;&gt;5. &amp;lt; span &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;6--a-&quot;&gt;6. &amp;lt; a &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;7--p-&quot;&gt;7. &amp;lt; p &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;8--img-&quot;&gt;8. &amp;lt; img &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;9--ul-&quot;&gt;9. &amp;lt; ul &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;10--ol-&quot;&gt;10. &amp;lt; ol &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;11--li-&quot;&gt;11. &amp;lt; li &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;12--dl-&quot;&gt;12. &amp;lt; dl &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;13--dt-&quot;&gt;13. &amp;lt; dt &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;14--dd-&quot;&gt;14. &amp;lt; dd &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;15--br-&quot;&gt;15. &amp;lt; br &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;16--h1----h6-&quot;&gt;16. &amp;lt; h1 &amp;gt; ~ &amp;lt; h6 &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;17--input-&quot;&gt;17. &amp;lt; input &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;18--form-&quot;&gt;18. &amp;lt; form &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;19--iframe-&quot;&gt;19. &amp;lt; iframe &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;20--nav-&quot;&gt;20. &amp;lt; nav &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;21--strong-&quot;&gt;21. &amp;lt; strong &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;22--button-&quot;&gt;22. &amp;lt; button &amp;gt;&lt;/h4&gt;
+&lt;h4 id=&quot;23--aside-&quot;&gt;23. &amp;lt; aside &amp;gt;&lt;/h4&gt;
+
+&lt;h3 id=&quot;semantic-tag&quot;&gt;[semantic Tag]&lt;/h3&gt;
+
+&lt;h3 id=&quot;주석&quot;&gt;[주석]&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 HTML의 Tag 모음을 포스팅 하였습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;도움이 되는 포스팅이었길 바랍니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//html/Tags/</link>
+        <guid isPermaLink="true">http://localhost:4000//html/Tags/</guid>
+        
+        <category>HTML</category>
+        
+        <category>Tags</category>
+        
+        
+        <category>HTML</category>
+        
+      </item>
     
       <item>
         <title>[HTML] 구성과 구조</title>
@@ -176,7 +253,8 @@ name은 value(값)가 됩니다.&lt;/p&gt;
   &lt;li&gt;CSS 스타일&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;위 정보들 외 여러가지 HTML 페이지의 모든 내용을 담고 있습니다.&lt;/p&gt;
+&lt;p&gt;위 정보들 외 여러가지 HTML 페이지의 모든 내용을 담고 있습니다.&lt;br /&gt;
+즉, 웹 페이지의 정보 및 문서에서 사용할 외부 파일들을 링크할 때 사용되는 공간입니다.&lt;/p&gt;
 
 &lt;h4 id=&quot;4--meta-charsetutf-8-&quot;&gt;4. &amp;lt; meta charset=”utf-8” &amp;gt;&lt;br /&gt;&lt;/h4&gt;
 

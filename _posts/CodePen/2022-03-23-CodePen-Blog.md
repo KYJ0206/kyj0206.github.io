@@ -1,6 +1,6 @@
 ---
 title:  "[CodePen] 블로그에 CodePen Embed하는 방법"
-excerpt: "CodePen Embed하는법."
+excerpt: "CodePen Embed하는법"
 categories:
   - CodePen
 tags:

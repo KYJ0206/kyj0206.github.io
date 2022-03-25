@@ -1,6 +1,6 @@
 ---
 title:  "[Google Analytics] Google 애널리틱스 시작하기"
-excerpt: "Google Analytics 사용법."
+excerpt: "Google Analytics 사용법"
 categories:
   - Analytics
 tags:
