@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Mar 2022 12:10:16 +0900</pubDate>
-    <lastBuildDate>Mon, 28 Mar 2022 12:10:16 +0900</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2022 12:21:26 +0900</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2022 12:21:26 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -902,8 +902,8 @@ ${emojis[$RAND_EMOJI_N]} 부분을 자신이 원하는 이모지로 바꾸어 �
   &lt;li&gt;6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png&quot;&gt;
+&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;2sitemapxml-생성&quot;&gt;2.sitemap.xml 생성&lt;/h4&gt;

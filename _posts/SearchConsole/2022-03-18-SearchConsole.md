@@ -71,8 +71,8 @@ naver_site_verification:
 
 - 6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.
 
-<a href="https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png">
-![https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png](https://images.velog.io/images/kyj0206/post/34dd4e1d-3521-45ed-8df0-7e5acd67476d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.49.06.png)
+<a href="https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png">
+![https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png](https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png)
 </a>
 
 #### 2.sitemap.xml 생성
