@@ -130,8 +130,8 @@ User-agent: *
 - 2 ) 본인의 github.io 속성을 선택하고, 왼쪽 메뉴에 색인 > Sitemaps 에 들어갑니다.
 - 3 ) 새 사이트멥 추가에 sitemap.xml을 입력하고 제출합니다.
 
-<a href="https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png">
-![https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png](https://images.velog.io/images/kyj0206/post/35cd6ed9-1c55-44ad-8686-f1209fb66054/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.11.16.png)
+<a href="https://images.velog.io/images/kyj0206/post/fadec359-a01d-4ceb-ab50-60ae61326edd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.04.09.png">
+![https://images.velog.io/images/kyj0206/post/fadec359-a01d-4ceb-ab50-60ae61326edd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.04.09.png](https://images.velog.io/images/kyj0206/post/fadec359-a01d-4ceb-ab50-60ae61326edd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.04.09.png)
 </a>
 
 - 4 ) 제출하고 2~3일 간 이후, sitemap 이 정상적으로 제출 되었는지 확인 해 줍니다.
