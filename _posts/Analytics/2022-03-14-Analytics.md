@@ -110,9 +110,14 @@ IOS app / Android app / Wep 중에 웹으로 설정하여 줍니다.
 
 이후 자신의 블로그 _config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.
 
-<a href="https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png">
-![https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png](https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png)
-</a>
+```css
+# Analytics
+analytics:
+  provider: "google-gtag"  # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-SZCCGBLH3T"
+    anonymize_ip: #false (default)
+```
 
 업데이트 내역을 Commit 하여 Push 해주고, 애널리틱스에 접속하여 주면 연동이 된 결과를 확인할 수 있습니다.
 

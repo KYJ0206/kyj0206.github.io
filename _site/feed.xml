@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Mar 2022 09:12:10 +0900</pubDate>
-    <lastBuildDate>Fri, 25 Mar 2022 09:12:10 +0900</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2022 11:53:56 +0900</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2022 11:53:56 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;hr /&gt;
 &lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 &lt;a href=&quot;http://localhost:4000/html/HTML/&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 에 이어서,&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 &lt;a href=&quot;https://kyj0206.github.io/KYJ0206.Git_BLog/html/HTML/&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 에 이어서,&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 
 &lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;Tag 부분을 더 상세히 설명드리는 포스팅 이어가겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;많은 Tag들이 쓰이고 있지만,&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt; 
@@ -30,7 +30,7 @@
 
 &lt;p&gt;자주쓰이는 Tag 통계에 맞춰 추가 설명을 하겠습니다.&lt;br /&gt;
 아래 통계 이미지의 내용이 정리 안된 부분은,&lt;br /&gt;
-이전 포스팅에서 확인할 수 있으니 &lt;a href=&quot;http://localhost:4000/html/HTML/&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 을 참고해 주세요&lt;/p&gt;
+이전 포스팅에서 확인할 수 있으니 &lt;a href=&quot;https://kyj0206.github.io/KYJ0206.Git_BLog/html/HTML/#4-tag%ED%83%9C%EA%B7%B8-%EB%9E%80&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 을 참고해 주세요&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/6cc2f226-f43b-4e02-a0b0-900aebce14a9/1111.png&quot;&gt;
 &lt;img src=&quot;https://images.velog.io/images/kyj0206/post/6cc2f226-f43b-4e02-a0b0-900aebce14a9/1111.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/6cc2f226-f43b-4e02-a0b0-900aebce14a9/1111.png&quot; /&gt;
@@ -38,28 +38,155 @@
 [ 출처 : &lt;a href=&quot;https://www.advancedwebranking.com/seo/html-study/&quot; target=&quot;_blank&quot;&gt;Web Ranking&lt;/a&gt; ]&lt;/p&gt;
 
 &lt;h4 id=&quot;1--link-&quot;&gt;1. &amp;lt; link &amp;gt;&lt;/h4&gt;
+
+&lt;p&gt;외부 스타일 시트 -  웹사이트의 전체 Css를 하나의 파일에서 변경할 수 있습니다.&lt;br /&gt; 
+유지보수가 편하고 안정적인 방식입니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;외부 파일 경로&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;rel=”stylesheet” 속성은 연결 파일이 stylesheet라는 것을 명시 합니다.&lt;/p&gt;
+
+&lt;p&gt;href=”외부 파일 경로” 속성은 연결 파일의 경로를 명시합니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; ink &amp;gt; 태그의 type 속성은 링크된 외부 리소스의 미디어 타입을 명시합니다.&lt;br /&gt; 
+이 속성은 반드시 href 속성이 설정되어 있어야만 사용할 수 있습니다.&lt;/p&gt;
+
 &lt;h4 id=&quot;2--style-&quot;&gt;2. &amp;lt; style &amp;gt;&lt;/h4&gt;
+
+&lt;p&gt;내부 스타일 시트 - Html문서 내 &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt; 태그 사이에 &lt;style&gt;&lt;/style&gt;태그를 사용하여,&lt;br /&gt; 
+Css스타일을 적용해 줍니다.&lt;/p&gt;
+
+&lt;p&gt;해당 html문서만 Css스타일을 적용 합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;3--script-&quot;&gt;3. &amp;lt; script &amp;gt;&lt;/h4&gt;
+
+&lt;p&gt;html 과 코드를 연결 해주는 태그 입니다.&lt;br /&gt; 
+일반적으로 javascript를 연결해 줄때 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;기본적으로 &amp;lt; head &amp;gt;&amp;lt; /head &amp;gt;안에 위치하며,&lt;br /&gt; 
+&amp;lt; body &amp;gt;&amp;lt; /body &amp;gt;태그 안에 넣을 수도 있습니다.&lt;br /&gt; 
+&amp;lt; body &amp;gt;&amp;lt; /body &amp;gt;태그안에서 아래부분에 넣는 경우는 페이지 로딩(표시)을 빠르게 하기 위한 경우에 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;보통, 페이지 로딩 후에 필요한 스크립트들을 body태그 안 최하위에 위치 시킵니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; script &amp;gt; 태그의 사용법은 위에 언급한 CSS의 태그들과 같이&lt;br /&gt; 
+크게 두가지 방법이 있습니다.&lt;/p&gt;
+
+&lt;h5 id=&quot;1-기본&quot;&gt;1) 기본&lt;/h5&gt;
+
+&lt;p&gt;내부 스크립트&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Kim.YJ&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;2-파일-불러오는-방식&quot;&gt;2) 파일 불러오는 방식&lt;/h5&gt;
+
+&lt;p&gt;외부 스크립트&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nameScript.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt; 
+
+or 
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nameScript.js&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;( nameScript )&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.getElementById&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;Kim.YJ&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;4--div-&quot;&gt;4. &amp;lt; div &amp;gt;&lt;/h4&gt;
+
+&lt;p&gt;&amp;lt; div &amp;gt;&amp;lt; /div &amp;gt; 태그는 Division의 약자로 웹사이트의 레이아웃을 만들때 주로 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;태그 자체의 의미는 없고 목적에 따라 컨텐츠를 묶어줄 때 사용합니다.&lt;br /&gt;
+일반적으로 block태그의 태표적인 예 입니다.&lt;br /&gt;
+자세한 설명은 &lt;a href=&quot;https://kyj0206.github.io/KYJ0206.Git_BLog/html/HTML/#4-tag%ED%83%9C%EA%B7%B8-%EB%9E%80&quot; target=&quot;_blank&quot;&gt;이전 포스팅&lt;/a&gt; 을 참고 해주세요&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;5--span-&quot;&gt;5. &amp;lt; span &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;6--a-&quot;&gt;6. &amp;lt; a &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;7--p-&quot;&gt;7. &amp;lt; p &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;8--img-&quot;&gt;8. &amp;lt; img &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;9--ul-&quot;&gt;9. &amp;lt; ul &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;10--ol-&quot;&gt;10. &amp;lt; ol &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;11--li-&quot;&gt;11. &amp;lt; li &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;12--dl-&quot;&gt;12. &amp;lt; dl &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;13--dt-&quot;&gt;13. &amp;lt; dt &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;14--dd-&quot;&gt;14. &amp;lt; dd &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;15--br-&quot;&gt;15. &amp;lt; br &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;16--h1----h6-&quot;&gt;16. &amp;lt; h1 &amp;gt; ~ &amp;lt; h6 &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;17--input-&quot;&gt;17. &amp;lt; input &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;18--form-&quot;&gt;18. &amp;lt; form &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;19--iframe-&quot;&gt;19. &amp;lt; iframe &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;20--nav-&quot;&gt;20. &amp;lt; nav &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;21--strong-&quot;&gt;21. &amp;lt; strong &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;22--button-&quot;&gt;22. &amp;lt; button &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;23--aside-&quot;&gt;23. &amp;lt; aside &amp;gt;&lt;/h4&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;semantic-tag&quot;&gt;[semantic Tag]&lt;/h3&gt;
 
@@ -140,7 +267,7 @@
   &lt;p&gt;예를 들어 img 요소는 해당 위치에 이미지를 삽입하기 위한 요소입니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;img src=&quot;https://images.velog.io/images/kyj0206/post/af69bf6a-ec42-4054-84b7-b98e61217420/instagram-g00c1c1c22_640.png&quot;&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://images.velog.io/images/kyj0206/post/af69bf6a-ec42-4054-84b7-b98e61217420/instagram-g00c1c1c22_640.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;별도의 닫는 태그 없이 사용해도 아래 이미지와 같이 적용되는 것을 확인할 수 있습니다.&lt;/p&gt;
@@ -154,7 +281,7 @@
 &lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%86%8D%EC%84%B1_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)&quot;&gt;Attributes&lt;/a&gt;는 속성이란 뜻을 가지고 있습니다.&lt;br /&gt;
 Html문서에서 Elements에 추가적인 정보를 넣을 때 사용되는 요소입니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;div class=&quot;name&quot;&amp;gt;Kim.YJ&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Kim.YJ&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;위의 div태그의 “name”라는 클래스 속성을 볼 수 있는데, &lt;br /&gt;    &lt;br /&gt;
@@ -220,17 +347,17 @@ name은 value(값)가 됩니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;html-의-구조&quot;&gt;[HTML 의 구조]&lt;br /&gt;&lt;/h3&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;lt;html lang=&quot;ko&quot;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&amp;lt;title&amp;gt;HTML 문서 제목&amp;lt;/title&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&amp;lt;h1&amp;gt;제목입니다.&amp;lt;/h1&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&amp;lt;p&amp;gt;단락 입니다.&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ko&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;HTML 문서 제목&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;제목입니다.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;단락 입니다.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;이제 어떻게 개별 요소를 결합해 전체 HTML 페이지를 구성하는지에 대해 알아보겠습니다.&lt;br /&gt;
@@ -474,8 +601,8 @@ Local서버로 확인 결과,아래 이미지와 같이 정상적으로 화면�
 
 &lt;p&gt;모든 준비가 되었다면, 터미널에 아래 명령어만 복사해서 붙여넣기하면 설치가 됩니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;$ sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;아래와 같이 설치가 진행 된다면, 정상적으로 설치가 진행되는것 이므로 잠시 기다려 줍니다.&lt;/p&gt;
 
@@ -496,12 +623,12 @@ INSERT 모드 에서만 수정을 하실수 있으니, 꼭 확인해 주세요.&
 iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;vi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.zshrc&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;위의 파일을 열어보면 중간에 아래와 같은 줄이 있다. 원하는 테마를 입력하여 변경합니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;ZSH_THEME=&quot;agnoster&quot;&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ZSH_THEME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;agnoster&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;테마는 아래 링크로 들어가면 여러가지 테마가 있는데&lt;br /&gt;
@@ -556,23 +683,24 @@ iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
 
 &lt;p&gt;agnoster 테마를 설치한 기준으로 쉘에 아래의 명령어를 입력해줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.oh-my-zsh/themes/agnoster.zsh-theme&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;vi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.oh-my-zsh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;themes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;agnoster&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.zsh-theme&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;아래쪽으로 보면, build_prompt()를 볼 수 있습니다. &lt;br /&gt;
 그리고 prompt_newline을 prompt_hg와 promt_end사이에 넣어줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;build_prompt() {&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;RETVAL=$?&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_status&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_virtualenv&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_context&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_dir&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_git&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_bzr&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_hg&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_newline //이부분을 추가 꼭 순서 지켜서&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_end }&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;build_prompt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;RETVAL=$?&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_status&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_virtualenv&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_context&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_dir&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_git&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_bzr&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_hg&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_newline&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;//이부분을&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;추가&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;꼭&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;순서&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;지켜서&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;prompt_end&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;코드 제일 하단에 아래 코드를 넣어줍니다.&lt;/p&gt;
@@ -588,12 +716,12 @@ iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
 &lt;p&gt;syntax highlight는 사용 가능한 명령어들에 highlight를 넣어주는 기능입니다.&lt;/p&gt;
 
 &lt;p&gt;iTerm2에 다음과 같은 명령어를 입력합니다.&lt;/p&gt;
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;vi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.zshrc&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;아래 코드를 제일아래 부분에 추가로 넣어줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;정상 수정하고 iTerm2를 재시작해주면 정상 적용되어 집니다.&lt;/p&gt;
@@ -606,14 +734,14 @@ iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
 
 &lt;p&gt;터미널에 다음 내용을 순서대로 입력 해줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
-&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+vi ~/.zshrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;~/.zshrc 열어 아래 코드를 복사하고 맨아래 공간에 붙여 넣어줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;저장 하고 터미널을 재시작 하면 자동완성이 적용되어 있습니다.&lt;/p&gt;
@@ -625,16 +753,16 @@ iTrem2를 재시작 해 주면 정상으로 수정적용 됩니다.&lt;/p&gt;
 &lt;h4 id=&quot;8-쉘에-이모티콘-적용하기&quot;&gt;8. 쉘에 이모티콘 적용하기&lt;/h4&gt;
 
 &lt;p&gt;iTerm2에 다음과 같은 명령어를 입력합니다.&lt;/p&gt;
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;vi ~/.zshrc&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;vi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.zshrc&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;아래 코드를 제일아래 부분에 추가로 넣어줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;prompt_context() {&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;# Custom (Random emoji)&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;emojis=(&quot;🦄&quot; &quot;🌈&quot; &quot;🍭&quot;)&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;prompt_segment black default &quot;Superman ${emojis[$RAND_EMOJI_N]} &quot;}&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;prompt_context&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;Custom&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;(Random&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;emoji)&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;emojis=(&quot;🦄&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;🌈&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;🍭&quot;)&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;RAND_EMOJI_N=$((&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$RANDOM&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;${#emojis[@]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;prompt_segment&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;black&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;Superman ${emojis[$RAND_EMOJI_N]} &quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;이렇게 하면 터미널을 킬때마다 랜덤으로 위의 작성된 이모티콘이 적용됩니다. &lt;br /&gt;
@@ -763,9 +891,12 @@ ${emojis[$RAND_EMOJI_N]} 부분을 자신이 원하는 이모지로 바꾸어 �
   &lt;li&gt;5 ) _config.yml 에서 위 이미지의 content 내용을 복사하여 아래 항목에 입력해 줍니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;SEO&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Related&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;google_site_verification&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;MSlec-s9ul06lFCiePy5m4gkOoGMJ8j6ObqX8TdKeXE&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;bing_site_verification&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;yandex_site_verification&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;naver_site_verification&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.&lt;/li&gt;
@@ -783,9 +914,35 @@ ${emojis[$RAND_EMOJI_N]} 부분을 자신이 원하는 이모지로 바꾸어 �
   &lt;li&gt;3 ) 아래 내용을 sitemap.xml에 추가합니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;null&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xml&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1.0&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlset&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:xsi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xsi&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:schemaLocation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% for &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localhost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/loc &amp;gt;
+      { % if post.lastmod == null % }
+        &amp;lt; lastmod &amp;gt;&amp;lt; /&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastmod&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% else &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lastmod&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/lastmod &amp;gt;
+      { % endif % }
+
+      { % if post.sitemap.changefreq == null % }
+        &amp;lt; changefreq &amp;gt;weekly&amp;lt; /&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;changefreq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% else &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;changefreq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/changefreq &amp;gt;
+      { % endif % }
+
+      { % if post.sitemap.priority == null % }
+          &amp;lt;priority&amp;gt;0.5&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;priority&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% else &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;priority&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/priority &amp;gt;
+      { % endif % }
+    &amp;lt; /u&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;% endfor &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/urlset &amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;3robotstxt-생성&quot;&gt;3.robots.txt 생성&lt;/h4&gt;
 
@@ -795,9 +952,10 @@ ${emojis[$RAND_EMOJI_N]} 부분을 자신이 원하는 이모지로 바꾸어 �
   &lt;li&gt;3 ) sitemap 에 자신의 블로그 주소를 넣어줍니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;User-agent: *
+ Allow: /
+ Sitemap: http://localhost:4000https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;4google-search-console-에-sitemap-제출&quot;&gt;4.Google Search Console 에 sitemap 제출&lt;/h4&gt;
 
@@ -958,9 +1116,13 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
 
 &lt;p&gt;이후 자신의 블로그 _config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/16d45b9d-afc4-4062-b25e-4ac9f1406c61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.47.26.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Analytics&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;analytics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;google-gtag&quot;&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;google&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;google-universal&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;google-gtag&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;custom&quot;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;tracking_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;G-SZCCGBLH3T&quot;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;anonymize_ip&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#false&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;업데이트 내역을 Commit 하여 Push 해주고, 애널리틱스에 접속하여 주면 연동이 된 결과를 확인할 수 있습니다.&lt;/p&gt;
 
@@ -1016,8 +1178,9 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
 
 &lt;h4 id=&quot;config-설정&quot;&gt;config [설정]&lt;/h4&gt;
 
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config user.name 'KYJ0206'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png&quot; /&gt;&lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt;git config user.name “이름”
       &lt;ul&gt;
@@ -1027,8 +1190,9 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config user.email 'gansoo.mayo@gmail.com'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png&quot; /&gt;&lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt;git config user.email “이메일주소”
       &lt;ul&gt;
@@ -1137,17 +1301,20 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
 &lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;이제 본격적인 포스팅 과정에 앞서 이전 포스팅에서 만들어 두었던 repository를 clone해온 jekyll 테마에 적용해 보겠습니다.&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Code에서 _config.yml 파일을 찾아줍니다&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Site Settings 에서 본인의 블로그에 맞게 수정합니다.&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;본인의 주소를 URL에 적용하여 주면 됩니다.&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Site&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Settings&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;locale&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'en-US'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Kim.YJ_blog'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;title_separator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'-'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;tagline&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;appears&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;below&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;masthead&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Kim Yeong Jea'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'An amazing website.'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'https://kyj0206.github.io/KYJ0206.Git_BLog/'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'/'&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'kyj0206.github.io/KYJ0206.Git_BLog/'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -1366,9 +1533,14 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
 &lt;/p&gt;
 
 &lt;h5 id=&quot;4terminal-접속하여-연동&quot;&gt;4.Terminal 접속하여 연동&lt;/h5&gt;
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/ff346043-ea88-4609-a53e-f33a68dccfd3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-10%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.52.png&quot; style=&quot;max-width:100%; height:auto&quot; width=&quot;100%&quot; height=&quot;auto&quot; filename=&quot;깃.jpg&quot; filemime=&quot;image/jpeg&quot; alt=&quot;img_1&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;연동하고 싶은 폴더&quot;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;init&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;커밋 메세지&quot;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;remote&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/~~&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#new&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;주소&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;main&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -1508,33 +1680,40 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
 &lt;/p&gt;
 
 &lt;h4 id=&quot;1-ruby-설치하기&quot;&gt;1. Ruby 설치하기.&lt;br /&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span&gt;컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.&lt;/span&gt;&lt;br /&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;aside&gt;
 &lt;span&gt;Ruby가 설치 되어있지 않다면 &lt;a href=&quot;https://blog.naver.com/qhqh147/222633879376&quot;&gt;Homebrew&lt;/a&gt;를 이용하여 아래 명령어로 설치하여 줍니다.&lt;/span&gt;&lt;br /&gt;
 &lt;span style=&quot;background:#faedc9&quot;&gt;❗ Homebrew 가 설치되어 있다는 가정하에 진행하겠습니다.&lt;/span&gt;
 &lt;/aside&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-size:18px&quot;&gt;( Homebrew에 대한 설치방법과 자세한 설명은 출처: &lt;a href=&quot;https://blog.naver.com/qkrtndus3062/222657808586&quot;&gt;연님블로그 로 확인 해주세요. )&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:18px&quot;&gt;( Homebrew에 대한 설치방법과 자세한 설명은 출처: &lt;a href=&quot;https://blog.naver.com/qkrtndus3062/222657808586&quot;&gt;연님블로그 로 확인 해주세요. )&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(sudo) brew install ruby
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;2-jekyll-설치하기&quot;&gt;2. Jekyll 설치하기.&lt;br /&gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;span&gt;테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.&lt;/span&gt;&lt;br /&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(sudo) gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;3-bundler-설치하기&quot;&gt;3. bundler 설치하기.&lt;br /&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span&gt;bundler도 설치해줍시다.&lt;/span&gt;&lt;br /&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;bundler도 설치해줍시다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(sudo) gem install bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;span&gt;이러면 기본적인 세팅이 모두 완료되셨습니다!&lt;/span&gt;&lt;br /&gt;
 &lt;span&gt;&lt;span style=&quot;background:#faedc9&quot;&gt;[ ruby -v ]&lt;/span&gt; 와 &lt;span style=&quot;background:#faedc9&quot;&gt;[ jekyll -v ]&lt;/span&gt; 를 입력하여 정상적으로 설치되었는지 확인해주세요 :)&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;4-로컬-서버-실행&quot;&gt;4. 로컬 서버 실행.&lt;br /&gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;span&gt;아래 명령어를 입력하여 줍니다.&lt;/span&gt;&lt;br /&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;아래 명령어를 입력하여 줍니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;span&gt;정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.&lt;/span&gt;&lt;br /&gt;
 &lt;span&gt;이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;

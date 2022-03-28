@@ -478,33 +478,40 @@
 </p>
 
 <h4 id="1-ruby-설치하기">1. Ruby 설치하기.<br /></h4>
-<p><span>컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png" alt="https://images.velog.io/images/kyj0206/post/a7bb086e-a2db-45d4-b407-d9734ab99f61/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.08.54.png" /></p>
+<p><span>컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.</span><br /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
+</code></pre></div></div>
 
 <aside>
 <span>Ruby가 설치 되어있지 않다면 <a href="https://blog.naver.com/qhqh147/222633879376">Homebrew</a>를 이용하여 아래 명령어로 설치하여 줍니다.</span><br />
 <span style="background:#faedc9">❗ Homebrew 가 설치되어 있다는 가정하에 진행하겠습니다.</span>
 </aside>
 
-<p><span style="font-size:18px">( Homebrew에 대한 설치방법과 자세한 설명은 출처: <a href="https://blog.naver.com/qkrtndus3062/222657808586">연님블로그 로 확인 해주세요. )</a></span><br />
-<img src="https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png" alt="https://images.velog.io/images/kyj0206/post/37cdaa61-547e-490e-8e4d-d28766d6962b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.12.47.png" /></p>
+<p><span style="font-size:18px">( Homebrew에 대한 설치방법과 자세한 설명은 출처: <a href="https://blog.naver.com/qkrtndus3062/222657808586">연님블로그 로 확인 해주세요. )</a></span><br /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(sudo) brew install ruby
+</code></pre></div></div>
 
 <h4 id="2-jekyll-설치하기">2. Jekyll 설치하기.<br /></h4>
 
-<p><span>테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png" alt="https://images.velog.io/images/kyj0206/post/68e1dd02-ace5-492b-8d86-bdbcb0e054a3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.55.57.png" /></p>
+<p><span>테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.</span><br /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(sudo) gem install jekyll
+</code></pre></div></div>
 
 <h4 id="3-bundler-설치하기">3. bundler 설치하기.<br /></h4>
-<p><span>bundler도 설치해줍시다.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png" alt="https://images.velog.io/images/kyj0206/post/46d2fd74-f3dc-46ef-8cbe-4e91c6c87422/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.56.21.png" /></p>
+<p><span>bundler도 설치해줍시다.</span><br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(sudo) gem install bundler
+</code></pre></div></div>
 
 <p><span>이러면 기본적인 세팅이 모두 완료되셨습니다!</span><br />
 <span><span style="background:#faedc9">[ ruby -v ]</span> 와 <span style="background:#faedc9">[ jekyll -v ]</span> 를 입력하여 정상적으로 설치되었는지 확인해주세요 :)</span><br /></p>
 
 <h4 id="4-로컬-서버-실행">4. 로컬 서버 실행.<br /></h4>
 
-<p><span>아래 명령어를 입력하여 줍니다.</span><br />
-<img src="https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png" alt="https://images.velog.io/images/kyj0206/post/0f26d4df-b458-4028-becf-70bcd01b03c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.11.26.png" /></p>
+<p><span>아래 명령어를 입력하여 줍니다.</span><br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+</code></pre></div></div>
 
 <p><span>정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.</span><br />
 <span>이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.</span><br /></p>
@@ -629,7 +636,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     

@@ -390,8 +390,9 @@
 
 <h4 id="config-설정">config [설정]</h4>
 
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config user.name 'KYJ0206'
+</code></pre></div></div>
 <blockquote>
-  <p><img src="https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png" alt="https://images.velog.io/images/kyj0206/post/797a45c0-3759-4663-8dbd-e3caa391a326/config.name.png" /></p>
   <ul>
     <li>git config user.name “이름”
       <ul>
@@ -401,8 +402,9 @@
   </ul>
 </blockquote>
 
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config user.email 'gansoo.mayo@gmail.com'
+</code></pre></div></div>
 <blockquote>
-  <p><img src="https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png" alt="https://images.velog.io/images/kyj0206/post/4dd978a0-37ba-4633-bf77-587fb8297b6a/config.email.png" /></p>
   <ul>
     <li>git config user.email “이메일주소”
       <ul>
@@ -511,17 +513,20 @@
 <p><span style="font-size:1rem">이제 본격적인 포스팅 과정에 앞서 이전 포스팅에서 만들어 두었던 repository를 clone해온 jekyll 테마에 적용해 보겠습니다.</span> <br /></p>
 <ul>
   <li><span style="font-size:1rem">Code에서 _config.yml 파일을 찾아줍니다</span></li>
+  <li><span style="font-size:1rem">Site Settings 에서 본인의 블로그에 맞게 수정합니다.</span></li>
 </ul>
 
-<p><a href="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png">
-<img src="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" alt="https://images.velog.io/images/kyj0206/post/bce9aed8-0784-430f-83a7-0e91fbd084ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.57.59.png" />
-</a></p>
-
-<p><a href="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png">
-<img src="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" alt="https://images.velog.io/images/kyj0206/post/5ec4b11f-99e4-4c18-8902-ec5fb2082e6a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.08.47.png" />
-</a></p>
-
-<p><span style="font-size:1rem">본인의 주소를 URL에 적용하여 주면 됩니다.</span></p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="nt">Site</span> <span class="nt">Settings</span>
+<span class="nt">locale</span><span class="o">:</span> <span class="s2">'en-US'</span>
+<span class="nt">title</span><span class="o">:</span> <span class="s2">'Kim.YJ_blog'</span>
+<span class="nt">title_separator</span><span class="o">:</span> <span class="s2">'-'</span>
+<span class="nt">subtitle</span><span class="o">:</span> <span class="err">#</span> <span class="nt">site</span> <span class="nt">tagline</span> <span class="nt">that</span> <span class="nt">appears</span> <span class="nt">below</span> <span class="nt">site</span> <span class="nt">title</span> <span class="nt">in</span> <span class="nt">masthead</span>
+<span class="nt">name</span><span class="o">:</span> <span class="s2">'Kim Yeong Jea'</span>
+<span class="nt">description</span><span class="o">:</span> <span class="s2">'An amazing website.'</span>
+<span class="nt">url</span><span class="o">:</span> <span class="s2">'https://kyj0206.github.io/KYJ0206.Git_BLog/'</span>
+<span class="nt">baseurl</span><span class="o">:</span> <span class="s2">'/'</span>
+<span class="nt">repository</span><span class="o">:</span> <span class="s2">'kyj0206.github.io/KYJ0206.Git_BLog/'</span>
+</code></pre></div></div>
 
 <hr />
 
@@ -703,7 +708,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     

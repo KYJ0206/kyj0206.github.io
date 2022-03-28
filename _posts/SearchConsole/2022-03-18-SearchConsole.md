@@ -61,9 +61,13 @@ last_modified_at: 2022-03-18
 
 - 5 ) _config.yml 에서 위 이미지의 content 내용을 복사하여 아래 항목에 입력해 줍니다.
 
-<a href="https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png">
-![https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png](https://images.velog.io/images/kyj0206/post/1d184a30-2cf5-4009-84fb-defeb17f6b33/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.42.30.png)
-</a>
+```css
+# SEO Related
+google_site_verification: MSlec-s9ul06lFCiePy5m4gkOoGMJ8j6ObqX8TdKeXE
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
+```
 
 - 6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.
 
@@ -77,9 +81,36 @@ last_modified_at: 2022-03-18
 - 2 ) sitemap.xml 파일을 자기 github.io root 경로에 생성합니다.
 - 3 ) 아래 내용을 sitemap.xml에 추가합니다.
 
-<a href="https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png">
-![https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png](https://images.velog.io/images/kyj0206/post/22b7619c-b32a-4b62-bf69-fad18dae5842/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.33.02.png)
-</a>
+```ruby
+---
+layout: null
+---
+< ?xml version="1.0" encoding="UTF-8"? >
+< urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
+  { % for post in site.posts % }
+    < url >
+      < loc >{{ site.url }}{{ post.url }}< /loc >
+      { % if post.lastmod == null % }
+        < lastmod >{{ post.date | date_to_xmlschema }}< /lastmod >
+      { % else % }
+        < lastmod >{{ post.lastmod | date_to_xmlschema }}< /lastmod >
+      { % endif % }
+
+      { % if post.sitemap.changefreq == null % }
+        < changefreq >weekly< /changefreq >
+      { % else % }
+        < changefreq >{{ post.sitemap.changefreq }}< /changefreq >
+      { % endif % }
+
+      { % if post.sitemap.priority == null % }
+          <priority>0.5</priority>
+      { % else % }
+        < priority >{{ post.sitemap.priority }}< /priority >
+      { % endif % }
+    < /url >
+  { % endfor % }
+< /urlset >
+```
 
 #### 3.robots.txt 생성
 
@@ -87,9 +118,11 @@ last_modified_at: 2022-03-18
 - 2 ) 아래 내용을 robots.txt 파일에 작성합니다.
 - 3 ) sitemap 에 자신의 블로그 주소를 넣어줍니다.
 
-<a href="https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png">
-![https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png](https://images.velog.io/images/kyj0206/post/e0e348d7-96af-458e-b488-6da624b9a587/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.05.40.png)
-</a>
+```html
+User-agent: *
+ Allow: /
+ Sitemap: {{ 'https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml' | relative_url | prepend: site.url }}
+```    
 
 #### 4.Google Search Console 에 sitemap 제출
 
