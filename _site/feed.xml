@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Mar 2022 17:22:17 +0900</pubDate>
-    <lastBuildDate>Tue, 29 Mar 2022 17:22:17 +0900</lastBuildDate>
+    <pubDate>Wed, 30 Mar 2022 14:27:43 +0900</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2022 14:27:43 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -130,7 +130,7 @@ or
 
 &lt;p&gt;&amp;lt; a &amp;gt;&amp;lt; /a &amp;gt; 태그는 하이퍼링크를 걸어주는 태그입니다.&lt;/p&gt;
 
-&lt;h5 id=&quot;속성&quot;&gt;속성&lt;/h5&gt;
+&lt;h5 id=&quot;6-1-속성&quot;&gt;6-1) 속성&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;href : 클릭시 이동 할 link&lt;/li&gt;
   &lt;li&gt;target : link를 여는 방법
@@ -296,18 +296,33 @@ HTML에서는 &amp;lt; br &amp;gt;를 통하여 줄바꿈을 합니다.&lt;/p&gt
 
 &lt;h4 id=&quot;15--form-&quot;&gt;15. &amp;lt; form &amp;gt;&lt;/h4&gt;
 
-&lt;p&gt;&amp;lt; form &amp;gt; 태그는 웹 페이지에서의 입력 양식을 의미합니다.
-로그인 창이나, 회원가입 폼 등이 이에 해당되죠.&lt;/p&gt;
+&lt;p&gt;&amp;lt; form &amp;gt; 태그는 웹 페이지에서의 입력 양식을 의미합니다.&lt;br /&gt;
+로그인 창이나, 회원가입 폼 등이 있습니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;텍스트 필드에 글자를 입력하거나,&lt;br /&gt;
+체크박스나 라디오 버튼을 클릭하고 제출 버튼을 누르면 백엔드 서버에 양식이 전달되어 정보를 처리하게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;실제로 백엔드 코드와 함께 &amp;lt; form &amp;gt;을 사용하기 위해서는 다음 속성들이 사용됩니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;name: 폼의 이름&lt;/li&gt;
+  &lt;li&gt;action: 폼 데이터가 전송되는 백엔드 url&lt;/li&gt;
+  &lt;li&gt;method: 폼 전송 방식 (GET / POST)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;폼 태그 이름&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;action=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;데이터를 보낼 주소&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;method=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;데이터 전송 방식&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&amp;lt; form &amp;gt; 태그는 전체 양식을 의미하며, 화면에 보이지 않는 추상적인 태그입니다.&lt;br /&gt;
+실제로 사용자가 양식을 입력하기 위한 태그는 &amp;lt; input &amp;gt; 태그 등이 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; input &amp;gt; 태그는의 설명은 아래 설명을 확인해 주세요.&lt;/p&gt;
 
 &lt;h4 id=&quot;16--input-&quot;&gt;16. &amp;lt; input &amp;gt;&lt;/h4&gt;
 
 &lt;p&gt;Input 태그는 입력 형식을 구현하기 위한 태그입니다.&lt;br /&gt;
 type 유형에 따라 다양하게 화면에 표시할 수 있습니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot; &lt;span class=&quot;nt&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;유형&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id값&quot;&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;속성=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;속성 값&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &quot; 
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot; &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;유형&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id값&quot;&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;속성=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;속성 값&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &quot; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;type 은 input 태그를 입력할 때 필수적인 속성입니다.&lt;/p&gt;
@@ -361,34 +376,300 @@ type 유형에 따라 다양하게 화면에 표시할 수 있습니다.&lt;/p&g
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;p&gt;&lt;br /&gt;
+위에 표기된 Type외에 HTML5 에는 더 다양한  &amp;lt; input &amp;gt; 종류가 있습니다.&lt;br /&gt;
+위에 표기된 표에는 가장 자주 쓰이는 type을 표기 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;다른 type은 추후에 상세 포스팅으로 설명드리겠습니다.&lt;/p&gt;
+
 &lt;h4 id=&quot;17--iframe-&quot;&gt;17. &amp;lt; iframe &amp;gt;&lt;/h4&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;iframe은 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EC%9E%84_%28%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9%29&quot; target=&quot;_blank&quot;&gt;Frame&lt;/a&gt;의 일종입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EC%9E%84_%28%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9%29&quot; target=&quot;_blank&quot;&gt;Frame&lt;/a&gt;은 브라우저 창을 여러 세그먼트로 분할해 서로 다른 여러 페이지들을 한 페이지에서 표현할 수 있다고 명시되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 Frame 은 여러 이유로 W3C 에서 사용하지 않게 권고 하였고,&lt;br /&gt;
+이후 Frame 구조로 된 웹 사이트는 점점 줄어들게 되면서, HTML5 규격에서는 제외 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 아직 Frame 구조로 된 웹 사이트들이 남아있기 때문에 호환성을 위해&lt;br /&gt; 
+일부 브라우저에는 &amp;lt; iframe &amp;gt; 태그로 지원 하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; iframe &amp;gt; 태그는 inline frame 의 줄임말이며, 페이지에 Frame 을 넣을 때 사용합니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;iframe은 여러 속성을 가지고 있습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;attribute&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;내용&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;name&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;iframe 이름&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;src&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;페이지 경로&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;srcdoc&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;html 을 직접 삽입&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;width/height&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;프레임 크기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;allow&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;fullscreen/payment API 등에 대한 액세스 허용 여부&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;referrerpolicy&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;iframe을 가져올 때 보낼 리퍼러 정보를 지정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;sandbox&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;보안을 위해 iframe 에서 form 이나 자바스크립트 실행 제한&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./sub.html&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;프레임 이름&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;500px&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;500px&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;sandbox=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;allow-scripts allow-popups&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    iframe를 지원하지 않는 브라우저인 경우 대체정보를 제공  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+태그의 간단한 설명의 포스팅이므로, 기본적 설명만 포스팅으로 진행하겠습니다.&lt;br /&gt;
+&amp;lt; iframe &amp;gt; 태그의 추가 설명은, 차후 따로 상세 포스팅으로 진행해 드리겠습니다.&lt;/p&gt;
 
 &lt;h4 id=&quot;18--nav-&quot;&gt;18. &amp;lt; nav &amp;gt;&lt;/h4&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;&amp;lt; nav &amp;gt; 태그는 다른 페이지 또는 현재 페이지의 다른 부분과 연결되는&lt;br /&gt; 
+네비게이션 링크(navigation links)들의 집합을 정의할 때 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; nav &amp;gt; 요소를 사용하는 일반적으로는 메뉴, 목차, 인덱스 등이 있습니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/html/intro&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;HTML&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/css/intro&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;CSS&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/javascript/intro&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;JavaScript&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;19--strong-&quot;&gt;19. &amp;lt; strong &amp;gt;&lt;/h4&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;&amp;lt; strong &amp;gt; 태그는 해당 콘텐츠의 중요성이나 심각함, 긴급함 등을 강조할 때 사용합니다.
+&amp;lt; strong &amp;gt; 태그는 일반적으로 콘텐츠를 굵은 텍스트로 표현됩니다.&lt;/p&gt;
+
+&lt;h5 id=&quot;19-1--b--태그와의-차이점&quot;&gt;19-1) &amp;lt; b &amp;gt; 태그와의 차이점&lt;/h5&gt;
+
+&lt;p&gt;&amp;lt; b &amp;gt; 태그는 콘텐츠의 중요성보다는 텍스트 자체의 굵어짐 사용&lt;br /&gt; 
+&amp;lt; strong &amp;gt; 태그는 콘텐츠 자체의 중요성을 강조할 때 사용&lt;/p&gt;
+
+&lt;h5 id=&quot;19-2--em--태그와의-차이점&quot;&gt;19-2) &amp;lt; em &amp;gt; 태그와의 차이점&lt;/h5&gt;
+
+&lt;p&gt;&amp;lt; em &amp;gt; 태그는 구어체 강조와 같이 문장의 의미를 변경하는데 사용&lt;br /&gt; 
+&amp;lt; strong &amp;gt; 요소는 문장의 일부분에 중요성을 추가하는데 사용&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;나는 &lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;자랑스런 대한민국&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; 국민이다!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;iframe height=&quot;300&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Untitled&quot; src=&quot;https://codepen.io/kyj0206/embed/XWVarJb?default-tab=html%2Cresult&quot; frameborder=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/kyj0206/pen/XWVarJb&quot;&gt;
+  Untitled&lt;/a&gt; by K.Y.J (&lt;a href=&quot;https://codepen.io/kyj0206&quot;&gt;@kyj0206&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
 
 &lt;h4 id=&quot;20--button-&quot;&gt;20. &amp;lt; button &amp;gt;&lt;/h4&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;&amp;lt; button &amp;gt; 태그는 클릭할 수 있는 버튼을 정의할 때 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; button &amp;gt; 태그의 type에는 3가지 값을 지정해 줄 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;submit&lt;/li&gt;
+  &lt;li&gt;reset&lt;/li&gt;
+  &lt;li&gt;button
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;브라우저 호환성을 위해 명시하여야 할 부분을 정리해 드리겠습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;&amp;lt; button &amp;gt; 태그의 type 속성을 항상 지정해 줍니다.&lt;br /&gt;
+IE(=익스플로러) 경우 기본 타입이 button 이지만,&lt;br /&gt;
+타 브라우저 경우 기본 타입이 submit 이기 때문입니다.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&amp;lt; form &amp;gt; 태그 안에서 버튼 만들 땐, &lt;br /&gt;
+반드시 &amp;lt; input &amp;gt; 태그 이용해 버튼 만들어야 합니다.&lt;br /&gt;
+타 브라우저가 &amp;lt; button &amp;gt; 태그의 속성값을 전송하는 반면에,&lt;br /&gt;
+IE는 시작태그와 종료태그 사이의 텍스트나 이미지를 전송합니다.&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;속성=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;속성값&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;텍스트 or 이미지&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;20-1--button--태그와--input--태그의-차이&quot;&gt;20-1) &amp;lt; button &amp;gt; 태그와 &amp;lt; input &amp;gt; 태그의 차이&lt;/h5&gt;
+&lt;p&gt;&amp;lt; input &amp;gt; 태그는 종료태그 없이 type 속성 이용해 버튼에 글자나 이미지를 넣어줍니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://images.velog.io/images/kyj0206/post/947a3102-cc60-45d1-b197-b28518b30a29/football-g26aef2ee8_640.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+이미지만 표시됨.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;iframe height=&quot;300&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Untitled&quot; src=&quot;https://codepen.io/kyj0206/embed/VwyzZbr?default-tab=html%2Cresult&quot; frameborder=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/kyj0206/pen/VwyzZbr&quot;&gt;
+  Untitled&lt;/a&gt; by K.Y.J (&lt;a href=&quot;https://codepen.io/kyj0206&quot;&gt;@kyj0206&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; button &amp;gt; 태그는 시작태그와 종료태그 사이에 글자나 이미지를 넣어줍니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit&amp;gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;images.velog.io&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;kyj0206&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/947&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;a3102-cc60-45d1-b197-b28518b30a29&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;football-g26aef2ee8_640.png&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+이미지 주위에 사각형 테두리와 배경색이 지정됨. button 태그 자체 패딩도 추가됨.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;iframe height=&quot;300&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Untitled&quot; src=&quot;https://codepen.io/kyj0206/embed/wvpqweN?default-tab=html%2Cresult&quot; frameborder=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/kyj0206/pen/wvpqweN&quot;&gt;
+  Untitled&lt;/a&gt; by K.Y.J (&lt;a href=&quot;https://codepen.io/kyj0206&quot;&gt;@kyj0206&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
 
 &lt;h4 id=&quot;21--aside-&quot;&gt;21. &amp;lt; aside &amp;gt;&lt;/h4&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;p&gt;&amp;lt; aside &amp;gt;태그는 본문 영역의 옆에 문서의 주요 내용과 간접적으로만 연관된 부분을 나타내는 태그입니다.&lt;br /&gt;
+본문의 옆에 주로 사이드바 혹은 콜아웃 박스로 표현할때 사용합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;aside&amp;gt;&lt;/span&gt;내용&lt;span class=&quot;nt&quot;&gt;&amp;lt;/aside&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;iframe height=&quot;300&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;Untitled&quot; src=&quot;https://codepen.io/kyj0206/embed/BaJdBEg?default-tab=html%2Cresult&quot; frameborder=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
+  See the Pen &lt;a href=&quot;https://codepen.io/kyj0206/pen/BaJdBEg&quot;&gt;
+  Untitled&lt;/a&gt; by K.Y.J (&lt;a href=&quot;https://codepen.io/kyj0206&quot;&gt;@kyj0206&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+&lt;/iframe&gt;
 
 &lt;h3 id=&quot;semantic-tag&quot;&gt;[semantic Tag]&lt;/h3&gt;
 
+&lt;p&gt;시멘틱 태그는 “의미가 있는 태그”라는 뜻입니다. &lt;br /&gt;
+즉, HTML tag들 중에서도 나름의 의미가 있는 태그들을 말합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;semantic-tag-중요점-3가지&quot;&gt;Semantic Tag 중요점 3가지&lt;/h4&gt;
+
+&lt;h5 id=&quot;1-seo--search-engine-optimization-&quot;&gt;1. SEO ( Search engine optimization )&lt;/h5&gt;
+
+&lt;p&gt;검색을 최적화하기 위해서 우리가 제목, 부제목, 시멘틱 태그를 잘 활용한다면,&lt;br /&gt; 
+특정 키워드로 검색했을 때, 내가 만든 웹사이트가 검색창에 노출될 수 있습니다.&lt;br /&gt; 
+다시 말해서, 브라우져의 검색 엔진이 내가 만든 웹사이트를 어떤 검색 결과에 띄워줘야 될지를 알려줄 수 있습니다.&lt;/p&gt;
+
+&lt;h5 id=&quot;2-웹-접근성&quot;&gt;2. 웹 접근성&lt;/h5&gt;
+
+&lt;p&gt;웹페이지를 시각적이 아니라, 음성으로 읽어주는 “스크린리더”를 이용하거나 또는 키보드만을 이용해서 내가 만든 웹사이트를 이용하는 경우, 
+적절한 시멘틱 태그로 잘 만들어진 웹사이트라면 스크린리더이든, 키보드만을 사용해서 동작하든 문제없이 동작할 수 있습니다.&lt;/p&gt;
+
+&lt;h5 id=&quot;3-유지보수성&quot;&gt;3. 유지보수성&lt;/h5&gt;
+
+&lt;p&gt;단순히, div tag로만 모든 구조를 만드는 것보다 시멘틱 태그를 활용하여 만들면 더 한 눈에 알아볼 수 있고,&lt;br /&gt;
+다른 개발자들이 코드를 유지보수하기가 더 편해집니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;시멘틱-태그-목록&quot;&gt;시멘틱 태그 목록&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;tag&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;내용&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; article &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;내용을 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; aside &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;페이지 콘텐츠를 제외한 콘텐츠를 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; details &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;사용자가 보거나 숨길 수있는 추가 세부 정보를 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; figcaption &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt; figure &amp;gt; 요소에 대한 캡션을 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; figure &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;일러스트레이션, 다이어그램, 사진, 코드 목록 등과 같은 자체 포함 된 콘텐츠를 지정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; header &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;문서나 섹션의 머릿글을 지정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; footer &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;문서 또는 섹션의 바닥글을 지정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; main &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;문서의 주요 내용을 지정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; mark &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;강조표시된 텍스트를 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; nav &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;네비게이션 링크를 정의한다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; section &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt; header &amp;gt;, &amp;lt; footer &amp;gt;와 함께 문서의 구역을 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; summary &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt; details &amp;gt; 요소를 위한 눈에 보이는 제목을 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; time &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;날짜/시간을 정의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; hn &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;각 웹 콘텐츠 영역에서 제목을 표시할 때 사용한 태그&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; hgroup &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;의미는 없지만 제목과 부제목을 묶는 용도의 태그&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&amp;lt; address &amp;gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;웹페이지 피드백을 위한 이메일주소 등의 연락처주소를 넣기 위한 태그&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h3 id=&quot;주석&quot;&gt;[주석]&lt;/h3&gt;
+
+&lt;p&gt;소스 코드가 뭐에 관련된 내용인지 설명할 때 사용하거나,&lt;br /&gt; 
+특정 소스를 브라우저에 실행시켜 보이고 싶지 않을 때 사용.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTML 주석 구문
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 주석내용 --&amp;gt;&lt;/span&gt;
+
+script 태그 안 주석 구문
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!--주석 내용//--&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
