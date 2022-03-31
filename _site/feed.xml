@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Mar 2022 14:27:43 +0900</pubDate>
-    <lastBuildDate>Wed, 30 Mar 2022 14:27:43 +0900</lastBuildDate>
+    <pubDate>Wed, 30 Mar 2022 15:49:05 +0900</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2022 15:49:05 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -662,7 +662,7 @@ IE는 시작태그와 종료태그 사이의 텍스트나 이미지를 전송합
 &lt;h3 id=&quot;주석&quot;&gt;[주석]&lt;/h3&gt;
 
 &lt;p&gt;소스 코드가 뭐에 관련된 내용인지 설명할 때 사용하거나,&lt;br /&gt; 
-특정 소스를 브라우저에 실행시켜 보이고 싶지 않을 때 사용.&lt;/p&gt;
+특정 소스를 브라우저에 실행시켜 보이고 싶지 않을 때 사용 합니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTML 주석 구문
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 주석내용 --&amp;gt;&lt;/span&gt;
