@@ -6,8 +6,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Mar 2022 18:29:31 +0900</pubDate>
-    <lastBuildDate>Thu, 31 Mar 2022 18:29:31 +0900</lastBuildDate>
+    <pubDate>Fri, 01 Apr 2022 10:29:49 +0900</pubDate>
+    <lastBuildDate>Fri, 01 Apr 2022 10:29:49 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -52,7 +52,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 
 &lt;h4 id=&quot;1-css-선택자의-종류&quot;&gt;1. CSS 선택자의 종류&lt;/h4&gt;
 
-&lt;h5 id=&quot;전체-선택자&quot;&gt;전체 선택자&lt;/h5&gt;
+&lt;h5 id=&quot;1-1-전체-선택자&quot;&gt;1-1) 전체 선택자&lt;/h5&gt;
 
 &lt;p&gt;전체 선택자는 html에서 모든 element(태그)에 같은 css 속성을 적용합니다.&lt;/p&gt;
 
@@ -62,7 +62,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h5 id=&quot;태그-선택자&quot;&gt;태그 선택자&lt;/h5&gt;
+&lt;h5 id=&quot;1-2-태그-선택자&quot;&gt;1-2) 태그 선택자&lt;/h5&gt;
 
 &lt;p&gt;태그 선택자는 html 요소를 직접적으로 기술하는 선택자 입니다.&lt;/p&gt;
 
@@ -74,7 +74,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h5 id=&quot;아이디-선택자&quot;&gt;아이디 선택자&lt;/h5&gt;
+&lt;h5 id=&quot;1-3-아이디-선택자&quot;&gt;1-3) 아이디 선택자&lt;/h5&gt;
 
 &lt;p&gt;아이디 선택자는 .className이 아닌 #을 붙인 #idName 으로 사용됩니다.&lt;/p&gt;
 
@@ -84,7 +84,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;idName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;아이디&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;선택자&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;사용법&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h5 id=&quot;클래스-선택자&quot;&gt;클래스 선택자&lt;/h5&gt;
+&lt;h5 id=&quot;1-4-클래스-선택자&quot;&gt;1-4) 클래스 선택자&lt;/h5&gt;
 
 &lt;p&gt;클래스 선택자는 위와같이 #대신 .을붙여 .className 으로 사용됩니다.&lt;/p&gt;
 
@@ -94,7 +94,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;className className2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;클래스&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;선택자&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;사용법&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h5 id=&quot;복합-선택자&quot;&gt;복합 선택자&lt;/h5&gt;
+&lt;h5 id=&quot;1-5-복합-선택자&quot;&gt;1-5) 복합 선택자&lt;/h5&gt;
 
 &lt;p&gt;선택자가 복합적으로 사용될때 사용됩니다.&lt;/p&gt;
 
@@ -106,7 +106,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div와&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;형제관계&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;같은레벨&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;의&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;모든&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p태그에&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;스타일&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;지정&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h5 id=&quot;속성-선택자&quot;&gt;속성 선택자&lt;/h5&gt;
+&lt;h5 id=&quot;1-6-속성-선택자&quot;&gt;1-6) 속성 선택자&lt;/h5&gt;
 
 &lt;p&gt;태그 안의 속성에 따라 스타일을 지정하는 선택자 방식입니다.&lt;br /&gt;
 조건에 따라 다양한 스타일을 지정할 수 있기 때문에 활용도가 높습니다.&lt;/p&gt;
@@ -160,7 +160,7 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;2-css의-장점&quot;&gt;2. CSS의 장점&lt;br /&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;2-css의-장점&quot;&gt;2. CSS의 장점&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -248,13 +248,287 @@ documents가 사용자에게 어떻게 보여질까를 기술하는 언어입니
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;4-함수-function&quot;&gt;4. 함수 (function)&lt;/h4&gt;
+&lt;h4 id=&quot;5-스타일시트-함수-function&quot;&gt;5. 스타일시트 함수 (function)&lt;br /&gt;&lt;/h4&gt;
 
-&lt;h4 id=&quot;5-rules&quot;&gt;5. @rules&lt;/h4&gt;
+&lt;p&gt;CSS에서 함수는 요소의 속성값을 제어하는 역할을 합니다.&lt;/p&gt;
 
-&lt;h4 id=&quot;6-속기속성&quot;&gt;6. 속기속성&lt;/h4&gt;
+&lt;h5 id=&quot;5-1-css-함수의-속성값&quot;&gt;5-1) CSS 함수의 속성값&lt;/h5&gt;
 
-&lt;h4 id=&quot;7-주석&quot;&gt;7. 주석&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;함수 속성값&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;내용&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;attr()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;해당요소의 HTML 속성값을 변환&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;calc()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;해당요소의 속성값을 사칙연산&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;var()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;해당요소의 사용자 정의 특성값을 삽입&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;linear-gradient()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;선형 그라디언트 백터이미지화&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;radial-gradient()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;타원형 그라디언트 백터이미지화&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;repeating-linear-gradient()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;선형 그라디언트 반복&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;repeating-radial-gradient()&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;타원형 그라디언트 반복&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;6-속기속성&quot;&gt;6. 속기속성&lt;br /&gt;&lt;/h4&gt;
+
+&lt;p&gt;CSS Shorthand, “줄여쓰기, 속기”는 스타일시트의 파일을 줄여줄 뿐만 아니라&lt;br /&gt;
+가독성을 높여주고 수정할때에도 빠르게 할 수 있습니다.&lt;/p&gt;
+
+&lt;h5 id=&quot;6-1-font&quot;&gt;6-1) Font&lt;/h5&gt;
+
+&lt;p&gt;font 속성을 속기로 사용할때 선언하지 않은 값은 기본 값이됩니다.&lt;br /&gt;
+font의 기본 속성은 아래와 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;font-style (글씨체)&lt;/li&gt;
+  &lt;li&gt;font-family (글꼴 집합/ 여러글꼴 사용가능)&lt;/li&gt;
+  &lt;li&gt;font-variant (소문자 &amp;gt; 작은대문자)&lt;/li&gt;
+  &lt;li&gt;font-weight (글자 굵기)&lt;/li&gt;
+  &lt;li&gt;font-size (글자 크기)&lt;/li&gt;
+  &lt;li&gt;line-height (줄 높이)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.font&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-variant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.font&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;6-2-background&quot;&gt;6-2) Background&lt;/h5&gt;
+
+&lt;p&gt;Background 속성 은 배경디자인이 필요할때 선언합니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;background-color (배경색)&lt;/li&gt;
+  &lt;li&gt;background-image (배경 이미지)&lt;/li&gt;
+  &lt;li&gt;background-repeat (배경 이미지 반복)&lt;/li&gt;
+  &lt;li&gt;background-position (배경 이미지 위치)&lt;/li&gt;
+  &lt;li&gt;background-attachment (배경 이미지 스크롤 여부)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;top&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-attachment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;repeat&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;top&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;6-3-list&quot;&gt;6-3) List&lt;/h5&gt;
+
+&lt;p&gt;목록속성은 아래와 같습니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;list-style-type (목록 마커 모양)&lt;/li&gt;
+  &lt;li&gt;list-style-position (목록 마커 위치)&lt;/li&gt;
+  &lt;li&gt;list-image (목록 마커 이미지)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;list-style-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;square&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;list-style-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;list-style-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(image.png)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;square&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inside&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(image.png)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;6-4-border&quot;&gt;6-4) border&lt;/h5&gt;
+
+&lt;p&gt;Border는 상하좌우의 속성을 지닙니다.&lt;br /&gt;
+상세 속성은 다양하지만, 일반적으로 쓰이는 부분만 설명드리겠습니다.&lt;/p&gt;
+
+&lt;p&gt;상세한 속성에 대한 설명은 따로 포스팅으로 진행하겠습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;border-width (테두리 두께)&lt;/li&gt;
+  &lt;li&gt;border-style (테두리 모양)&lt;/li&gt;
+  &lt;li&gt;border-color (테두리 색상)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.border&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dotted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.border&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;6-5-margin--padding&quot;&gt;6-5) Margin &amp;amp; Padding&lt;/h5&gt;
+
+&lt;p&gt;Margin과 Padding은 속성이 동일합니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;margin-top (마진의 위)&lt;/li&gt;
+  &lt;li&gt;margin-right (마진의 오른쪽)&lt;/li&gt;
+  &lt;li&gt;margin-bottom (마진의 아래)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;margin-left (마진의 왼쪽)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;padding-top (패딩의 위)&lt;/li&gt;
+  &lt;li&gt;padding-right (패딩의 오른쪽)&lt;/li&gt;
+  &lt;li&gt;padding-bottom (패딩의 아래)&lt;/li&gt;
+  &lt;li&gt;padding-left (패딩의 왼쪽)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.margin&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;위&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;오른쪽&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;아래&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;왼쪽&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.margin&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;7px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;6-6-outline&quot;&gt;6-6) outline&lt;/h5&gt;
+
+&lt;p&gt;외곽선 의 디자인 속성입니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;outline-width (외곽선의 두께)&lt;/li&gt;
+  &lt;li&gt;outline-style (외곽선의 스타일)&lt;/li&gt;
+  &lt;li&gt;outline-color (외곽선의 색상)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.outline&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;outline-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;outline-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dotted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;outline-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.outline&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;outline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;6-7-transition&quot;&gt;6-7) Transition&lt;/h5&gt;
+
+&lt;p&gt;Transition은 마우스 이벤트에 의한 동적인 요소를 표현하고자 할 때 주로 사용됩니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;transition-property (속성 적용이될 속성명시)&lt;/li&gt;
+  &lt;li&gt;transition-duration (속성의 지속시간)&lt;/li&gt;
+  &lt;li&gt;transition-timing-function (속성의 중간값)&lt;/li&gt;
+  &lt;li&gt;transition-delay (속성 전환의 대기시간)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줄임&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;없는&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.Transition&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transition-property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transition-duration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transition-timing-function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ease-in&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transition-delay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;크로스브라우징&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;적용을&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;위해&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;보여줄&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;브라우징에&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;맞추어&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;앞에&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;붙여&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줍니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* 파이어폭스 4 */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-moz-&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* 크롬과 사파리 */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-webkit-&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* 오페라 */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-o-&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;속기&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.Transition&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;all&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ease-in2s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;크로스브라우징&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;적용을&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;위해&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;보여줄&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;브라우징에&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;맞추어&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;앞에&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;붙여&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;줍니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* 파이어폭스 4 */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-moz-&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* 크롬과 사파리 */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-webkit-&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* 오페라 */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-o-&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;8-주석&quot;&gt;8. 주석&lt;br /&gt;&lt;/h4&gt;
+
+&lt;p&gt;CSS 파일의 내용이 많아지면 이를 관리하기 위해서 주석을 활용하면 좋습니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/*강조하고 싶은 문단에 red 클래스를 적용한다.*/&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.red&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;이 문단의 class는 red입니다.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;문단입니다.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 CSS의 기본 구문,구조 포스팅 하였습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;도움이 되는 포스팅이었길 바랍니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 31 Mar 2022 00:00:00 +0900</pubDate>
         <link>http://localhost:4000//css/CSS/</link>
