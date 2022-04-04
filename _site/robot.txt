@@ -1,4 +1,4 @@
 User-agent: *
  Allow: /
- Sitemap: {{ 'https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml' | relative_url | prepend: site.url }}
+ Sitemap: https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml
     
