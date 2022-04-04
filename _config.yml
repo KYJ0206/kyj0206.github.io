@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-remote_theme : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: 'en-US'
-title: 'Kim.YJ_blog'
-title_separator: '-'
+locale: "en-US"
+title: "Kim.YJ_blog"
+title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: 'Kim Yeong Jea'
-description: 'An amazing website.'
-url: 'https://kyj0206.github.io/KYJ0206.Git_BLog/' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: '/'
-repository: 'kyj0206.github.io/KYJ0206.Git_BLog/' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: '/assets/images/my_profile.png' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+name: "Kim Yeong Jea"
+description: "An amazing website."
+url: "https://kyj0206.github.io/KYJ0206.Git_BLog/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/"
+repository: "kyj0206.github.io/KYJ0206.Git_BLog/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: "/assets/images/my_profile.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: 'Kim.YJ_Blog' # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "Kim.YJ_Blog" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
@@ -55,9 +55,9 @@ atom_feed:
   hide: # true, false (default)
 
 # 검색기능 추가 true할 경우 실행 기본은 false로 닫혀있다.
-search: true 
+search: true
 search_full_content: true
-search_provider: lunr  #(default) ,algolia, google
+search_provider: lunr #(default) ,algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -90,22 +90,22 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-gtag"  # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id: "G-SZCCGBLH3T"
     anonymize_ip: #false (default)
 
 # Site Author 프로필 관련
 author:
-  name: 'KIM YEONG JEA'
-  avatar: '/assets/images/my_profile.png'
-  bio: 'Publisher and Developer'
-  location: 'Gangdong-gu, Seoul, Korea'
+  name: "KIM YEONG JEA"
+  avatar: "/assets/images/my_profile.png"
+  bio: "Publisher and Developer"
+  location: "Gangdong-gu, Seoul, Korea"
   email:
   links:
-    - label: 'Email'
-      icon: 'fas fa-fw fa-envelope-square'
-      url: 'mailto:gansoo.mayo@gmail.com'
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gansoo.mayo@gmail.com"
     #- label: "Website"
     # icon: "fas fa-fw fa-link"
     # url: "https://your-website.com"
@@ -115,9 +115,9 @@ author:
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
     # url: "https://facebook.com/"
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/KYJ0206'
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/KYJ0206"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     # url: "https://instagram.com/"
@@ -125,23 +125,23 @@ author:
 # Site Footer
 footer:
   links:
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: 'Facebook'
-      icon: 'fab fa-fw fa-facebook-square'
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/KYJ0206'
-    - label: 'GitLab'
-      icon: 'fab fa-fw fa-gitlab'
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/KYJ0206"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: 'Bitbucket'
-      icon: 'fab fa-fw fa-bitbucket'
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url:
 
 # Reading Files
@@ -149,8 +149,8 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -178,8 +178,8 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: 'utf-8'
-markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
@@ -265,7 +265,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: single
@@ -277,7 +277,7 @@ defaults:
 
   # _pages
   - scope:
-      path: '_pages'
+      path: "_pages"
       type: pages
     values:
       layout: single
@@ -286,24 +286,13 @@ defaults:
     # category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing, jekyll, sql, error ]
 
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 
 feed:
   type: atom
   path: feed.xml
   limit: 20
   hub:
-
-
-
-
-
-
-
-
-
-
-
 # ***************************************** 성진님 참고 *************************************************
 # # Welcome to Jekyll!
 # #
@@ -591,5 +580,4 @@ feed:
 #       author_profile: true
 #     #category_list
 #     # category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing, jekyll, sql, error ]
-
 
