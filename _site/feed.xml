@@ -6,9 +6,89 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Apr 2022 16:30:34 +0900</pubDate>
-    <lastBuildDate>Mon, 04 Apr 2022 16:30:34 +0900</lastBuildDate>
+    <pubDate>Fri, 08 Apr 2022 16:50:17 +0900</pubDate>
+    <lastBuildDate>Fri, 08 Apr 2022 16:50:17 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>[CSS]ID 와 CLASS</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이번 포스팅은 이전 포스팅에서 설명드린 선택자중에서 &lt;br /&gt;
+ID와 CLASS 선택자를 조금 더 자세히 알아보는 포스팅을 하겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;이전 포스팅의 과정을 먼저 보시고,&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;천천히 이해하며 진행해 주시면 감사하겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;css-selector-id-&quot;&gt;[CSS Selector #id] &lt;br /&gt;&lt;/h3&gt;
+
+&lt;p&gt;id 선택자는 유일한 지정 태그가 필요할 경우 주로 사용되는 선택자 입니다.&lt;br /&gt;
+즉,유일한 조건의 하나의 태그를 지정 하는 방법중 제일 쉽고 편한 방법 입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;사용-방법&quot;&gt;사용 방법&lt;/h4&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- idSelector은 아이디 선택자로 여러곳에 사용 불가 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 동일 아이디값이 아닌 다른 아이디값을 부여하여야 지정 가능 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;idSelector&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;나는 아이디 선택자&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;idSelector2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;나는 다른 아이디 선택자&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 선택자를 불러오는 방식 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;#idSelector&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;#idSelector2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;css-selector-class-&quot;&gt;[CSS Selector .class] &lt;br /&gt;&lt;/h3&gt;
+
+&lt;p&gt;class 선택자는 공통된 태그를 지정 할때 주로 사용되는 선택자 입니다.&lt;br /&gt;
+즉,동시에 여러개의 태그를 지정하거나 재사용이 필요한 조건을 줄때&lt;br /&gt;
+이용하기 쉽고 편한 방법 입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;사용-방법-1&quot;&gt;사용 방법&lt;/h4&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- classSelector는 클래스 선택자로 여러곳에 사용 가능 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 하나의 클래스로 여러 태그 지정 가능 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;classSelector&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;나는 클래스 선택자&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;classSelector&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;나는 동일 클래스 선택자&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 선택자를 불러오는 방식 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nc&quot;&gt;.classSelector&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;지금까지 CSS의 선택자 id &amp;amp; class의 좀더 자세한 포스팅을 하였습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;도움이 되는 포스팅이었길 바랍니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;감사합니다!&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Apr 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000//css/ID&Class/</link>
+        <guid isPermaLink="true">http://localhost:4000//css/ID&Class/</guid>
+        
+        <category>CSS</category>
+        
+        <category>Selector</category>
+        
+        
+        <category>CSS</category>
+        
+      </item>
     
       <item>
         <title>[CSS]의 기본 구문,구조</title>
@@ -2573,192 +2653,6 @@ link: &lt;a href=&quot;https://analytics.google.com/analytics/web/provision/?aut
         <pubDate>Fri, 18 Feb 2022 00:00:00 +0900</pubDate>
         <link>http://localhost:4000//blog/Git_2nd/</link>
         <guid isPermaLink="true">http://localhost:4000//blog/Git_2nd/</guid>
-        
-        <category>Blog</category>
-        
-        <category>Jekyll</category>
-        
-        <category>GitHub</category>
-        
-        <category>Git</category>
-        
-        
-        <category>Blog</category>
-        
-      </item>
-    
-      <item>
-        <title>[Jekyll 테마] GitHub 블로그 만들기_1</title>
-        <description>&lt;hr /&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;안녕하세요. Kim.YJ 입니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;GitBlog 제작에 앞서 장/단점에 대해 먼저 설명 하도록 하겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gitblog-의-장-단점&quot;&gt;[GitBlog 의 장 단점]&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;장점&lt;/span&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; GitHub 의 연동. &lt;/span&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Global. &lt;/span&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Jekyll, Gatsby 등 많은 테마로 커스텀할 수 있다. &lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;단점&lt;/span&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 장벽이 높다. &lt;/span&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Git &amp;amp; GitHub 에 대한 기본 이해 필요. &lt;/span&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 제작 난이도가 높다. &lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;다음으로 GitBlog 제작을 진행해 보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gitblog-repository-생성하기&quot;&gt;[GitBlog Repository 생성하기]&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 깃허브 레파지토리 생성하기 &lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;깃허브 블로그를 만들기 위해서는 깃허브와 연동을 해야 합니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;깃허브와 연동을 하기 위해서는 레파지토리를 생성해줘야 합니다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/20f6af59-d902-468f-9415-8663a98654e3/num.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_0&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Repository 생성시 본인 ID.github.io 로 입력합니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Initialize this repository with: Add a README file 을 체크해줍니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/f56d63e8-a2f6-47d8-95ba-fea732be1d0b/num_1.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_1&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;문제 없이 잘 진행 하셨다면, 이와 같이 Repository 생성이 되었다고 표기가 됩니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/97199406-f074-4813-86ad-9b437c66138e/num_2.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_2&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;Code 에서 Blog URL주소를 알수 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;URL주소를 복사합니다.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/df086936-e1c1-4048-ae0d-66fd49b0e349/num_3.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;img_3&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt;&lt;strong&gt;다음으로 Jekyll 테마적용을 해보겠습니다.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gitblog-jekyll-themes-입히기&quot;&gt;[GitBlog Jekyll Themes 입히기]&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Jekyll테마 선택하기 &lt;/span&gt;&lt;br /&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 구글 검색을 통해 한글로 지킬테마 라고만 검색해도 쉽게 검색할 수 있습니다. &lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/166edfea-87c5-41cd-9c5b-e4b9c2a33ec5/jekyll.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;Jekyll&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 아래 링크중 선택하여 사용하세요. &lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;&lt;a href=&quot;https://jamstackthemes.dev/ssg/jekyll/&quot; target=&quot;_blank&quot; style=&quot;font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;&quot;&gt; https://jamstackthemes.dev/ssg/jekyll/ &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot; target=&quot;_blank&quot; style=&quot;font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;&quot;&gt; http://jekyllthemes.org/ &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://jekyllthemes.io/&quot; target=&quot;_blank&quot; style=&quot;font-size:1rem; font-style:normal; text-decoration:none; word-break:break-all;&quot;&gt; https://jekyllthemes.io/ &lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; 전 2번 링크를 통해 이 테마로 진행하겠습니다. &lt;/span&gt;
-&lt;span style=&quot;font-size:1rem&quot;&gt; 테마를 선택하면, 이와같은 화면에서 Homepage 를 선택하여 주세요. &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/5d6098e2-a4e3-425a-9de6-0acc42671e64/jekyll_1.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;Jekyll1&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; Homepage 를 선택하여 이동된 화면에서 Code 에서 Downlode하여 Clone하여 줍니다. &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/260315ef-65fe-4a55-a9da-269dbd77e832/jekyll_2.png&quot; width=&quot;600px&quot; height=&quot;auto&quot; alt=&quot;Jekyll2&quot; /&gt; 
-&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;1-ruby-설치하기&quot;&gt;1. Ruby 설치하기.&lt;br /&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span&gt;컴퓨터에 이미 Ruby가 설치되어 있을 수도 있습니다. 이를 확인하려면 터미널을 열고 다음 명령어를 입력하세요.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;aside&gt;
-&lt;span&gt;Ruby가 설치 되어있지 않다면 &lt;a href=&quot;https://blog.naver.com/qhqh147/222633879376&quot;&gt;Homebrew&lt;/a&gt;를 이용하여 아래 명령어로 설치하여 줍니다.&lt;/span&gt;&lt;br /&gt;
-&lt;span style=&quot;background:#faedc9&quot;&gt;❗ Homebrew 가 설치되어 있다는 가정하에 진행하겠습니다.&lt;/span&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;&lt;span style=&quot;font-size:18px&quot;&gt;( Homebrew에 대한 설치방법과 자세한 설명은 출처: &lt;a href=&quot;https://blog.naver.com/qkrtndus3062/222657808586&quot;&gt;연님블로그 로 확인 해주세요. )&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(sudo) brew install ruby
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;2-jekyll-설치하기&quot;&gt;2. Jekyll 설치하기.&lt;br /&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;span&gt;테마 적용을 위한 파일을 가져오기 위해 jekyll을 설치해야 해줍니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(sudo) gem install jekyll
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;3-bundler-설치하기&quot;&gt;3. bundler 설치하기.&lt;br /&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span&gt;bundler도 설치해줍시다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(sudo) gem install bundler
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;이러면 기본적인 세팅이 모두 완료되셨습니다!&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;&lt;span style=&quot;background:#faedc9&quot;&gt;[ ruby -v ]&lt;/span&gt; 와 &lt;span style=&quot;background:#faedc9&quot;&gt;[ jekyll -v ]&lt;/span&gt; 를 입력하여 정상적으로 설치되었는지 확인해주세요 :)&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;4-로컬-서버-실행&quot;&gt;4. 로컬 서버 실행.&lt;br /&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;span&gt;아래 명령어를 입력하여 줍니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;정상적으로 설치 되었다면, .jekyll-cache 폴더와 Gemfile.lock 파일이 생깁니다.&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;이 두가지가 정상적으로 생기셔야만, 로컬 서버에 연결하실 수가 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png&quot;&gt;
-&lt;img src=&quot;https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/03872c5c-e6c3-4d1d-8c34-c56f3ea9bdf0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.17.41.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;background:#faedc9&quot;&gt;Server running… press ctrl-c to stop.&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;위와같이 표기된다면 정상적으로 진행이 되었습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://localhost:4000&lt;/a&gt; 으로 바로 확인해보세요.&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;정상적으로 서버가 열린다면,&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;모든 Repo의 변동사항을 Server 에서 바로 확인하실 수 있습니다.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;이제 에디터를 이용하여 Git 과 Git-Hub 연동 부분과 블로그 포스팅 과정이 남았습니다.&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;
-&lt;span style=&quot;font-size:1rem&quot;&gt; &lt;strong&gt;이 부분은 다음 포스팅으로 설명을 이어 나가겠습니다.&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 30 Dec 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000//blog/Git_1nd/</link>
-        <guid isPermaLink="true">http://localhost:4000//blog/Git_1nd/</guid>
         
         <category>Blog</category>
         

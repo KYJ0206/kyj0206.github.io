@@ -58,4 +58,10 @@ var store = [{
         "tags": ["CSS"],
         "url": "/css/CSS/",
         "teaser": "/assets/images/my_profile.png"
+      },{
+        "title": "[CSS]ID 와 CLASS",
+        "excerpt":"  안녕하세요. Kim.YJ 입니다.   이번 포스팅은 이전 포스팅에서 설명드린 선택자중에서   ID와 CLASS 선택자를 조금 더 자세히 알아보는 포스팅을 하겠습니다.   이전 포스팅의 과정을 먼저 보시고,   천천히 이해하며 진행해 주시면 감사하겠습니다.     [CSS Selector #id]     id 선택자는 유일한 지정 태그가 필요할 경우 주로 사용되는 선택자 입니다.  즉,유일한 조건의 하나의 태그를 지정 하는 방법중 제일 쉽고 편한 방법 입니다.   사용 방법   &lt;!-- idSelector은 아이디 선택자로 여러곳에 사용 불가 --&gt; &lt;!-- 동일 아이디값이 아닌 다른 아이디값을 부여하여야 지정 가능 --&gt; &lt;p id=\"idSelector\"&gt;나는 아이디 선택자&lt;/p&gt; &lt;p id=\"idSelector2\"&gt;나는 다른 아이디 선택자&lt;/p&gt;  &lt;!-- 선택자를 불러오는 방식 --&gt; &lt;style&gt;   #idSelector {     color: #000;   }   #idSelector2 {     color: #fff;   } &lt;/style&gt;   [CSS Selector .class]     class 선택자는 공통된 태그를 지정 할때 주로 사용되는 선택자 입니다.  즉,동시에 여러개의 태그를 지정하거나 재사용이 필요한 조건을 줄때  이용하기 쉽고 편한 방법 입니다.   사용 방법   &lt;!-- classSelector는 클래스 선택자로 여러곳에 사용 가능 --&gt; &lt;!-- 하나의 클래스로 여러 태그 지정 가능 --&gt; &lt;p class=\"classSelector\"&gt;나는 클래스 선택자&lt;/p&gt; &lt;p class=\"classSelector\"&gt;나는 동일 클래스 선택자&lt;/p&gt;  &lt;!-- 선택자를 불러오는 방식 --&gt; &lt;style&gt;   .classSelector {     color: #000;   } &lt;/style&gt;      지금까지 CSS의 선택자 id &amp; class의 좀더 자세한 포스팅을 하였습니다.      도움이 되는 포스팅이었길 바랍니다.      다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.    감사합니다!   ","categories": ["CSS"],
+        "tags": ["CSS","Selector"],
+        "url": "/css/ID&Class/",
+        "teaser": "/assets/images/my_profile.png"
       }]
