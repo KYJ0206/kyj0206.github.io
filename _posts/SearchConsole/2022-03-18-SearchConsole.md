@@ -1,5 +1,5 @@
 ---
-title:  "[Google SearchConsole] Google 서치콘솔 시작하기"
+title: "[Google SearchConsole] Google 서치콘솔 시작하기"
 excerpt: "Google SearchConsole 사용법"
 categories:
   - SearchConsole
@@ -8,17 +8,18 @@ tags:
 toc: true
 toc_sticky: true
 published: true
- 
+
 date: 2022-03-18
 last_modified_at: 2022-03-18
 ---
 
-***
-<span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니다.**</span> 
+---
 
-<span style='font-size:1rem'>**이번 포스팅은 구글 서치콘솔 사용법을 포스팅 해 보겠습니다.**</span> 
+<span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니다.**</span>
 
-<span style='font-size:1rem'>**애널리틱스와 함께 사용하면 좋은 구글 서치콘솔을 함께 천천히 시작해 봅시다.**</span> 
+<span style='font-size:1rem'>**이번 포스팅은 구글 서치콘솔 사용법을 포스팅 해 보겠습니다.**</span>
+
+<span style='font-size:1rem'>**애널리틱스와 함께 사용하면 좋은 구글 서치콘솔을 함께 천천히 시작해 봅시다.**</span>
 
 ---
 
@@ -35,11 +36,16 @@ last_modified_at: 2022-03-18
 ### [구글 서치콘솔의 장점]
 
 > 1. 구글 애널리틱스를 통해 컨텐츠를 최적화 할 수 있다.
->   - 내 사이트에 유입되는 사용자가 어떤 키워드, 검색어를 통해 사이트에 방문하는지 알 수 있다.
+>
+> - 내 사이트에 유입되는 사용자가 어떤 키워드, 검색어를 통해 사이트에 방문하는지 알 수 있다.
+>
 > 2. 구글에 나의 컨텐츠를 표시할 수 있다.
->   - 크롤링할 사이트맵, URL을 제출해서, 구글이 내 사이트의 최신 버전을 크롤링하도록 색인 생성 범위를 검토해 검색에 더 잘 노출될게 할 수 있다.
+>
+> - 크롤링할 사이트맵, URL을 제출해서, 구글이 내 사이트의 최신 버전을 크롤링하도록 색인 생성 범위를 검토해 검색에 더 잘 노출될게 할 수 있다.
+>
 > 3. 구글검색이 내 페이지를 어떻게 인식하는지 파악할 수 있다.
->   - URL 검사도구를 사용하여 페이지에 관한 세부적인 크롤링, 색인 생성, 게재 정보를 Google 색인에서 쉽게 확인할 수 있다.
+>
+> - URL 검사도구를 사용하여 페이지에 관한 세부적인 크롤링, 색인 생성, 게재 정보를 Google 색인에서 쉽게 확인할 수 있다.
 
 ### [구글 서치콘솔 시작하기]
 
@@ -59,7 +65,7 @@ last_modified_at: 2022-03-18
 ![https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png](https://images.velog.io/images/kyj0206/post/62b23d41-031a-4313-a1dc-53417ab66bfa/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.44.06.png)
 </a>
 
-- 5 ) _config.yml 에서 위 이미지의 content 내용을 복사하여 아래 항목에 입력해 줍니다.
+- 5 ) \_config.yml 에서 위 이미지의 content 내용을 복사하여 아래 항목에 입력해 줍니다.
 
 ```css
 # SEO Related
@@ -69,7 +75,7 @@ yandex_site_verification:
 naver_site_verification:
 ```
 
-- 6) 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.
+- 6. 정상적으로 업로드 되었다면 소유권이 확인되었다는 창을 볼 수 있습니다.
 
 <a href="https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png">
 ![https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png](https://images.velog.io/images/kyj0206/post/a703e080-5611-46f2-9ad7-dd83315e42d4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.19.51.png)
@@ -77,7 +83,7 @@ naver_site_verification:
 
 #### 2.sitemap.xml 생성
 
-- 1 ) _config.yml 파일에 url 속성에 자기의 블로그 이름이 들어가 있는지 확인합니다.
+- 1 ) \_config.yml 파일에 url 속성에 자기의 블로그 이름이 들어가 있는지 확인합니다.
 - 2 ) sitemap.xml 파일을 자기 github.io root 경로에 생성합니다.
 - 3 ) 아래 내용을 sitemap.xml에 추가합니다.
 
@@ -119,10 +125,10 @@ layout: null
 - 3 ) sitemap 에 자신의 블로그 주소를 넣어줍니다.
 
 ```html
-User-agent: *
- Allow: /
- Sitemap: {{ 'https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml' | relative_url | prepend: site.url }}
-```    
+User-agent: * Allow: / Sitemap: {{
+'https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml' | relative_url |
+prepend: site.url }}
+```
 
 #### 4.Google Search Console 에 sitemap 제출
 
@@ -141,7 +147,7 @@ User-agent: *
 ![https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png](https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png)
 </a>
 
---- 
+---
 
 <span style='font-size:1rem'> **지금까지 Google SearchConsole에 대해 포스팅을 통해 배워 보았습니다.** </span><br>
 

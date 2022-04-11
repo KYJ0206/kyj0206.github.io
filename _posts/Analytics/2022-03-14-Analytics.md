@@ -1,5 +1,5 @@
 ---
-title:  "[Google Analytics] Google 애널리틱스 시작하기"
+title: "[Google Analytics] Google 애널리틱스 시작하기"
 excerpt: "Google Analytics 사용법"
 categories:
   - Analytics
@@ -8,19 +8,20 @@ tags:
 toc: true
 toc_sticky: true
 published: true
- 
+
 date: 2022-03-14
 last_modified_at: 2022-03-14
 ---
 
-***
-<span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니다.**</span> 
+---
 
-<span style='font-size:1rem'>**이번 포스팅은 구글 애널리틱스 사용법을 포스팅 해 보겠습니다.**</span> 
+<span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니다.**</span>
 
-<span style='font-size:1rem'>**지금까지 깃허브 블로그를 만들었고 VScode(에디터)로 작업환경을 만들었습니다.**</span> 
+<span style='font-size:1rem'>**이번 포스팅은 구글 애널리틱스 사용법을 포스팅 해 보겠습니다.**</span>
 
-<span style='font-size:1rem'>**이제는 블로그 접속자 수를 알 수 있는 구글 애널리틱스를 연동해겠습니다.**</span> 
+<span style='font-size:1rem'>**지금까지 깃허브 블로그를 만들었고 VScode(에디터)로 작업환경을 만들었습니다.**</span>
+
+<span style='font-size:1rem'>**이제는 블로그 접속자 수를 알 수 있는 구글 애널리틱스를 연동해겠습니다.**</span>
 
 ---
 
@@ -32,7 +33,7 @@ last_modified_at: 2022-03-14
 
 Google <a href='https://analytics.google.com/' target="_blank">Analytics(GA)</a>는, 구글에서 제공하는 무료 웹분석 툴입니다.
 
-구글의 고유한 통계 및 머신러닝 기술로 사이트 및 모바일 애플리케이션 방문자들의 행동 데이터를 분석하고, 
+구글의 고유한 통계 및 머신러닝 기술로 사이트 및 모바일 애플리케이션 방문자들의 행동 데이터를 분석하고,
 
 마케팅의 실적이나 웹사이트의 경험을 개선할 수 있도록 도와주는 도구입니다.
 
@@ -43,12 +44,16 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 ### [구글 애널리틱스의 장점]
 
 > 1. 무료 서비스 제공
->   - 구글 계정만 있다면, 누구나 사용가능하다
+>
+> - 구글 계정만 있다면, 누구나 사용가능하다
+>
 > 2. 구글의 광고 서비스와의 연동
->   - 구글 애널리틱스에서 사용자의 특정조건을 이용하여, 광고계정에서 리마케팅 캠페인을 만들 수 있다!
+>
+> - 구글 애널리틱스에서 사용자의 특정조건을 이용하여, 광고계정에서 리마케팅 캠페인을 만들 수 있다!
+>
 > 3. 다양한 분석 기능을 제공
->   - (출처: <a href='https://blog.naver.com/PostView.nhn?blogId=sanalytica&logNo=222195954338' target="_blank">Funnel Analysis</a>, <a href='https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4' target="_blank">Segment Analysis</a> 등)
-
+>
+> - (출처: <a href='https://blog.naver.com/PostView.nhn?blogId=sanalytica&logNo=222195954338' target="_blank">Funnel Analysis</a>, <a href='https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4' target="_blank">Segment Analysis</a> 등)
 
 ### [구글 애널리틱스 시작하기]
 
@@ -66,7 +71,6 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 <a href="https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png">
 ![https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png](https://images.velog.io/images/kyj0206/post/051bf9f6-290a-48d6-bb29-a14aa9893dcd/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png)
 </a>
-
 
 계정이름을 설정해주고 넘어가 줍니다.
 
@@ -94,7 +98,7 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 
 #### 3.구글 애널리틱스 계정 블로그와 연결
 
-먼저 데이터스트림을 만들어주면 되는데 블로그 데이터는 웹입니다. 그러므로, 
+먼저 데이터스트림을 만들어주면 되는데 블로그 데이터는 웹입니다. 그러므로,
 
 IOS app / Android app / Wep 중에 웹으로 설정하여 줍니다.
 
@@ -108,7 +112,7 @@ IOS app / Android app / Wep 중에 웹으로 설정하여 줍니다.
 ![https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png](https://images.velog.io/images/kyj0206/post/055ea4dd-a6a1-403e-8d6d-5181b28a995e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.38.56.png)
 </a>
 
-이후 자신의 블로그 _config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.
+이후 자신의 블로그 \_config.yml파일에서 provider를 google-gtag로 바꾸고 tracking_id에 방금 복사한 측 ID값을 붙여 넣어줍니다.
 
 ```css
 # Analytics
@@ -125,10 +129,9 @@ analytics:
 ![https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png](https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png)
 </a>
 
---- 
+---
 
 <span style='font-size:1rem'> **지금까지 Google Analytics에 대해 포스팅을 통해 배워 보았습니다.** </span><br>
 <span style='font-size:1rem'> **애널리틱스를 이용하여, 블로그를 유용하게 관리해 나가시길 바라겠습니다.** </span><br>
 <span style='font-size:1rem'> **다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.** </span><br>
 <span style='font-size:1rem'> **감사합니다!** </span>
-

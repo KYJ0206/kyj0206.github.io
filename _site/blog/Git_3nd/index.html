@@ -366,6 +366,7 @@
           </aside>
         
         <hr />
+
 <p><span style="font-size:1rem"><strong>안녕하세요. Kim.YJ 입니다.</strong></span></p>
 
 <p><span style="font-size:1rem"><strong>본격적인 포스팅 과정에 앞서 저번 포스팅에 설명드린 Git 의 명령어중,</strong></span></p>
@@ -392,6 +393,7 @@
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config user.name 'KYJ0206'
 </code></pre></div></div>
+
 <blockquote>
   <ul>
     <li>git config user.name “이름”
@@ -404,6 +406,7 @@
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config user.email 'gansoo.mayo@gmail.com'
 </code></pre></div></div>
+
 <blockquote>
   <ul>
     <li>git config user.email “이메일주소”
@@ -415,6 +418,7 @@
 </blockquote>
 
 <h4 id="git-add-files">git add {files}</h4>
+
 <blockquote>
   <ul>
     <li>특정 파일을 staging area에 올린다.
@@ -426,6 +430,7 @@
 </blockquote>
 
 <h4 id="git-add-">git add .</h4>
+
 <blockquote>
   <ul>
     <li>모든 파일을 staging area에 올린다.</li>
@@ -433,6 +438,7 @@
 </blockquote>
 
 <h4 id="git-log">git log</h4>
+
 <blockquote>
   <ul>
     <li>커밋의 기록을 시간 순서대로 볼 수 있다.</li>
@@ -440,6 +446,7 @@
 </blockquote>
 
 <h4 id="git-diff-commit_id-commit_id">git diff {commit_id} {commit_id}</h4>
+
 <blockquote>
   <ul>
     <li>커밋하고 커밋 메시지를 남긴다.</li>
@@ -448,6 +455,7 @@
 </blockquote>
 
 <h4 id="git-status">git status</h4>
+
 <blockquote>
   <ul>
     <li>현재 깃의 상태를 구체적으로 볼 수 있다.</li>
@@ -455,6 +463,7 @@
 </blockquote>
 
 <h4 id="git-remote-add-origin-클론url">git remote add origin {클론url}</h4>
+
 <blockquote>
   <ul>
     <li>리모트 저장소 추가하기.***</li>
@@ -463,6 +472,7 @@
 </blockquote>
 
 <h4 id="git-remote--v">git remote -v</h4>
+
 <blockquote>
   <ul>
     <li>등록된 원격 저장소들을 확인할 수 있다.</li>
@@ -470,6 +480,7 @@
 </blockquote>
 
 <h4 id="git-push--u-origin-master">git push -u origin master</h4>
+
 <blockquote>
   <ul>
     <li>현재 내 프로젝트의 내용(커밋)을 origin이 가리키는 원격 저장소의 프로젝트로 업로드한다.</li>
@@ -478,6 +489,7 @@
 </blockquote>
 
 <h4 id="git-push">git push</h4>
+
 <blockquote>
   <ul>
     <li>git push -u origin master 를 통해 이미 내 컴퓨터는 origin을 알고 있는 경우 git push만 입력해주어도 커밋이 푸시된다.</li>
@@ -485,6 +497,7 @@
 </blockquote>
 
 <h4 id="git-clone-클론url">git clone {클론url}</h4>
+
 <blockquote>
   <ul>
     <li>깃허브(혹은 깃랩 등) 서비스에 있는 프로젝트를 맨 처음에 내 컴퓨터로 가져올 때 쓰는 명령어다.</li>
@@ -492,6 +505,7 @@
 </blockquote>
 
 <h4 id="git-pull">git pull</h4>
+
 <blockquote>
   <ul>
     <li>깃랩 서비스에 있는 최신 커밋을 당겨온다.</li>
@@ -500,6 +514,7 @@
 </blockquote>
 
 <h4 id="git-branch-branch_name">git branch {branch_name}</h4>
+
 <blockquote>
   <ul>
     <li>새로운 브런치를 생성한다.</li>
@@ -511,6 +526,7 @@
 <h3 id="git_blog-repository-연동">[Git_Blog] repository 연동</h3>
 
 <p><span style="font-size:1rem">이제 본격적인 포스팅 과정에 앞서 이전 포스팅에서 만들어 두었던 repository를 clone해온 jekyll 테마에 적용해 보겠습니다.</span> <br /></p>
+
 <ul>
   <li><span style="font-size:1rem">Code에서 _config.yml 파일을 찾아줍니다</span></li>
   <li><span style="font-size:1rem">Site Settings 에서 본인의 블로그에 맞게 수정합니다.</span></li>
@@ -535,6 +551,7 @@
 <p><span style="font-size:1rem">블로그에 theme 설정을 완료함으로, 모든 준비를 마쳤습니다. 이제 GitBlog 의 포스팅(Posting) 방법을 알아보겠습니다.</span></p>
 
 <h4 id="1posting-이란">1.Posting 이란?</h4>
+
 <ul>
   <li>포스팅이란 인터넷, 블로그에 글을 올리는 행위를 뜻합니다.</li>
   <li>블로그 외에도 인터넷(페이스북, 트위터, 인스타그램)에 어떠한 글을 올리는 행위 모두 포스팅이라고 할 수 있습니다.</li>
@@ -542,6 +559,7 @@
 </ul>
 
 <h4 id="2_posts-폴더와-파일-생성하기">2._posts 폴더와 파일 생성하기</h4>
+
 <ul>
   <li>jekyll은 간편한 블로깅을 위해 만들어졌습니다.</li>
   <li>그렇기 때문에 정해진 포맷에 맞춰 글을 등록해야 합니다.</li>
@@ -562,6 +580,7 @@
 </ul>
 
 <h4 id="3생성된-파일에-포스트글-작성-하기">3.생성된 파일에 포스트글 작성 하기.</h4>
+
 <p>포스트글 작성방식은 글에 제목은 무엇이며, 언제 발행 했고 어떤 카테고리에 넣을지 분류 하려면 아래와 같은 내용이 꼭 들어가야합니다.</p>
 
 <p><a href="https://images.velog.io/images/kyj0206/post/53d0df0a-d9a3-4a6a-ab7c-d8bf5b36314b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.35.18.png">
@@ -574,7 +593,9 @@
 </ul>
 
 <h4 id="4포스팅-확인하기">4.포스팅 확인하기.</h4>
+
 <p>마크다운 작성법을 이용하여 포스트를 작성하여 GitHub에 Push 하여 username.github.io에 반영되는지 확인해보겠습니다.</p>
+
 <ul>
   <li>저희는 이전 포스팅을 통해 git repository 에 연동을 해두었습니다. 이전 포스팅을 참고해 주세요.</li>
   <li>연동 부분을 하였다고 보고 git 명령어를 통해 Push 해서 반영을 확인해 보겠습니다.</li>
@@ -588,8 +609,9 @@
   </li>
 </ul>
 
-<p><span style="font-size:1rem">정상적으로 push 되었다면, 본인의 블로그 URL주소로 반영이 됩니다.</span> 
+<p><span style="font-size:1rem">정상적으로 push 되었다면, 본인의 블로그 URL주소로 반영이 됩니다.</span>
 <span style="font-size:1rem">확인해 보겠습니다.</span></p>
+
 <blockquote>
   <p><img src="https://images.velog.io/images/kyj0206/post/90a53fee-902f-47e5-a5e6-2ea74db51446/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.19.48.png" alt="https://images.velog.io/images/kyj0206/post/90a53fee-902f-47e5-a5e6-2ea74db51446/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.19.48.png" /></p>
 </blockquote>
@@ -601,7 +623,6 @@
 <p><span style="font-size:1rem"> <strong>[Jekyll 테마] GitHub 블로그 만들기 포스팅을 모두 마치겠습니다.</strong> </span><br />
 <span style="font-size:1rem"> <strong>다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.</strong> </span><br />
 <span style="font-size:1rem"> <strong>감사합니다!</strong> </span></p>
-
 
         
       </section>
@@ -676,6 +697,50 @@
     <div class="page__related">
       <h2 class="page__related-title">You may also enjoy</h2>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/my_profile.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/javascript/JavaScript/" rel="permalink">[JavaScript]의 개념과 기본
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">JavaScript란?
+</p>
+  </article>
+</div>
+
         
           
 
@@ -804,50 +869,6 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">HTML Tag 자주쓰는 태그모음
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/my_profile.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/html/HTML/" rel="permalink">[HTML] 구성과 구조
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          3 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">HTML 구성과 구조를 알아보자
 </p>
   </article>
 </div>
