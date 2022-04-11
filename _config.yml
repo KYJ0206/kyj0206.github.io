@@ -92,7 +92,7 @@ social:
 analytics:
   provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "G-ENL8LXCVPD"
+    tracking_id: "G-4XL75D9LDZ"
     anonymize_ip: #false (default)
 
 # Site Author 프로필 관련
