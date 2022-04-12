@@ -1,4 +1,3 @@
 User-agent: *
  Allow: /
- Sitemap: https://kyj0206.github.io/KYJ0206.Git_BLog/sitemap.xml
-    
+ Sitemap: https://kyj0206.github.io/sitemap.xml
