@@ -17,15 +17,15 @@ last_modified_at: 2022-12-19
 
 <span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니2다.**</span>
 
-<span style='font-size:1rem'>**이번 포스팅은 구글 서치콘솔 사용법을 포스팅 해 보겠습니다.**</span>
+<span style='font-size:1rem'>**이번 포스팅은 React Component 생성에 대해 포스팅 해 보겠습니다.**</span>
 
-<span style='font-size:1rem'>**애널리틱스와 함께 사용하면 좋은 구글 서치콘솔을 함께 천천히 시작해 봅시다.**</span>
+<span style='font-size:1rem'>**React 의 Component 에 대해 함께 알아보고, 생성해 봅시다.**</span>
 
 ---
 
-### [구글 서치 콘솔(Search Console)이란?] <br>
+### [React Component 란?] <br>
 
-<a href="https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png">
+<a href="https://velog.velcdn.com/images/jeromecheon/post/7fe57cd6-0e19-4141-b1bc-eadfc366ff61/1111.jpeg">
 ![https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png](https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png)
 </a>
 
