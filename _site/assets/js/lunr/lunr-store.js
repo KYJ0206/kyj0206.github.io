@@ -76,4 +76,10 @@ var store = [{
         "tags": ["JavaScript"],
         "url": "/javascript/JavaScriptJava/",
         "teaser": "/assets/images/my_profile.png"
+      },{
+        "title": "[React] Component 생성하기",
+        "excerpt":"  안녕하세요. Kim.YJ 입니다.   이번 포스팅은 React Component 생성에 대해 포스팅 해 보겠습니다.   React 의 Component 에 대해 함께 알아보고, 생성해 봅시다.     [React Component 란?]          단순한 코드는 상관 없지만, 코드를 작성하다 보면, 코드가 길어지게 됩니다. 코드가 길어지게 되면 가독성이 떨어지며, 유지보수 면에서 많이 번거로워 집니다.   React 는 이런 요소들을 잘게 쪼개어 [ Component ] 라는 재사용이 편리한 요소로 제공해 줍니다. Class 형태의 React Component 를 작성하면 아래와 같습니다.   [React Component 의 장점]           코드의 가독성이 좋아진다.       : 각각의 Component 로 코드를 분리하여 코드전체 가독성이 좋아진다.          유지보수 의 편리함.       : 유지보수 면에서 빠르고 편리하세 코드를 관리 할 수 있다.          개별적 재사용이 용이하다.       : 재사용이 가능한 요소로 관리하고, 조합하여 ‘App’이라는 사용자 인터페이스를 만들수 있다.    [Component 생성하기]   1. 생성된 react 안에 src 내부로 component 폴더를 생성해 줍니다.            2. 생성된 component 폴더안에 원하는 이름의 Js파일을 생성해 줍니다.            3. react component 는 아래와 같은 방식으로 코드를 작성해 주세요.            4. 각각의 component 요소를 생성하여 App 인터페이스를 생성해 줍니다.            [Component 관리하기]            각각의 component 를 App.js 파일에서 import 하여 개별로 가독성과 유지 보수의 용이하게 사용할 수 있습니다.      지금까지 React Component 에 대해 포스팅을 통해 배워 보았습니다.      React Component의 장점을 사용하여,    앞으로 여러분들의 코드를 관리 해 보세요.      다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.    감사합니다!   ","categories": ["React"],
+        "tags": ["React","Component"],
+        "url": "/react/React_Component/",
+        "teaser": "/assets/images/my_profile.png"
       }]
