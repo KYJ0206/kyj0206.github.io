@@ -15,7 +15,7 @@ last_modified_at: 2022-12-19
 
 ---
 
-<span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니다.**</span>
+<span style='font-size:1rem'>**안녕하세요. Kim.YJ 입니2다.**</span>
 
 <span style='font-size:1rem'>**이번 포스팅은 구글 서치콘솔 사용법을 포스팅 해 보겠습니다.**</span>
 
