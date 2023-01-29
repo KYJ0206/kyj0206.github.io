@@ -147,6 +147,12 @@ prepend: site.url }}
 ![https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png](https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png)
 </a>
 
+- 이후 사이트맵 제출이 정상적으로 진행이 되면, 아래와 같은 결과물을 보실 수 있습니다.<br/>
+
+<a href="https://velog.velcdn.com/images/kyj0206/post/12c4c5ff-bb5c-4d75-b49f-fbf4bd915d6f/image.png">
+![](https://velog.velcdn.com/images/kyj0206/post/12c4c5ff-bb5c-4d75-b49f-fbf4bd915d6f/image.png)
+</a>
+
 ---
 
 <span style='font-size:1rem'> **지금까지 Google SearchConsole에 대해 포스팅을 통해 배워 보았습니다.** </span><br>

@@ -4,7 +4,7 @@ excerpt: "React Hook이란?"
 categories:
   - React
 tags:
-  - [React]
+  - [React, Hook]
 toc: true
 toc_sticky: true
 published: true

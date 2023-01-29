@@ -5,8 +5,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Jan 2023 16:47:31 +0900</pubDate>
-    <lastBuildDate>Sun, 29 Jan 2023 16:47:31 +0900</lastBuildDate>
+    <pubDate>Sun, 29 Jan 2023 17:09:50 +0900</pubDate>
+    <lastBuildDate>Sun, 29 Jan 2023 17:09:50 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -121,6 +121,8 @@ useState를 예시로 들면 class를 사용하지 않고도 상태를 가질 �
         <guid isPermaLink="true">http://localhost:4000//react/React-Hook/</guid>
         
         <category>React</category>
+        
+        <category>Hook</category>
         
         
         <category>React</category>
@@ -2850,6 +2852,14 @@ ${emojis[$RAND_EMOJI_N]} 부분을 자신이 원하는 이모지로 바꾸어 �
 
 &lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png&quot;&gt;
 &lt;img src=&quot;https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png&quot; alt=&quot;https://images.velog.io/images/kyj0206/post/c46e4e9c-b49d-48bf-9333-6dd8a1759024/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-21%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.19.31.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이후 사이트맵 제출이 정상적으로 진행이 되면, 아래와 같은 결과물을 보실 수 있습니다.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://velog.velcdn.com/images/kyj0206/post/12c4c5ff-bb5c-4d75-b49f-fbf4bd915d6f/image.png&quot;&gt;
+&lt;img src=&quot;https://velog.velcdn.com/images/kyj0206/post/12c4c5ff-bb5c-4d75-b49f-fbf4bd915d6f/image.png&quot; alt=&quot;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
