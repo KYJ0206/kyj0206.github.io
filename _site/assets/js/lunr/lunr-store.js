@@ -100,4 +100,10 @@ var store = [{
         "tags": ["React","Hook"],
         "url": "/react/React-Hook/",
         "teaser": "/assets/images/my_profile.png"
+      },{
+        "title": "[Jsx란 무엇인가?]",
+        "excerpt":"  안녕하세요. Kim.YJ 입니다.   이번 포스팅은 JSX에 대해 포스팅 해 보겠습니다.   React 에 대해 함께 알아보고, 한 단계씩 배워 봅시다.     [React JSX란?]          React component는 함수로 만들수 있는데, 이때 컴포넌트는 반드시 대문자로 시작되어야합니다.   이때 컴포넌트가 리엑트에서 컴포넌트로 인식되기 위해서는 return 할때 Jsx 문법을 사용해서 어떤 Ui를 표기하는 문법인지 표기해줍니다.      function App() {   const myName = \"KYJ\";   const post = \"JSX\";   return (     &lt;div&gt;       &lt;h1 className=\"Title\"&gt;React&lt;/h1&gt;       &lt;u&gt;         &lt;li&gt;{myName}&lt;/li&gt;         &lt;li&gt;{post}&lt;/li&gt;       &lt;/u&gt;     &lt;/div&gt;   ); }   위의 코드 예시에서 볼 수 있듯이  Jsx는 html처럼 사용할 수 있지만, 3가지 다른점이 있습니다.           return값을 반환할때 반드시 하나의 태그를 반환해야 합니다. (여러개의 태그를 사용할 수 없습니다.)     class를 사용 하고 싶을때에는 html과는 다르게 className을 사용해 줍니다.     함수형 컴포넌트는 중간중간 javaScript 사용도 가능합니다. 다만, {} 로 감싸주어야 사용이 가능합니다.      [Jsx의 응용 예시]     Jsx문법의 다양한 예시를 확인해 보겠습니다.   1. 문자열과의 조합   function App() {   const greeting = \"Hello\";   return &lt;h1&gt;{`${greeting} everyone`}&lt;/h1&gt;; }   출력 화면      2. list 배열 형식   function App() {   const list = [\"서울\", \"대전\", \"대구\", \"부산\"];   return (     &lt;ul&gt;       {list.map((item) =&gt; {         return &lt;li&gt;{item}&lt;/li&gt;;       })}     &lt;/ul&gt;   ); }   출력화면      React component가 구성될 수 있기 위한 Jsx 문법이란 무엇인지  간단한 사용 방법에 대해 소개해 드렸습니다.      지금까지 JSX에 대해 포스팅을 통해 알아 보았습니다.    다음 포스팅은 React 대한 더 자세한 정보로 찾아뵙겠습니다.    감사합니다!   ","categories": ["React"],
+        "tags": ["React","JSX"],
+        "url": "/react/Jsx/",
+        "teaser": "/assets/images/my_profile.png"
       }]
