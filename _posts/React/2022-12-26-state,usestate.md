@@ -74,5 +74,4 @@ const [data, setData] = useState(0);
 ---
 
 <span style='font-size:1rem'> **지금까지 State & useState 에 대해 포스팅을 통해 알아 보았습니다.** </span><br>
-<span style='font-size:1rem'> **예제를 이용한 사용 방법은 다음 포스팅을 통해 알아보겠습니다.** </span><br>
 <span style='font-size:1rem'> **감사합니다!** </span>
