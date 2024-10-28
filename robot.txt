@@ -1,0 +1,3 @@
+User-agent: *
+ Allow: /
+ Sitemap: https://kyj0206.github.io/sitemap.xml
