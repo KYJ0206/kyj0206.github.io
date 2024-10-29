@@ -249,27 +249,9 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   }
 }
 
-
 // CSS-reset for buttons
-button {	
-  outline: none!important;
-
-  &.mfp-close{
-    overflow: visible;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    -webkit-appearance: none;
-    display: block;
-    outline: none;
-    padding: 0;
-    z-index: $mfp-z-index-base + 6;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    &:hover{
-      color: red;
-    }
-  }
+button {
+  &.mfp-close,
   &.mfp-arrow {
     overflow: visible;
     cursor: pointer;
@@ -333,7 +315,10 @@ button {
 .mfp-iframe-holder {
   .mfp-close {
     color: $mfp-controls-color;
-    top: -5px;
+    right: -6px;
+    text-align: right;
+    padding-right: 6px;
+    width: 100%;
   }
 }
 
@@ -419,10 +404,6 @@ button {
       border-right: 27px solid $mfp-controls-border-color;
     }
   }
-  .mfp-arrow-left:hover:before{
-    border-right: 27px solid red;
-  }
-
 
   .mfp-arrow-right {
     right: 0;
@@ -434,14 +415,7 @@ button {
     &:before,
     .mfp-b {
       border-left: 27px solid $mfp-controls-border-color;
-      &:hover{
-        border-right: 27px solid red;
-      }
     }
-  }
-
-  .mfp-arrow-right:hover:before{
-    border-left: 27px solid red;
   }
 }
 
@@ -480,21 +454,22 @@ button {
 }
 
 
+
 // Image content type
 @if $mfp-include-image-type {
 
   /* Main image in popup */
   img {
     &.mfp-img {
-      width: 100%;
-      max-width: 1200px;
+      width: auto;
+      max-width: 100%;
       height: auto;
       display: block;
       line-height: 0;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      padding: $mfp-image-padding-top 40px $mfp-image-padding-bottom;
+      padding: $mfp-image-padding-top 0 $mfp-image-padding-bottom;
       margin: 0 auto;
     }
   }
