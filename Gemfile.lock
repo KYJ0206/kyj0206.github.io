@@ -60,7 +60,6 @@ GEM
       logger
     faraday-net_http (3.3.0)
       net-http
-    ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-darwin)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.5-x86_64-darwin)
@@ -71,7 +70,7 @@ GEM
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jekyll (4.3.0)
+    jekyll (4.3.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -118,8 +117,6 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    nokogiri (1.16.7-arm64-darwin)
-      racc (~> 1.4)
     nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -203,7 +200,6 @@ GEM
     zeitwerk (2.6.18)
 
 PLATFORMS
-  arm64-darwin
   x86_64-darwin
 
 DEPENDENCIES
