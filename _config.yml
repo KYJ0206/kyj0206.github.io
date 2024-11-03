@@ -20,7 +20,7 @@ locale: "ko-KR"
 title: "Publishing Engineer"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Kim_Yeong_Jea"
+name: "KIM_YEONG_JEA"
 description: "My_Story"
 url: "https://kyj0206.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/"
