@@ -13,21 +13,21 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 # remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
-title: "Kim.YJ_blog"
+locale: "ko-KR"
+title: "Publishing Engineer"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Kim Yeong Jea"
-description: "An amazing website."
+name: "Kim_Yeong_Jea"
+description: "My_Story"
 url: "https://kyj0206.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/"
 repository: "KYJ0206/kyj0206.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/my_profile.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "Kim.YJ_Blog" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "Publishing Engineer" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
@@ -97,7 +97,7 @@ analytics:
 
 # Site Author 프로필 관련
 author:
-  name: "KIM YEONG JEA"
+  name: "KIM_YEONG_JEA"
   avatar: "/assets/images/my_profile.png"
   bio: "Publisher and Developer"
   location: "Gangdong-gu, Seoul, Korea"
