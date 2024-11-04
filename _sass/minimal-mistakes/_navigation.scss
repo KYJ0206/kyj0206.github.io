@@ -544,7 +544,8 @@
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: $text-color;
+      color: $primary-color;
+      background-color: #f5dfcc;
     }
   }
 
