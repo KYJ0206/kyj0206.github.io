@@ -20,7 +20,7 @@ locale: "ko-KR"
 title: "Publishing Engineer"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "KIM_YEONG_JEA"
+name: "Kim Youngjae"
 description: "My_Story"
 url: "https://kyj0206.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/"
@@ -97,7 +97,7 @@ analytics:
 
 # Site Author 프로필 관련
 author:
-  name: "KIM_YEONG_JEA"
+  name: "Kim Youngjae"
   avatar: "/assets/images/my_profile.png"
   bio: "Publisher and Developer"
   location: "Gangdong-gu, Seoul, Korea"
