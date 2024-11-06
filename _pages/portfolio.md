@@ -53,6 +53,7 @@ author_profile: true
             <a href="https://news.skhynix.co.kr/" target="_blank">SK HYNIX NEWSROOM</a> -->
         </div>
     </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2022</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
@@ -78,6 +79,7 @@ author_profile: true
             </div>
         </div>
     </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2023</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
@@ -103,6 +105,7 @@ author_profile: true
             </div>
         </div>
     </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2024</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
@@ -128,4 +131,5 @@ author_profile: true
             </div>
         </div>
     </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </div>

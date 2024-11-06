@@ -408,11 +408,12 @@ body {
 .back-to-top {
   display: block;
   clear: both;
-  color: $muted-text-color;
+  color: $muted-text-color!important;
   font-size: 0.6em;
   text-transform: uppercase;
   text-align: end;
-  text-decoration: none;
+  text-decoration: none!important;
+  margin-top: 30px;
 }
 
 /*
