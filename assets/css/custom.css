@@ -27,6 +27,7 @@
     object-fit: contain;
     border-top: 4px solid #252a34;
     border-bottom: 4px solid #252a34;
+    background: #fff;
 }
 
 .portfolio-item h3 {

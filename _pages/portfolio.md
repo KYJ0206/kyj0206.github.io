@@ -15,9 +15,9 @@ author_profile: true
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
             <h3>SK_HYNIX NEWSROOM</h3>
-            <img src="../assets/images/pngwing.com.png" alt="SK HYNIX">
+            <img src="../assets/images/Skhynix.png" alt="SkHynix">
             <div class='item-des'>
-                <span>[Publishing(HTML/CSS)]</span>
+                <span>[Publishing(HTML/CSS)]</span><br/>
                 <span>[HubSpot_CMS]</span>
             </div>
             <div class='item-date'>
@@ -31,8 +31,8 @@ author_profile: true
     <h2>2022</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>Midas BandiTong</h3>
-            <img src="https://via.placeholder.com/300x200" alt="BandiTong">
+            <h3>MIDAS BANDITONG</h3>
+            <img src="../assets/images/Banditong.png" alt="BandiTong">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
@@ -42,8 +42,8 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>Midas CAD</h3>
-            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <h3>MIDAS CAD</h3>
+            <img src="../assets/images/Madascad.png" alt="MidasCad">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
@@ -53,19 +53,8 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>제네시스랩 Viewinter</h3>
-            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
-            <div class='item-des'>
-                <span>[Publishing(HTML/CSS)]</span>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.04</p>
-            </div>
-        </div>
-        <div class="portfolio-item">
-            <h3>Midas H.LAB</h3>
-            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <h3>제네시스랩 VIEWINTER</h3>
+            <img src="../assets/images/Viewinter.png" alt="Viewinter">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
@@ -80,7 +69,7 @@ author_profile: true
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
             <h3>유진로봇</h3>
-            <img src="https://via.placeholder.com/300x200" alt="BandiTong">
+            <img src="../assets/images/Yujinrobot.png" alt="Yujinrobot">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
@@ -90,8 +79,8 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>스웨즈락</h3>
-            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <h3>SWAGELOK</h3>
+            <img src="../assets/images/Swagelok.png" alt="Swagelok">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
@@ -101,8 +90,8 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>바슈롬 렌즐리</h3>
-            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <h3>바슈롬 LENSLY</h3>
+            <img src="../assets/images/Lensly.png" alt="Lensly">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
@@ -116,8 +105,8 @@ author_profile: true
     <h2>2024</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>마이다스 자인연구소</h3>
-            <img src="https://via.placeholder.com/300x200" alt="BandiTong">
+            <h3>MIDAS 자인연구소</h3>
+            <img src="../assets/images/Jainlab.png" alt="JainLab">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
                 <span>[HubSpot_CMS]</span>
