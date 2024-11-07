@@ -26,32 +26,6 @@ author_profile: true
             <!-- <button></button>
             <a href="https://news.skhynix.co.kr/" target="_blank">SK HYNIX NEWSROOM</a> -->
         </div>
-        <div class="portfolio-item">
-            <h3>SK_HYNIX NEWSROOM</h3>
-            <img src="../assets/images/pngwing.com.png" alt="SK HYNIX">
-            <div class='item-des'>
-                <span>[Publishing(HTML/CSS)]</span>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2021.12</p>
-            </div>
-            <!-- <button></button>
-            <a href="https://news.skhynix.co.kr/" target="_blank">SK HYNIX NEWSROOM</a> -->
-        </div>
-        <div class="portfolio-item">
-            <h3>SK_HYNIX NEWSROOM</h3>
-            <img src="../assets/images/pngwing.com.png" alt="SK HYNIX">
-            <div class='item-des'>
-                <span>[Publishing(HTML/CSS)]</span>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2021.12</p>
-            </div>
-            <!-- <button></button>
-            <a href="https://news.skhynix.co.kr/" target="_blank">SK HYNIX NEWSROOM</a> -->
-        </div>
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2022</h2>
@@ -68,7 +42,29 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>Midas HRi</h3>
+            <h3>Midas CAD</h3>
+            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <div class='item-des'>
+                <span>[Publishing(HTML/CSS)]</span>
+                <span>[HubSpot_CMS]</span>
+            </div>
+            <div class='item-date'>
+                <p>2022.04</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <h3>제네시스랩 Viewinter</h3>
+            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <div class='item-des'>
+                <span>[Publishing(HTML/CSS)]</span>
+                <span>[HubSpot_CMS]</span>
+            </div>
+            <div class='item-date'>
+                <p>2022.04</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <h3>Midas H.LAB</h3>
             <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
@@ -83,7 +79,7 @@ author_profile: true
     <h2>2023</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>Midas BandiTong</h3>
+            <h3>유진로봇</h3>
             <img src="https://via.placeholder.com/300x200" alt="BandiTong">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
@@ -94,7 +90,18 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>Midas HRi</h3>
+            <h3>스웨즈락</h3>
+            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
+            <div class='item-des'>
+                <span>[Publishing(HTML/CSS)]</span>
+                <span>[HubSpot_CMS]</span>
+            </div>
+            <div class='item-date'>
+                <p>2022.04</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <h3>바슈롬 렌즐리</h3>
             <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
@@ -109,7 +116,7 @@ author_profile: true
     <h2>2024</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>Midas BandiTong</h3>
+            <h3>마이다스 자인연구소</h3>
             <img src="https://via.placeholder.com/300x200" alt="BandiTong">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
@@ -120,7 +127,7 @@ author_profile: true
             </div>
         </div>
         <div class="portfolio-item">
-            <h3>Midas HRi</h3>
+            <h3>바슈롬 통합어드민</h3>
             <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
             <div class='item-des'>
                 <span>[Publishing(HTML/CSS)]</span>
