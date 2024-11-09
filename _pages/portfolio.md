@@ -14,108 +14,124 @@ author_profile: true
     <h2>2021</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>SK_HYNIX NEWSROOM</h3>
-            <img src="../assets/images/Skhynix.png" alt="SkHynix">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2021.12</p>
-            </div>
-            <!-- <button></button>
-            <a href="https://news.skhynix.co.kr/" target="_blank">SK HYNIX NEWSROOM</a> -->
+            <a href="/portfolio/sk-hynix-newsroom/" target="_blank">
+                <h3>SK_HYNIX NEWSROOM</h3>
+                <img src="../assets/images/Skhynix.png" alt="SkHynix">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2021.12</p>
+                </div>
+            </a>
         </div>
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2022</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>MIDAS BANDITONG</h3>
-            <img src="../assets/images/Banditong.png" alt="BandiTong">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.12</p>
-            </div>
+            <a href="/portfolio/midas-banditong/" target="_blank">
+                <h3>MIDAS BANDITONG</h3>
+                <img src="../assets/images/Banditong.png" alt="BandiTong">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.12</p>
+                </div>
+            </a>
         </div>
         <div class="portfolio-item">
-            <h3>MIDAS CAD</h3>
-            <img src="../assets/images/Madascad.png" alt="MidasCad">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.04</p>
-            </div>
+            <a href="/portfolio/midas-cad/" target="_blank">
+                <h3>MIDAS CAD</h3>
+                <img src="../assets/images/Madascad.png" alt="MidasCad">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.04</p>
+                </div>
+            </a>
         </div>
         <div class="portfolio-item">
-            <h3>제네시스랩 VIEWINTER</h3>
-            <img src="../assets/images/Viewinter.png" alt="Viewinter">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.04</p>
-            </div>
+            <a href="/portfolio/genesislab-viewinter/" target="_blank">
+                <h3>GENESISLAB VIEWINTER</h3>
+                <img src="../assets/images/Viewinter.png" alt="Viewinter">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.04</p>
+                </div>
+            </a>
         </div>
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2023</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>유진로봇</h3>
-            <img src="../assets/images/Yujinrobot.png" alt="Yujinrobot">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.12</p>
-            </div>
+            <a href="/portfolio/yujinrobot/" target="_blank">
+                <h3>YUJIN ROBOT</h3>
+                <img src="../assets/images/Yujinrobot.png" alt="Yujinrobot">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.12</p>
+                </div>
+            </a>
         </div>
         <div class="portfolio-item">
-            <h3>SWAGELOK</h3>
-            <img src="../assets/images/Swagelok.png" alt="Swagelok">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.04</p>
-            </div>
+            <a href="/portfolio/swagelok/" target="_blank">
+                <h3>SWAGELOK</h3>
+                <img src="../assets/images/Swagelok.png" alt="Swagelok">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.04</p>
+                </div>
+            </a>
         </div>
         <div class="portfolio-item">
-            <h3>바슈롬 LENSLY</h3>
-            <img src="../assets/images/Lensly.png" alt="Lensly">
-            <div class='item-des'>
-                <span>[React/Next.JS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.04</p>
-            </div>
+            <a href="/portfolio/lensly/" target="_blank">
+                <h3>BAUSCHLOMB LENSLY</h3>
+                <img src="../assets/images/Lensly.png" alt="Lensly">
+                <div class='item-des'>
+                    <span>[React/Next.JS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.04</p>
+                </div>
+            </a>
         </div>
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     <h2>2024</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <h3>MIDAS 자인연구소</h3>
-            <img src="../assets/images/Jainlab.png" alt="JainLab">
-            <div class='item-des'>
-                <span>[HubSpot_CMS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.12</p>
-            </div>
+            <a href="/portfolio/midas-jainlab/" target="_blank">
+                <h3>MIDAS JAINLAB</h3>
+                <img src="../assets/images/Jainlab.png" alt="JainLab">
+                <div class='item-des'>
+                    <span>[HubSpot_CMS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.12</p>
+                </div>
+            </a>
         </div>
         <div class="portfolio-item">
-            <h3>바슈롬 통합어드민</h3>
-            <img src="https://via.placeholder.com/300x200" alt="Midas HRi">
-            <div class='item-des'>
-                <span>[React/Next.JS]</span>
-            </div>
-            <div class='item-date'>
-                <p>2022.04</p>
-            </div>
+            <a href="/portfolio/" target="_blank">
+                <h3>BAUSCHLOMB ADMIN</h3>
+                <img src="https://via.placeholder.com/300x200" alt="Midas Admin">
+                <div class='item-des'>
+                    <span>[React/Next.JS]</span>
+                </div>
+                <div class='item-date'>
+                    <p>2022.04</p>
+                </div>
+            </a>
         </div>
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>

@@ -10,6 +10,12 @@
     margin-bottom: 0;
 }
 
+.portfolio-item > a,
+.portfolio-item > a:hover{
+    display: block;
+    text-decoration: none!important; /* 언더라인 제거 */
+}
+
 .portfolio-item {
     text-align: center;
     background: #f4f4f4;
@@ -33,7 +39,8 @@
 }
 
 .portfolio-item h3 {
-    margin: 10px 0;
+    margin: 0;
+    padding: 10px 0;
     font-size: 1em; /* 제목 크기 */
     color: #333; /* 제목 색상 */
 }
