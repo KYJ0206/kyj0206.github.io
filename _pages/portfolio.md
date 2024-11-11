@@ -30,14 +30,14 @@ author_profile: true
     <h2>2022</h2>
     <div class='portfolio-gallery-box'>
         <div class="portfolio-item">
-            <a href="/portfolio/midas-banditong/" target="_blank">
-                <h3>MIDAS BANDITONG</h3>
-                <img src="../assets/images/Banditong.png" alt="BandiTong">
+            <a href="/portfolio/genesislab-viewinter/" target="_blank">
+                <h3>GENESISLAB VIEWINTER</h3>
+                <img src="../assets/images/Viewinter.png" alt="Viewinter">
                 <div class='item-des'>
                     <span>[HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.12</p>
+                    <p>2022.05</p>
                 </div>
             </a>
         </div>
@@ -49,19 +49,19 @@ author_profile: true
                     <span>[HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.04</p>
+                    <p>2022.08</p>
                 </div>
             </a>
         </div>
         <div class="portfolio-item">
-            <a href="/portfolio/genesislab-viewinter/" target="_blank">
-                <h3>GENESISLAB VIEWINTER</h3>
-                <img src="../assets/images/Viewinter.png" alt="Viewinter">
+            <a href="/portfolio/midas-banditong/" target="_blank">
+                <h3>MIDAS BANDITONG</h3>
+                <img src="../assets/images/Banditong.png" alt="BandiTong">
                 <div class='item-des'>
                     <span>[HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.04</p>
+                    <p>2022.12</p>
                 </div>
             </a>
         </div>
@@ -77,7 +77,7 @@ author_profile: true
                     <span>[HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.12</p>
+                    <p>2023.06</p>
                 </div>
             </a>
         </div>
@@ -89,7 +89,7 @@ author_profile: true
                     <span>[HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.04</p>
+                    <p>2023.10</p>
                 </div>
             </a>
         </div>
@@ -101,7 +101,7 @@ author_profile: true
                     <span>[React/Next.JS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.04</p>
+                    <p>2023.12</p>
                 </div>
             </a>
         </div>
@@ -117,7 +117,7 @@ author_profile: true
                     <span>[HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.12</p>
+                    <p>2024.03</p>
                 </div>
             </a>
         </div>
