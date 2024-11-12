@@ -1,12 +1,14 @@
 ---
 layout: single
-title: "Portfolio"
+title: "My Portfolio Lists"
 permalink: /portfolio/
 author_profile: true
 ---
 
 프로젝트를 연도별로 정리하였습니다.<br/>
-상세 페이지는 클릭하여 확인하세요.
+상세 페이지를 클릭하여 확인하세요.
+
+<small>🚫 소규모 프로젝트 및 유지보수는 제외되었습니다.</small>
 
 #### PROJECT
 
