@@ -16,6 +16,8 @@ last_modified_at: 2021-12-30
 ![/assets/images/Skhynix.png](/assets/images/Skhynix.png)
 </a>
 
+---
+
 ### [기간] <br/>
 2021.09 ~ 2021.12 ( 3개월 )
 
