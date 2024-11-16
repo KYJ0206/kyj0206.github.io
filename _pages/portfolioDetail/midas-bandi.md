@@ -12,17 +12,20 @@ last_modified_at: 2021-12-30
 
 ---
 
-<a href="/assets/images/Skhynix.png">
+<a class="batimmage" href="/assets/images/Skhynix.png">
 ![/assets/images/Skhynix.png](/assets/images/Skhynix.png)
 </a>
+<span class="battitle">
+   MIDAS BANDI-TONG
+</span>
 
 ---
 
-### [기간] <br/>
-2021.09 ~ 2021.12 ( 3개월 )
+### [기간1] <br/>
+2022.06 ~ 2022.12 ( 6개월 )
 
 ### [목표] <br/>
-SK_HYNIX NEWSROOM 구축 및 CMS 개발
+MIDAS BANDI-TONG 구축 및 CMS 개발
 
 ### [역할] <br/>
 HTML 구조 설계 및 CSS 적용, HubL 관련 퍼블리셔

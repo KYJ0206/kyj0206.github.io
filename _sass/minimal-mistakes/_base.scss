@@ -95,6 +95,15 @@ fieldset {
   widows: 3;
 }
 
+p{
+  .batimmage{
+    display: inline-block;
+  }
+  .battitle{
+    margin-left: 20px;
+  }
+}
+
 /* abbreviations */
 
 abbr[title],
