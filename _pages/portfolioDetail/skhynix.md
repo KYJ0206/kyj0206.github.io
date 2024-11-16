@@ -16,6 +16,10 @@ last_modified_at: 2021-12-30
 ![/assets/images/Skhynix.png](/assets/images/Skhynix.png)
 </a>
 
+<span class="battitle">
+   하이닉스
+</span>
+
 ---
 
 ### [기간] <br/>
