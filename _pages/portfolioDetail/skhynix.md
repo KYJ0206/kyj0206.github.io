@@ -10,15 +10,18 @@ date: 2021-12-30
 last_modified_at: 2021-12-30
 ---
 
----
-
-<a href="/assets/images/Skhynix.png">
+## 📄 프로젝트 개요
+<br/>
+<a class="batimmage" href="/assets/images/Skhynix.png">
 ![/assets/images/Skhynix.png](/assets/images/Skhynix.png)
 </a>
 
-<span class="battitle">
-   하이닉스
-</span>
+**SK HYNIX NEWSROOM**은 기업의 최신 뉴스와 기술 정보를 전달하기 위해<br/> 
+구축된 뉴스룸 플랫폼입니다. <br/>
+이 프로젝트는 사용자 친화적인 UI/UX 디자인과
+효율적인 콘텐츠 관리 시스템(CMS)을 목표로 개발되었습니다.
+
+URL : <a href="https://news.skhynix.co.kr/" target="_blank">SK_HYNIX NEWSROOM</a>
 
 ---
 
@@ -50,35 +53,44 @@ HubSpot API 연동 및 CSS 전반 퍼블리셔 업무 진행
 
 ### [주요기능]
 
-#### 1. 반응형 디자인 
+#### 1. **뉴스 카테고리 분류**  
 
-모든 기기에서 사용성 보장
+최신 뉴스, 기술 혁신, 사회적 책임 등 다양한 카테고리로 분류된 뉴스 제공.
 
-#### 2. SEO 최적화
+#### 2. **반응형 웹 디자인**  
 
-가시성 및 검색 순위 향상
+모든 기기(PC, 태블릿, 모바일)에서 최적화된 사용자 경험 제공.
 
-#### 3. 크로스 브라우저 호환성
+#### 3. **SEO 최적화**  
 
-다양한 브라우저에서 테스트 완료
+검색 엔진에서 높은 가시성을 확보하기 위한 메타 태그 및 콘텐츠 구조 설계.
+
+#### 4. **CMS 연동** 
+
+관리자 페이지를 통해 실시간으로 콘텐츠를 관리 및 업데이트 가능.
+
+---
 
 ### [사용된 기술] 
 
-#### 1. HTML5
+#### 1. **HTML5**
 
 구조와 시맨틱 마크업
 
-#### 2. CSS3
+#### 2. **CSS3**
 
 Flexbox, Grid, Slider 등 스타일링
 
-#### 3. JavaScript
+#### 3. **JavaScript**
 
 인터랙션 및 DOM 조작
 
-#### 4. HubL (HubSpot Markup Language)
+#### 4. **HubL** (HubSpot Markup Language)
 HubSpot CMS에서의 데이터 바인딩과 템플릿 관리, <br>
 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용
+
+#### 5. **디자인 툴**
+Figma
 
 ---
 

@@ -4,18 +4,22 @@ title: "MIDAS CAD"
 permalink: /portfolio/midas-cad/
 ---
 
----
-
+## 📄 프로젝트 개요
+<br/>
 <a class="batimmage" href="/assets/images/Skhynix.png">
 ![/assets/images/Skhynix.png](/assets/images/Skhynix.png)
 </a>
-<span class="battitle">
-   MIDAS CAD
-</span>
+
+**MIDAS CAD**는 기업의 최신 뉴스와 기술 정보를 전달하기 위해<br/> 
+구축된 뉴스룸 플랫폼입니다. <br/>
+이 프로젝트는 사용자 친화적인 UI/UX 디자인과
+효율적인 콘텐츠 관리 시스템(CMS)을 목표로 개발되었습니다.
+
+URL : <a href="https://news.skhynix.co.kr/" target="_blank">SK_HYNIX NEWSROOM</a>
 
 ---
 
-### [기간1] <br/>
+### [기간] <br/>
 2022.03 ~ 2022.08 ( 5개월 )
 
 ---
@@ -54,6 +58,8 @@ HubSpot API 연동 및 CSS 전반 퍼블리셔 업무 진행
 #### 3. 크로스 브라우저 호환성
 
 다양한 브라우저에서 테스트 완료
+
+---
 
 ### [사용된 기술] 
 

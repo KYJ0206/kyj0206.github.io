@@ -37,7 +37,7 @@ author_profile: true
                 <h3>GENESISLAB VIEWINTER</h3>
                 <img src="../assets/images/Viewinter.png" alt="Viewinter">
                 <div class='item-des'>
-                    <span>[HubSpot_CMS]</span>
+                    <span>[React, HubSpot_CMS]</span>
                 </div>
                 <div class='item-date'>
                     <p>2022.05</p>
