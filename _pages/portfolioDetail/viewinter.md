@@ -16,10 +16,10 @@ last_modified_at: 2022-05-27
 ![/assets/images/Viewinter.png](/assets/images/Viewinter.png)
 </a>
 
-**제네시스랩 Viewinter HR**은 기업의 HR 데이터를 통합 관리하고 시각화하는 혁신적인 플랫폼입니다.  
+**GENESISLAB VIEWINTER HR**은 기업의 HR 데이터를 통합 관리하고 시각화하는 혁신적인 플랫폼입니다.  
 인재 관리, 성과 평가, 근무 시간 추적 등 다양한 기능을 통해 조직의 효율성을 극대화하도록 설계되었습니다.
 
-URL : <a href="https://viewinterhr.com/" target="_blank">Viewinter HR</a>
+URL : <a href="https://viewinterhr.com/" target="_blank">GENESISLAB VIEWINTER HR</a>
 
 ---
 
@@ -103,7 +103,7 @@ HubSpot CMS에서의 데이터 바인딩과 템플릿 관리, <br>
 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용
 
 #### 5. **디자인 툴**
-Figma
+Zeplin
 
 ---
 

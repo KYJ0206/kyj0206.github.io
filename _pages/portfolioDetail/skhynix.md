@@ -86,11 +86,12 @@ Flexbox, Grid, Slider 등 스타일링
 인터랙션 및 DOM 조작
 
 #### 4. **HubL** (HubSpot Markup Language)
-HubSpot CMS에서의 데이터 바인딩과 템플릿 관리, <br>
-마케팅 자동화를 위한 동적 콘텐츠 생성에 사용
+- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리 <br>
+- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용. <br>
+- HubDB 사용 **DB (Database)** 관리 및 사용.
 
 #### 5. **디자인 툴**
-Figma
+Zeplin
 
 ---
 
