@@ -92,7 +92,6 @@ HR 데이터를 기반으로 PDF 및 Excel 보고서를 자동 생성.
 - 스타일링 통합: CSS3와 함께 styled-components 또는 CSS Modules를 사용해 컴포넌트 단위의 유지보수성을 강화. <br>
 - API 연동: React와 JavaScript의 Fetch API를 활용해 HubSpot 데이터와의 동적 연동 구현.
 
-
 #### 2. **CSS3** (React 내 스타일링)
 
 Flexbox, Grid, Slider 등 스타일링
@@ -108,7 +107,13 @@ Flexbox, Grid, Slider 등 스타일링
 - HubSpot CMS에서의 데이터 바인딩과 템플릿 관리 <br>
 - 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용. <br>
 
-#### 5. **디자인 툴**
+#### 5. **HubSpot CMS**
+
+- 템플릿 시스템을 통해 사이트 구조를 효율적으로 관리하고, 페이지 및 블로그 콘텐츠를 쉽게 업데이트 합니다.
+- 모듈화된 콘텐츠 관리와 디자인 최적화를 통해 개발 속도와 유지 관리가 용이합니다.
+- HubDB 사용 **DB (Database)** 관리 및 사용.
+
+#### 6. **디자인 툴**
 
 **Zeplin**: 디자이너와의 협업을 통해 UI/UX 프로토타입 제작. 
 
