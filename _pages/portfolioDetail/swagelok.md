@@ -13,7 +13,7 @@ last_modified_at: 2023-10-19
 ## 📄 프로젝트 개요
 <br/>
 <a class="batimmage" href="/assets/images/Swagelok.png">
-![/assets/images/Swagelok.pngg](/assets/images/Swagelok.png)
+![/assets/images/Swagelok.png](/assets/images/Swagelok.png)
 </a>
 
 **SWAGELOK KOREA**는 Swagelok이 제공하는 다양한 유체 시스템 솔루션을 소개하는 웹사이트입니다. <br/>
@@ -115,13 +115,13 @@ HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔
 
 #### 7. **디자인 툴**  
 
-**Figma**: 디자이너와의 협업을 통해 UI/UX 프로토타입 제작. 
+- **Figma**: 디자이너와의 협업을 통해 UI/UX 프로토타입 제작. 
 
 ---
 
-### [성과] <br/>
+### [성과]
 
-- 유지보수 1년 계약.
+- 유지보수 2년 계약.
 - 허브스팟 워크플로우 CRM(Customer Relationship Management) "트리거 기반 자동화" 솔루션 적용  
 
 ---
