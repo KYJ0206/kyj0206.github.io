@@ -33,13 +33,13 @@ URL : <a href="https://news.skhynix.co.kr/" target="_blank">SK_HYNIX NEWSROOM</a
 
 ### [목표] <br/>
 
-SK_HYNIX 내 NEWSROOM 구축 및 CMS 개발
+SK_HYNIX 내 NEWSROOM 구축 및 CMS 개발.
 
 ---
 
 ### [역할] <br/>
 
-HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔
+HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔.
 
 ---
 
@@ -51,8 +51,8 @@ HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔
 
 ### [활동내용] <br/>
 
-CMS 구축에 필요한 HubL 사용 하여, 템플릿 및 구조 설계 및 개발 <br/> 
-HubSpot API 연동 및 CSS 전반 퍼블리셔 업무 진행
+CMS 구축에 필요한 HubL 사용 하여, 템플릿 및 구조 설계 및 개발. <br/> 
+HubSpot API 연동 및 CSS 전반 퍼블리셔 업무 진행.
 
 ---
 
@@ -80,20 +80,20 @@ HubSpot API 연동 및 CSS 전반 퍼블리셔 업무 진행
 
 #### 1. **HTML5**
 
-구조와 시맨틱 마크업
+구조와 시맨틱 마크업.
 
 #### 2. **CSS3**
 
-Flexbox, Grid, Slider 등 스타일링
+Flexbox, Grid, Slider 등 스타일링.
 
 #### 3. **JavaScript**
 
-인터랙션 및 DOM 조작
+인터랙션 및 DOM 조작.
 
 #### 4. **HubL** (HubSpot Markup Language)
 
-- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리 <br>
-- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용. <br>
+- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리.
+- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용.
 - HubDB 사용 **DB (Database)** 관리 및 사용.
 
 #### 5. **HubSpot CMS**

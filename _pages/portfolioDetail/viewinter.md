@@ -73,7 +73,7 @@ AI 채용 솔루션을 소개하며, 이 플랫폼은 기업 맞춤형 채용 �
 
 #### 2. **CSS3** (React 내 스타일링)
 
-Flexbox, Grid, Slider 등 스타일링
+Flexbox, Grid, Slider 등 스타일링.
 
 #### 3. **JavaScript** (React Context)
 
@@ -83,8 +83,8 @@ Flexbox, Grid, Slider 등 스타일링
 
 #### 4. **HubL** (HubSpot Markup Language)
 
-- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리 <br>
-- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용. <br>
+- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리.
+- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용.
 
 #### 5. **HubSpot CMS**
 

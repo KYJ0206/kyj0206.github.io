@@ -75,7 +75,7 @@ HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔
 
 #### 1. **HTML5**
 
-구조와 시맨틱 마크업
+구조와 시맨틱 마크업.
 
 #### 2. **CSS3**  
 
@@ -89,8 +89,8 @@ HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔
 
 #### 4. **HubL** (HubSpot Markup Language)
 
-- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리 <br>
-- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용. <br>
+- HubSpot CMS에서의 데이터 바인딩과 템플릿 관리.
+- 마케팅 자동화를 위한 동적 콘텐츠 생성에 사용.
 - HubDB 사용 **DB (Database)** 관리 및 사용.
 
 #### 5. **HubSpot CMS**
