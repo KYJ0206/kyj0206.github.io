@@ -16,7 +16,7 @@ last_modified_at: 2023-12-19
 ![/assets/images/Lensly.png](/assets/images/Lensly.png)
 </a>
 
-**Lensly**는 고객이 다양한 렌즈를 쉽게 탐색하고 구매할 수 있도록 돕는 전자상거래 플랫폼입니다. <br/>
+**LENSLY**는 고객이 다양한 렌즈를 쉽게 탐색하고 구매할 수 있도록 돕는 전자상거래 플랫폼입니다. <br/>
 컬러렌즈와 일반 렌즈에 관한 정보를 제공하고, 사용자에게 렌즈 착용 예시와 고화질 이미지를 통해 최적의 제품을 추천하도록 설계되었습니다.
 
 URL : <a href="https://lensly.co.kr/" target="_blank">BAUSCHLOMB LENSLY</a>
