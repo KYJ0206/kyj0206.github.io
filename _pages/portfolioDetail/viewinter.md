@@ -25,7 +25,7 @@ URL : <a href="https://viewinterhr.com/" target="_blank">GENESISLAB VIEWINTER HR
 
 ### [기간] <br/>
 
-2022.01 ~ 2022.05 ( 4개월 )
+2022.01 ~ 2022.05 ( 5개월 )
 
 ---
 

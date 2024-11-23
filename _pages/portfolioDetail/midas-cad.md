@@ -25,7 +25,7 @@ URL : <a href="https://www.midascad.com/" target="_blank">MIDAS CAD</a>
 
 ### [기간] <br/>
 
-2022.03 ~ 2022.08 ( 5개월 )
+2022.03 ~ 2022.08 ( 6개월 )
 
 ---
 

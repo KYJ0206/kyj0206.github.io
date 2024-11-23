@@ -25,7 +25,7 @@ URL : <a href="https://lensly.co.kr/" target="_blank">BAUSCHLOMB LENSLY</a>
 
 ### [기간] <br/>
 
-2023.03 ~ 2023.12 ( 9개월 )
+2023.03 ~ 2023.12 ( 10개월 )
 
 ---
 
@@ -121,7 +121,7 @@ BAUSCHLOMB 전자상거래 플랫폼 LENSLY 구축
 
 ### [성과]
 
-- 유지보수 2년 계약.
+- 유지보수 3년 계약.
 - 통합 Admin 개발 계약. ( 2024년 진행중 )
 
 ---

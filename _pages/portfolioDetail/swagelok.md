@@ -26,7 +26,7 @@ URL : <a href="https://www.seoul.swagelok.solutions/" target="_blank">SWAGELOK K
 
 ### [기간] <br/>
 
-2023.06 ~ 2023.10 ( 4개월 )
+2023.06 ~ 2023.10 ( 5개월 )
 
 ---
 

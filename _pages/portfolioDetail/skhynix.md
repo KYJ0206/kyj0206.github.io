@@ -27,7 +27,7 @@ URL : <a href="https://news.skhynix.co.kr/" target="_blank">SK_HYNIX NEWSROOM</a
 
 ### [기간] <br/>
 
-2021.09 ~ 2021.12 ( 3개월 )
+2021.09 ~ 2021.12 ( 4개월 )
 
 ---
 

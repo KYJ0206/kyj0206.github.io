@@ -26,7 +26,7 @@ URL : <a href="https://yujinrobot.com/" target="_blank">YUJIN ROBOT</a>
 
 ### [기간] <br/>
 
-2023.01 ~ 2023.06 ( 5개월 )
+2023.01 ~ 2023.06 ( 6개월 )
 
 ---
 

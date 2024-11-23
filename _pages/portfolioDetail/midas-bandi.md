@@ -25,7 +25,7 @@ URL : <a href="https://www.banditong.com/ko-kr/" target="_blank">MIDAS BANDITONG
 
 ### [기간] <br/>
 
-2022.06 ~ 2022.12 ( 6개월 )
+2022.06 ~ 2022.12 ( 7개월 )
 
 ---
 
