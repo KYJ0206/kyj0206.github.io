@@ -122,7 +122,7 @@ HTML 구조 설계 및 CSS 적용, HubL 개발 및 퍼블리셔
 ### [성과]
 
 - 유지보수 2년 계약.
-- 허브스팟 워크플로우 CRM(Customer Relationship Management) "트리거 기반 자동화" 솔루션 적용  
+- 허브스팟 워크플로우 CRM(Customer Relationship Management) "트리거 기반 자동화" 솔루션 적용. 
 
 ---
 

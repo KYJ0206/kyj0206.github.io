@@ -137,7 +137,7 @@ URL : <a href="https://jainlab.im/" target="_blank">MIDAS JAINLAB</a>
 
 ### [성과]
 
-유지보수 2년 계약.
+- 유지보수 2년 계약.
 
 ---
 

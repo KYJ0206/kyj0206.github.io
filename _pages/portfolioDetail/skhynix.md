@@ -109,8 +109,8 @@ Flexbox, Grid, Slider 등 스타일링.
 
 ### [성과] <br/>
 
-- 2021.12 **WEB_AWARDS KOREA** 모바일웹 서비스부문 통합대상 <br>
-- 유지보수 3년 계약 
+- 2021.12 **WEB_AWARDS KOREA** 모바일웹 서비스부문 통합대상. <br>
+- 유지보수 3년 계약. 
 
 ---
 
