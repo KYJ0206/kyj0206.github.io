@@ -125,14 +125,14 @@ author_profile: true
             </a>
         </div>
         <div class="portfolio-item">
-            <a href="/portfolio/" target="_blank">
+            <a href="/portfolio/bauschlomb-admin/" target="_blank">
                 <h3>BAUSCHLOMB ADMIN</h3>
-                <img src="https://via.placeholder.com/300x200" alt="Midas Admin">
+                <img src="../assets/images/Baushlomb.png" alt="Baushlomb Admin">
                 <div class='item-des'>
                     <span>[React/Next.JS]</span>
                 </div>
                 <div class='item-date'>
-                    <p>2022.04</p>
+                    <p>2024.10</p>
                 </div>
             </a>
         </div>
