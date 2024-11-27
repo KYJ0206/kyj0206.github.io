@@ -25,7 +25,7 @@ Kim.YJ의 개인 블로그입니다. 이 웹사이트는 블로그 형식으로,
 
 1. **레포지토리 클론**
    ```bash
-   git clone https://github.com/username/Kim.YJ_WebSite.git
+   git clone https://github.com/KYJ0206/kyj0206.github.io.git
    cd Kim.YJ_WebSite
 
 2. **의존성 설치**
