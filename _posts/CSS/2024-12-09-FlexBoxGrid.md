@@ -92,7 +92,7 @@ gap: Grid; // 아이템들과 그리드 영역 사이의 간격을 지정하는 
 
 ---
 
-<span style='font-size:1rem'> **지금까지 CSS의 선택자 id & class의 좀더 자세한 포스팅을 하였습니다.** </span><br>
+<span style='font-size:1rem'> **지금까지 CSS의 FlexBox와 Grid의 차이점에 대해 포스팅을 하였습니다.** </span><br>
 
 <span style='font-size:1rem'> **도움이 되는 포스팅이었길 바랍니다.** </span><br>
 
