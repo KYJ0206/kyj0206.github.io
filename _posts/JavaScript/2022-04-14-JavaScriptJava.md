@@ -22,7 +22,7 @@ last_modified_at: 2022-04-14
 
 ---
 
-### [JavaScript ≠ Java] <br>
+### [ JavaScript ≠ Java ] <br>
 
 <a href="https://velog.velcdn.com/images/kyj0206/post/53a043e7-b54e-4492-b1bf-b6b248c8fd5e/image.webp">
 ![https://velog.velcdn.com/images/kyj0206/post/53a043e7-b54e-4492-b1bf-b6b248c8fd5e/image.webp](https://velog.velcdn.com/images/kyj0206/post/53a043e7-b54e-4492-b1bf-b6b248c8fd5e/image.webp)

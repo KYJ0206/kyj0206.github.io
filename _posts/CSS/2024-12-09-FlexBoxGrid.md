@@ -1,5 +1,5 @@
 ---
-title: "[CSS] FlexBox와 Grid"
+title: "[ CSS ] FlexBox와 Grid"
 excerpt: "CSS의 FlexBox와 Grid의 차이점"
 categories:
   - CSS

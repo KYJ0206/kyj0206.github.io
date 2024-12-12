@@ -1,5 +1,5 @@
 ---
-title: "[Google SearchConsole] Google 서치콘솔 시작하기"
+title: "[ Google SearchConsole ] Google 서치콘솔 시작하기"
 excerpt: "Google SearchConsole 사용법"
 categories:
   - SearchConsole
@@ -23,7 +23,7 @@ last_modified_at: 2022-03-18
 
 ---
 
-### [구글 서치 콘솔(Search Console)이란?] <br>
+### [ 구글 서치 콘솔(Search Console)이란? ] <br>
 
 <a href="https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png">
 ![https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png](https://images.velog.io/images/kyj0206/post/79326a4d-1b39-4f18-9577-d8d4e0c96d21/%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png)
@@ -33,7 +33,7 @@ last_modified_at: 2022-03-18
 
 구글(Google)로부터 제공되는 정보를 통해서 보다 나은 SEO 대책이 가능해지는 셈이죠. 일전에는 구글 웹 마스터 도구라는 명칭이었지만 현재는 서치 콘솔이라는 타이틀로 변경되어 사용되고 있습니다.
 
-### [구글 서치콘솔의 장점]
+### [ 구글 서치콘솔의 장점 ]
 
 > 1. 구글 애널리틱스를 통해 컨텐츠를 최적화 할 수 있다.
 >
@@ -47,7 +47,7 @@ last_modified_at: 2022-03-18
 >
 > - URL 검사도구를 사용하여 페이지에 관한 세부적인 크롤링, 색인 생성, 게재 정보를 Google 색인에서 쉽게 확인할 수 있다.
 
-### [구글 서치콘솔 시작하기]
+### [ 구글 서치콘솔 시작하기 ]
 
 #### 1.Google Search Console에 사이트 등록
 
