@@ -1,5 +1,5 @@
 ---
-title: "[State & useState]"
+title: "[ State & useState ]"
 excerpt: "State 와 useState 란?"
 categories:
   - React
@@ -23,11 +23,11 @@ last_modified_at: 2022-12-26
 
 ---
 
-### [ReactHook] <br>
+### [ ReactHook ] <br>
 
 React Hook은 함수형 컴포넌트에 기능을 추가할 때 사용하는 함수다. 함수형 컴포넌트에서 상탯값을 사용할 수 있고 자식요소에 접근 할 수도있다.
 
-### [State 란?] <br>
+### [ State 란? ] <br>
 
 - state (상태) : 컴포넌트 내에서 동적으로 변경되는 값
 - props는 (함수 매개변수처럼) 컴포넌트에 전달되는 반면, state는 (함수 내 선언된 변수처럼) 컴포넌트 안에서 관리된다는 차이가 있다.
@@ -45,7 +45,7 @@ state는 위와 같이 선언한다. state는 변수, setState는 state를 변�
 
 state는 렌더링을 일으킬 수 있는 변수이다. setState는 state의 값을 변경할 때 사용하는 함수이다. useState는 state의 초기값을 정할 수 있고, return 값으로 state, setState를 돌려주는 hook이다.
 
-### [useState란?] <br>
+### [ useState란? ] <br>
 
 - useState는 컴포넌트에서 state값을 추가할때 사용된다. 함수형 컴포넌트에서는 클래스형 컴포넌트처럼 state를 사용할 수 없어, Hook을 사용해서 state와 같은 기능을 할 수 있도록 만들어주었다.
 

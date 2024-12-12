@@ -1,5 +1,5 @@
 ---
-title: "[CodePen] 블로그에 CodePen Embed하는 방법"
+title: "[ CodePen ] 블로그에 CodePen Embed하는 방법"
 excerpt: "CodePen Embed하는법"
 categories:
   - CodePen
@@ -25,7 +25,7 @@ last_modified_at: 2022-03-23
 
 ---
 
-### [CodePen 이란?] <br>
+### [ CodePen 이란? ] <br>
 
 <a href="https://images.velog.io/images/kyj0206/post/259b5b89-0765-4464-9ca9-41047719ef2e/codepen.png">
 ![https://images.velog.io/images/kyj0206/post/259b5b89-0765-4464-9ca9-41047719ef2e/codepen.png](https://images.velog.io/images/kyj0206/post/259b5b89-0765-4464-9ca9-41047719ef2e/codepen.png)
@@ -44,7 +44,7 @@ CodePen은 Web_Developer를 위한 Online_Compiler입니다.
 </iframe><br>
 이렇게 적용할 수 있고, 적용 방법 또한, 어렵지 않으니 천천히 진행해 보겠습니다.
 
-### [Codepen Embed 방법]
+### [ Codepen Embed 방법 ]
 
 #### 1. 아래 링크를 통해 Codepen에 접속
 

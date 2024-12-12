@@ -1,5 +1,5 @@
 ---
-title: "[React Hook]"
+title: "[ React Hook ]"
 excerpt: "React Hook이란?"
 categories:
   - React
@@ -23,7 +23,7 @@ last_modified_at: 2023-01-29
 
 ---
 
-### [React Hook 이란?] <br>
+### [ React Hook 이란? ] <br>
 
 <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.velog.io%2Fimages%2Fkwonh%2Fpost%2Fbba244e8-1e64-49c9-85df-7bf4e4c0fdb3%2Fhook-logo.png&imgrefurl=https%3A%2F%2Fvelog.io%2F%40kwonh%2FReactHook-useState-%25EC%2599%2580-useEffect-%25EB%25A1%259C-%25EC%2583%2581%25ED%2583%25AF%25EA%25B0%2592%25EA%25B3%25BC-%25EC%2583%259D%25EB%25AA%2585%25EC%25A3%25BC%25EA%25B8%25B0-%25EC%2582%25AC%25EC%259A%25A9%25ED%2595%2598%25EA%25B8%25B0&tbnid=mVDQiVQ2C0UXqM&vet=12ahUKEwjdyLqYmuz8AhVHQN4KHZ9cB8UQMygCegUIARDDAQ..i&docid=UYZ6j_98yjkfTM&w=1166&h=926&q=%EB%A6%AC%EC%95%A1%ED%8A%B8%20%ED%9B%85&ved=2ahUKEwjdyLqYmuz8AhVHQN4KHZ9cB8UQMygCegUIARDDAQ">
 ![](https://velog.velcdn.com/images/kyj0206/post/40e37ed7-f9cc-447f-8530-c76e6b852e34/image.png)
@@ -44,7 +44,7 @@ useState를 예시로 들면 class를 사용하지 않고도 상태를 가질 �
 또한 props, state, context, refs 그리고 lifecycle과 같은 리액트 개념에 좀 더 직관적인 API를 제공한다. 또한 이 개념들을 엮기 위해 새로운 방법을 제공한다.
 컴포넌트 간에 상태 관련 로직을 재사용하기 위해 hook을 직접 만드는 것도 가능하다.
 
-### [Hook의 장점] <br/>
+### [ Hook의 장점 ] <br/>
 
 > Hook 을 사용 했을때 장점을 확인 해 보겠습니다.
 
@@ -54,14 +54,14 @@ useState를 예시로 들면 class를 사용하지 않고도 상태를 가질 �
 4. 훅은 계층의 변화 없이 상태 관련 로직을 재사용할 수 있다.<br/>
 5. 생명주기 메서드를 기반으로 쪼개는 것 보다는 훅을 통해 작은 함수의 묶음으로 컴포넌트를 나누는 방법을 사용할 수 있다.
 
-### [React Hook의 필요성] <br>
+### [ React Hook의 필요성 ] <br>
 
 > 함수 컴포넌트도 클래스 컴포넌트처럼 사용할 수 있다.
 >
 > 함수 컴포넌트는 클래스 컴포넌트와 다르게, 모듈로 활용하기가 쉽기 때문에
 > 서로의 장점을 전부다 가지고 있다.
 
-### [React에서 기본적으로 지원하는 Hooks]
+### [ React에서 기본적으로 지원하는 Hooks ]
 
 > React 에서 기본으로 지원하는 Hooks 들을 알아 보겠습니다.
 > 자세한 설명과 사용법은 각각의 포스팅을 통해 설명 하겠습니다.

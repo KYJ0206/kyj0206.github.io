@@ -1,5 +1,5 @@
 ---
-title: "[Google Analytics] Google 애널리틱스 시작하기"
+title: "[ Google Analytics ] Google 애널리틱스 시작하기"
 excerpt: "Google Analytics 사용법"
 categories:
   - Analytics
@@ -25,7 +25,7 @@ last_modified_at: 2022-03-14
 
 ---
 
-### [구글 애널리틱스(Google Analytics)란?] <br>
+### [ 구글 애널리틱스(Google Analytics)란? ] <br>
 
 <a href="https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg">
 ![https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg](https://images.velog.io/images/kyj0206/post/278881e4-1b00-4050-b573-a461b1d00101/123123.jpeg)
@@ -41,7 +41,7 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 
 쉽게말해 어떤 사용자가 우리 웹사이트를 방문하는지, 어떤 경로를 통해 방문 했는지, 웹사이트에서 어떤 행동을 보이는지에 대한 흔적을 분석한 데이터를 손쉡게 보여주는 도구입니다.
 
-### [구글 애널리틱스의 장점]
+### [ 구글 애널리틱스의 장점 ]
 
 > 1. 무료 서비스 제공
 >
@@ -55,7 +55,7 @@ GA는 ‘전자상거래 플랫폼’, ‘모바일 애플리케이션 ‘그리
 >
 > - (출처: <a href='https://blog.naver.com/PostView.nhn?blogId=sanalytica&logNo=222195954338' target="_blank">Funnel Analysis</a>, <a href='https://support.google.com/analytics/answer/3125360?hl=ko#zippy=%2C%EC%9D%B4-%EB%8F%84%EC%9B%80%EB%A7%90%EC%97%90-%EB%82%98%EC%99%80-%EC%9E%88%EB%8A%94-%EB%82%B4%EC%9A%A9%EC%9D%80-%EB%8B%A4%EC%9D%8C%EA%B3%BC-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4' target="_blank">Segment Analysis</a> 등)
 
-### [구글 애널리틱스 시작하기]
+### [ 구글 애널리틱스 시작하기 ]
 
 #### 1.구글 애널리틱스 접속
 
