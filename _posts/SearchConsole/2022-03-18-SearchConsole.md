@@ -153,7 +153,11 @@ prepend: site.url }}
 ![](https://velog.velcdn.com/images/kyj0206/post/12c4c5ff-bb5c-4d75-b49f-fbf4bd915d6f/image.png)
 </a>
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 Google SearchConsole에 대해 포스팅을 통해 배워 보았습니다.** </span><br>
 

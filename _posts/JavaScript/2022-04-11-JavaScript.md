@@ -99,7 +99,11 @@ JavaScript와 Java는 그 이름만 놓고 보면 서로 관련이 있는 언어
 |                타입 명시 (X)                |            타입 명시 (O)             |
 | 프로토타입(prototype) 기반의 객체 지향 언어 | 해당요소의 사용자 정의 특성값을 삽입 |
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 JavaScript란 무엇인지 포스팅 해 보았습니다.** </span><br>
 

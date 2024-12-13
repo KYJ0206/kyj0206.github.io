@@ -100,7 +100,11 @@ Local서버로 확인 결과,아래 이미지와 같이 정상적으로 화면�
 
 마지막으로 Commit 하여 Push 해주고 확인해 주면 끝 입니다.
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 블로그에서 CodePen을 추가하는 방법을 배워 보았습니다.** </span><br>
 

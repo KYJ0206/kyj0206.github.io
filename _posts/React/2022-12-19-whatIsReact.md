@@ -109,7 +109,11 @@ jQuery 의 등장 이후, 한계의 직면에 새로운 프레임워크 기술�
 > React는 자기만의 문법을 가진 Framework(Angilar, Vue)와 다르게 자바스크립트 문법 그대로를 이용하였습니다.
 > 나의 코드에 그대로 불러와 JavaScrip 문법 그대로 이용하며, 컴포넌트를 비교적 더 단순하고 간단하게 정의할 수 있는 장점이 있습니다.
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 React에 대해 포스팅을 통해 알아 보았습니다.** </span><br>
 <span style='font-size:1rem'> **다음 포스팅은 React에 대한 더 유익한 정보로 찾아뵙겠습니다.** </span><br>

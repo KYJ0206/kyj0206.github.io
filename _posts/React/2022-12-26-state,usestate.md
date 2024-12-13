@@ -71,7 +71,11 @@ const [data, setData] = useState(0);
 >
 > useState(0) = 첫 랜더링시 만 사용 되는 초기 state 설정값을 받는 인자
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 State & useState 에 대해 포스팅을 통해 알아 보았습니다.** </span><br>
 <span style='font-size:1rem'> **감사합니다!** </span>
