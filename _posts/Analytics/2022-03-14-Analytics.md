@@ -129,7 +129,11 @@ analytics:
 ![https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png](https://images.velog.io/images/kyj0206/post/42cd5a1d-7529-416a-aa43-5d3320ae5097/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.53.13.png)
 </a>
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 Google Analytics에 대해 포스팅을 통해 배워 보았습니다.** </span><br>
 <span style='font-size:1rem'> **애널리틱스를 이용하여, 블로그를 유용하게 관리해 나가시길 바라겠습니다.** </span><br>

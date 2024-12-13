@@ -83,7 +83,11 @@ Class 형태의 React Component 를 작성하면 아래와 같습니다.
 
 각각의 component 를 App.js 파일에서 import 하여 개별로 가독성과 유지 보수의 용이하게 사용할 수 있습니다.
 
+<br>
+
 ---
+
+<br>
 
 <span style='font-size:1rem'> **지금까지 React Component 에 대해 포스팅을 통해 배워 보았습니다.** </span><br>
 

@@ -78,3 +78,16 @@ last_modified_at: 2022-04-14
 |           객체지향 스크립트 언어            |       객체지향 프로그래밍 언어       |
 |                타입 명시 (X)                |            타입 명시 (O)             |
 | 프로토타입(prototype) 기반의 객체 지향 언어 | 해당요소의 사용자 정의 특성값을 삽입 |
+
+<br>
+
+---
+
+<br>
+
+<span style='font-size:1rem'> **지금까지 JavaScript와 Java의 차이점에 대해 포스팅을 하였습니다.** </span><br>
+
+<span style='font-size:1rem'> **도움이 되는 포스팅이었길 바랍니다.** </span><br>
+
+<span style='font-size:1rem'> **다음 포스팅은 더 유익한 정보로 찾아뵙겠습니다.** </span><br>
+<span style='font-size:1rem'> **감사합니다!** </span>
