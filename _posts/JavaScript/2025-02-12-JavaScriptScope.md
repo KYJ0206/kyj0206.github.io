@@ -101,6 +101,4 @@ console.log(test); // test
 <span style='font-size:1rem'> **지금까지 JavaScript Scope에 대해 포스팅을 하였습니다.** </span><br>
 <span style='font-size:1rem'> **도움이 되는 포스팅이었길 바랍니다.** </span><br>
 
-<span style='font-size:1rem'> **다음 포스팅은 var, let, cont의 차이점과 특성에,** </span><br>
-<span style='font-size:1rem'> **대해 포스팅 하겠습니다.** </span><br><br>
 <span style='font-size:1rem'> **감사합니다!** </span>
