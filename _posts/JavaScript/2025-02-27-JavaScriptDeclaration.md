@@ -100,7 +100,7 @@ cnosole.log(name); // 재할당을 허용하지 않아 SyntaxError 발생
 
 <br>
 
-<span style='font-size:1rem'> **지금까지 JavaScript 변수선언식에 대해 포스팅을 하였습니다.** </span><br>
+<span style='font-size:1rem'> **지금까지 JavaScript 변수선언 방식에 대해 포스팅을 하였습니다.** </span><br>
 <span style='font-size:1rem'> **도움이 되는 포스팅이었길 바랍니다.** </span><br>
 
 <span style='font-size:1rem'> **감사합니다!** </span>
